@@ -1,0 +1,179 @@
+<svg width="1940pt" height="302pt"
+ viewBox="0.00 0.00 1939.86 302.40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 298.4)">
+<title>project</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-298.4 1935.8625,-298.4 1935.8625,4 -4,4"/>
+<text text-anchor="middle" x="965.9312" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">Method Calls for :tas.adaptation.MyAdaptationEngine</text>
+<!-- annotation != null &amp;&amp; annotation instanceof CompositeServiceConfiguration\n -->
+<g id="node1" class="node">
+<title>annotation != null &amp;&amp; annotation instanceof CompositeServiceConfiguration\n</title>
+<polygon fill="none" stroke="#ff0000" points="450.0588,-72 -.0196,-72 -.0196,-36 450.0588,-36 450.0588,-72"/>
+<text text-anchor="middle" x="225.0196" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">annotation != null &amp;&amp; annotation instanceof CompositeServiceConfiguration</text>
+</g>
+<!-- operation.getAnnotation(ServiceOperation.class) != null\noperation.getName().equals(opName)\nsize == params.length\n -->
+<g id="node2" class="node">
+<title>operation.getAnnotation(ServiceOperation.class) != null\noperation.getName().equals(opName)\nsize == params.length\n</title>
+<polygon fill="none" stroke="#ff0000" points="799.8107,-83.4014 468.2285,-83.4014 468.2285,-24.5986 799.8107,-24.5986 799.8107,-83.4014"/>
+<text text-anchor="middle" x="634.0196" y="-66.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">operation.getAnnotation(ServiceOperation.class) != null</text>
+<text text-anchor="middle" x="634.0196" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">operation.getName().equals(opName)</text>
+<text text-anchor="middle" x="634.0196" y="-33" font-family="Times,serif" font-size="14.00" fill="#ff0000">size == params.length</text>
+</g>
+<!-- serviceDescriptions == null || serviceDescriptions.size() == 0\nserviceDescriptions == null || serviceDescriptions.size() == 0\n -->
+<g id="node3" class="node">
+<title>serviceDescriptions == null || serviceDescriptions.size() == 0\nserviceDescriptions == null || serviceDescriptions.size() == 0\n</title>
+<polygon fill="none" stroke="#ff0000" points="1176.3562,-74.6019 817.683,-74.6019 817.683,-33.3981 1176.3562,-33.3981 1176.3562,-74.6019"/>
+<text text-anchor="middle" x="997.0196" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">serviceDescriptions == null || serviceDescriptions.size() == 0</text>
+<text text-anchor="middle" x="997.0196" y="-41.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">serviceDescriptions == null || serviceDescriptions.size() == 0</text>
+</g>
+<!-- qosRequirement == null\n -->
+<g id="node4" class="node">
+<title>qosRequirement == null\n</title>
+<polygon fill="none" stroke="#ff0000" points="1346.3478,-72 1193.6914,-72 1193.6914,-36 1346.3478,-36 1346.3478,-72"/>
+<text text-anchor="middle" x="1270.0196" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">qosRequirement == null</text>
+</g>
+<!-- services == null || services.size() == 0\nresultVal instanceof TimeOutError\nstopRetrying.get() == true\n -->
+<g id="node5" class="node">
+<title>services == null || services.size() == 0\nresultVal instanceof TimeOutError\nstopRetrying.get() == true\n</title>
+<polygon fill="none" stroke="#ff0000" points="1591.7306,-83.4014 1364.3086,-83.4014 1364.3086,-24.5986 1591.7306,-24.5986 1591.7306,-83.4014"/>
+<text text-anchor="middle" x="1478.0196" y="-66.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">services == null || services.size() == 0</text>
+<text text-anchor="middle" x="1478.0196" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">resultVal instanceof TimeOutError</text>
+<text text-anchor="middle" x="1478.0196" y="-33" font-family="Times,serif" font-size="14.00" fill="#ff0000">stopRetrying.get() == true</text>
+</g>
+<!-- operation.getAnnotation(LocalOperation.class) != null\noperation.getName().equals(opName)\n -->
+<g id="node6" class="node">
+<title>operation.getAnnotation(LocalOperation.class) != null\noperation.getName().equals(opName)\n</title>
+<polygon fill="none" stroke="#ff0000" points="1931.7056,-74.6019 1610.3336,-74.6019 1610.3336,-33.3981 1931.7056,-33.3981 1931.7056,-74.6019"/>
+<text text-anchor="middle" x="1771.0196" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">operation.getAnnotation(LocalOperation.class) != null</text>
+<text text-anchor="middle" x="1771.0196" y="-41.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">operation.getName().equals(opName)</text>
+</g>
+<!-- Class: [MyAdaptationEngine] -->
+<g id="node7" class="node">
+<title>Class: [MyAdaptationEngine]</title>
+<ellipse fill="none" stroke="#000000" cx="857.0196" cy="-276.4" rx="127.3266" ry="18"/>
+<text text-anchor="middle" x="857.0196" y="-272.2" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [MyAdaptationEngine]</text>
+</g>
+<!-- Class: [WorkflowEffector] -->
+<g id="node8" class="node">
+<title>Class: [WorkflowEffector]</title>
+<ellipse fill="none" stroke="#000000" cx="561.0196" cy="-154" rx="114.6011" ry="18"/>
+<text text-anchor="middle" x="561.0196" y="-149.8" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [WorkflowEffector]</text>
+</g>
+<!-- Class: [MyAdaptationEngine]&#45;&gt;Class: [WorkflowEffector] -->
+<g id="edge1" class="edge">
+<title>Class: [MyAdaptationEngine]&#45;&gt;Class: [WorkflowEffector]</title>
+<path fill="none" stroke="#000000" d="M736.5236,-270.5774C609.5249,-263.8415 426.2507,-252.1626 415.408,-240.4 400.2259,-223.9299 401.5998,-207.6378 415.408,-190 422.5715,-180.8498 442.4385,-173.7041 465.2805,-168.2774"/>
+<polygon fill="#000000" stroke="#000000" points="466.2275,-171.6522 475.2238,-166.0561 464.7012,-164.8206 466.2275,-171.6522"/>
+<text text-anchor="middle" x="477.8254" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">[handleServiceFailure</text>
+<text text-anchor="middle" x="477.8254" y="-211" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="477.8254" y="-194.2" font-family="Times,serif" font-size="14.00" fill="#000000">removeService]</text>
+</g>
+<!-- Class: [MyAdaptationEngine]&#45;&gt;Class: [WorkflowEffector] -->
+<g id="edge2" class="edge">
+<title>Class: [MyAdaptationEngine]&#45;&gt;Class: [WorkflowEffector]</title>
+<path fill="none" stroke="#000000" d="M739.7844,-269.3472C662.9171,-263.4994 574.4474,-253.9414 562.2818,-240.4 548.3242,-224.8639 549.1742,-200.6734 552.8543,-181.836"/>
+<polygon fill="#000000" stroke="#000000" points="556.2836,-182.5406 555.1139,-172.0105 549.4616,-180.9717 556.2836,-182.5406"/>
+<text text-anchor="middle" x="633.3885" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">[handleServiceNotFound</text>
+<text text-anchor="middle" x="633.3885" y="-211" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="633.3885" y="-194.2" font-family="Times,serif" font-size="14.00" fill="#000000">refreshAllServices]</text>
+</g>
+<!-- Class: [MyAdaptationEngine]&#45;&gt;Class: [WorkflowEffector] -->
+<g id="edge3" class="edge">
+<title>Class: [MyAdaptationEngine]&#45;&gt;Class: [WorkflowEffector]</title>
+<path fill="none" stroke="#000000" d="M785.8883,-261.4662C770.6538,-256.308 755.2354,-249.4561 742.1934,-240.4 718.89,-224.2186 726.7632,-205.5284 703.0196,-190 688.9633,-180.8071 672.7095,-173.9615 656.3274,-168.8638"/>
+<polygon fill="#000000" stroke="#000000" points="657.2622,-165.4907 646.6827,-166.0598 655.308,-172.2124 657.2622,-165.4907"/>
+<text text-anchor="middle" x="797.4327" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="797.4327" y="-211" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="797.4327" y="-194.2" font-family="Times,serif" font-size="14.00" fill="#000000">refreshAllServices]</text>
+</g>
+<!-- Class: [AbstractProbe] -->
+<g id="node9" class="node">
+<title>Class: [AbstractProbe]</title>
+<ellipse fill="none" stroke="#000000" cx="872.0196" cy="-154" rx="98.9475" ry="18"/>
+<text text-anchor="middle" x="872.0196" y="-149.8" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [AbstractProbe]</text>
+</g>
+<!-- Class: [MyAdaptationEngine]&#45;&gt;Class: [AbstractProbe] -->
+<g id="edge4" class="edge">
+<title>Class: [MyAdaptationEngine]&#45;&gt;Class: [AbstractProbe]</title>
+<path fill="none" stroke="#000000" d="M855.5088,-258.3446C854.4551,-240.7361 853.931,-213.2811 858.3828,-190 858.9241,-187.1691 859.67,-184.2703 860.5363,-181.407"/>
+<polygon fill="#000000" stroke="#000000" points="863.8434,-182.5528 863.8223,-171.9579 857.2318,-180.2534 863.8434,-182.5528"/>
+<text text-anchor="middle" x="882.338" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="882.338" y="-211" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="882.338" y="-194.2" font-family="Times,serif" font-size="14.00" fill="#000000">register]</text>
+</g>
+<!-- Class: [MyAdaptationEngine]&#45;&gt;Class: [AbstractProbe] -->
+<g id="edge6" class="edge">
+<title>Class: [MyAdaptationEngine]&#45;&gt;Class: [AbstractProbe]</title>
+<path fill="none" stroke="#000000" d="M889.0967,-258.9298C895.5106,-253.848 901.386,-247.6672 905.0196,-240.4 915.0372,-220.3648 913.1401,-210.8762 905.0196,-190 903.648,-186.4738 901.7518,-183.0831 899.5556,-179.8877"/>
+<polygon fill="#000000" stroke="#000000" points="902.172,-177.5552 893.1958,-171.9268 896.7029,-181.9244 902.172,-177.5552"/>
+<text text-anchor="middle" x="943.676" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">[stop</text>
+<text text-anchor="middle" x="943.676" y="-211" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="943.676" y="-194.2" font-family="Times,serif" font-size="14.00" fill="#000000">unRegister]</text>
+</g>
+<!-- Class: [CompositeService] -->
+<g id="node10" class="node">
+<title>Class: [CompositeService]</title>
+<ellipse fill="none" stroke="#000000" cx="1134.0196" cy="-154" rx="114.0775" ry="18"/>
+<text text-anchor="middle" x="1134.0196" y="-149.8" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [CompositeService]</text>
+</g>
+<!-- Class: [MyAdaptationEngine]&#45;&gt;Class: [CompositeService] -->
+<g id="edge5" class="edge">
+<title>Class: [MyAdaptationEngine]&#45;&gt;Class: [CompositeService]</title>
+<path fill="none" stroke="#000000" d="M934.7712,-262.1373C950.6523,-256.9603 966.5938,-249.9313 980.0196,-240.4 1002.475,-224.4584 993.6995,-206.0703 1016.063,-190 1026.8011,-182.2837 1039.223,-176.1952 1051.8914,-171.3983"/>
+<polygon fill="#000000" stroke="#000000" points="1053.3348,-174.6007 1061.6032,-167.9763 1051.0084,-167.9986 1053.3348,-174.6007"/>
+<text text-anchor="middle" x="1071.9979" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="1071.9979" y="-211" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1071.9979" y="-194.2" font-family="Times,serif" font-size="14.00" fill="#000000">getWorkflowProbe]</text>
+</g>
+<!-- Class: [MyAdaptationEngine]&#45;&gt;Class: [CompositeService] -->
+<g id="edge7" class="edge">
+<title>Class: [MyAdaptationEngine]&#45;&gt;Class: [CompositeService]</title>
+<path fill="none" stroke="#000000" d="M969.9054,-268.0789C1039.2182,-261.83 1116.8303,-252.3142 1128.0196,-240.4 1142.35,-225.1411 1142.8685,-200.9262 1140.3594,-182.0091"/>
+<polygon fill="#000000" stroke="#000000" points="1143.8109,-181.4279 1138.7224,-172.1351 1136.9051,-182.5729 1143.8109,-181.4279"/>
+<text text-anchor="middle" x="1196.9979" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">[stop</text>
+<text text-anchor="middle" x="1196.9979" y="-211" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1196.9979" y="-194.2" font-family="Times,serif" font-size="14.00" fill="#000000">getWorkflowProbe]</text>
+</g>
+<!-- Class: [CompositeService]&#45;&gt;annotation != null &amp;&amp; annotation instanceof CompositeServiceConfiguration\n -->
+<g id="edge8" class="edge">
+<title>Class: [CompositeService]&#45;&gt;annotation != null &amp;&amp; annotation instanceof CompositeServiceConfiguration\n</title>
+<path fill="none" stroke="#ff0000" d="M1043.2693,-142.9684C1022.4976,-140.5615 1000.5039,-138.1065 980.0196,-136 890.0797,-126.7509 867.3594,-126.9127 777.3856,-118 635.7401,-103.9688 600.3934,-99.7464 459.0196,-83.2 432.4015,-80.0846 404.096,-76.6532 376.7064,-73.2711"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="377.016,-69.7828 366.6618,-72.028 376.1562,-76.7298 377.016,-69.7828"/>
+<text text-anchor="middle" x="829.3366" y="-105.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">readConfiguration</text>
+</g>
+<!-- Class: [CompositeService]&#45;&gt;operation.getAnnotation(ServiceOperation.class) != null\noperation.getName().equals(opName)\nsize == params.length\n -->
+<g id="edge9" class="edge">
+<title>Class: [CompositeService]&#45;&gt;operation.getAnnotation(ServiceOperation.class) != null\noperation.getName().equals(opName)\nsize == params.length\n</title>
+<path fill="none" stroke="#ff0000" d="M1063.1777,-139.8316C992.4767,-125.6914 881.5013,-103.4963 790.114,-85.2189"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="790.6975,-81.7663 780.2052,-83.2371 789.3246,-88.6304 790.6975,-81.7663"/>
+<text text-anchor="middle" x="990.061" y="-105.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">invokeOperation</text>
+</g>
+<!-- Class: [CompositeService]&#45;&gt;serviceDescriptions == null || serviceDescriptions.size() == 0\nserviceDescriptions == null || serviceDescriptions.size() == 0\n -->
+<g id="edge10" class="edge">
+<title>Class: [CompositeService]&#45;&gt;serviceDescriptions == null || serviceDescriptions.size() == 0\nserviceDescriptions == null || serviceDescriptions.size() == 0\n</title>
+<path fill="none" stroke="#ff0000" d="M1109.8421,-136.3522C1088.8154,-121.0043 1058.0244,-98.529 1033.9193,-80.9341"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1035.8396,-78.0025 1025.6989,-74.9338 1031.7125,-83.6566 1035.8396,-78.0025"/>
+<text text-anchor="middle" x="1121.4537" y="-105.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">lookupService</text>
+</g>
+<!-- Class: [CompositeService]&#45;&gt;qosRequirement == null\n -->
+<g id="edge11" class="edge">
+<title>Class: [CompositeService]&#45;&gt;qosRequirement == null\n</title>
+<path fill="none" stroke="#ff0000" d="M1158.0206,-136.3522C1179.9852,-120.2017 1212.6831,-96.1592 1237.086,-78.2159"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1239.3574,-80.8901 1245.3405,-72.1464 1235.2106,-75.2505 1239.3574,-80.8901"/>
+<text text-anchor="middle" x="1266.1732" y="-105.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">applyQoSRequirement</text>
+</g>
+<!-- Class: [CompositeService]&#45;&gt;services == null || services.size() == 0\nresultVal instanceof TimeOutError\nstopRetrying.get() == true\n -->
+<g id="edge12" class="edge">
+<title>Class: [CompositeService]&#45;&gt;services == null || services.size() == 0\nresultVal instanceof TimeOutError\nstopRetrying.get() == true\n</title>
+<path fill="none" stroke="#ff0000" d="M1223.2258,-142.6396C1258.2203,-136.97 1298.4412,-128.934 1334.0196,-118 1359.9917,-110.0183 1387.4851,-98.5971 1411.4103,-87.6064"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1413.1508,-90.6568 1420.7376,-83.2614 1410.1949,-84.3115 1413.1508,-90.6568"/>
+<text text-anchor="middle" x="1446.0498" y="-105.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">invokeServiceOperation</text>
+</g>
+<!-- Class: [CompositeService]&#45;&gt;operation.getAnnotation(LocalOperation.class) != null\noperation.getName().equals(opName)\n -->
+<g id="edge13" class="edge">
+<title>Class: [CompositeService]&#45;&gt;operation.getAnnotation(LocalOperation.class) != null\noperation.getName().equals(opName)\n</title>
+<path fill="none" stroke="#ff0000" d="M1242.609,-148.3006C1319.8344,-143.1583 1425.8032,-133.8886 1518.0196,-118 1576.9357,-107.8489 1642.3333,-91.1589 1691.8779,-77.3677"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1692.8848,-80.7205 1701.5688,-74.651 1690.9952,-73.9803 1692.8848,-80.7205"/>
+<text text-anchor="middle" x="1657.9972" y="-105.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">invokeLocalOperation</text>
+</g>
+</g>
+</svg>

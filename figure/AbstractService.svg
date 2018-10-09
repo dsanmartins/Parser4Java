@@ -1,0 +1,493 @@
+<svg width="4325pt" height="392pt"
+ viewBox="0.00 0.00 4324.71 392.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 388)">
+<title>project</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-388 4320.7118,-388 4320.7118,4 -4,4"/>
+<text text-anchor="middle" x="2158.3559" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">Method Calls for :service.auxiliary.AbstractService</text>
+<!-- opList.get(i).getOpName().equals(opName)\n -->
+<g id="node1" class="node">
+<title>opList.get(i).getOpName().equals(opName)\n</title>
+<polygon fill="none" stroke="#ff0000" points="1830.7251,-88.8 1568.5915,-88.8 1568.5915,-52.8 1830.7251,-52.8 1830.7251,-88.8"/>
+<text text-anchor="middle" x="1699.6583" y="-66.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">opList.get(i).getOpName().equals(opName)</text>
+</g>
+<!-- op.getOpName().equals(opName)\n -->
+<g id="node2" class="node">
+<title>op.getOpName().equals(opName)\n</title>
+<polygon fill="none" stroke="#ff0000" points="2055.1302,-88.8 1848.1864,-88.8 1848.1864,-52.8 2055.1302,-52.8 2055.1302,-88.8"/>
+<text text-anchor="middle" x="1951.6583" y="-66.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">op.getOpName().equals(opName)</text>
+</g>
+<!-- customProperties.containsKey(RESPONSE_TIME)\n -->
+<g id="node3" class="node">
+<title>customProperties.containsKey(RESPONSE_TIME)\n</title>
+<polygon fill="none" stroke="#ff0000" points="2380.3682,-88.8 2072.9484,-88.8 2072.9484,-52.8 2380.3682,-52.8 2380.3682,-88.8"/>
+<text text-anchor="middle" x="2226.6583" y="-66.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">customProperties.containsKey(RESPONSE_TIME)</text>
+</g>
+<!-- os != null\nis != null\n -->
+<g id="node4" class="node">
+<title>os != null\nis != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="2467.4396,-91.4019 2397.877,-91.4019 2397.877,-50.1981 2467.4396,-50.1981 2467.4396,-91.4019"/>
+<text text-anchor="middle" x="2432.6583" y="-75" font-family="Times,serif" font-size="14.00" fill="#ff0000">os != null</text>
+<text text-anchor="middle" x="2432.6583" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">is != null</text>
+</g>
+<!-- obj instanceof ServiceDescription\nregisterID == service.getRegisterID() &amp;&amp; endpoint.equals(service.getServiceEndpoint()) &amp;&amp; type.equals(service.getServiceType())\n!opList.get(i).equals(service.getOperationList().get(i))\n!service.getCustomProperties().containsKey(key)\n!service.getCustomProperties().get(key).equals(value)\n -->
+<g id="node5" class="node">
+<title>obj instanceof ServiceDescription\nregisterID == service.getRegisterID() &amp;&amp; endpoint.equals(service.getServiceEndpoint()) &amp;&amp; type.equals(service.getServiceType())\n!opList.get(i).equals(service.getOperationList().get(i))\n!service.getCustomProperties().containsKey(key)\n!service.getCustomProperties().get(key).equals(value)\n</title>
+<polygon fill="none" stroke="#ff0000" points="3243.1992,-116.8 2486.1174,-116.8 2486.1174,-24.8 3243.1992,-24.8 3243.1992,-116.8"/>
+<text text-anchor="middle" x="2864.6583" y="-100.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">obj instanceof ServiceDescription</text>
+<text text-anchor="middle" x="2864.6583" y="-83.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">registerID == service.getRegisterID() &amp;&amp; endpoint.equals(service.getServiceEndpoint()) &amp;&amp; type.equals(service.getServiceType())</text>
+<text text-anchor="middle" x="2864.6583" y="-66.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">!opList.get(i).equals(service.getOperationList().get(i))</text>
+<text text-anchor="middle" x="2864.6583" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">!service.getCustomProperties().containsKey(key)</text>
+<text text-anchor="middle" x="2864.6583" y="-33" font-family="Times,serif" font-size="14.00" fill="#ff0000">!service.getCustomProperties().get(key).equals(value)</text>
+</g>
+<!-- parallel\nparallelTimes.containsKey(token)\n -->
+<g id="node6" class="node">
+<title>parallel\nparallelTimes.containsKey(token)\n</title>
+<polygon fill="none" stroke="#ff0000" points="4025.0301,-91.4019 3818.2865,-91.4019 3818.2865,-50.1981 4025.0301,-50.1981 4025.0301,-91.4019"/>
+<text text-anchor="middle" x="3921.6583" y="-75" font-family="Times,serif" font-size="14.00" fill="#ff0000">parallel</text>
+<text text-anchor="middle" x="3921.6583" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">parallelTimes.containsKey(token)</text>
+</g>
+<!-- maxTime &lt; value\n -->
+<g id="node7" class="node">
+<title>maxTime &lt; value\n</title>
+<polygon fill="none" stroke="#ff0000" points="4164.0264,-88.8 4049.2902,-88.8 4049.2902,-52.8 4164.0264,-52.8 4164.0264,-88.8"/>
+<text text-anchor="middle" x="4106.6583" y="-66.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">maxTime &lt; value</text>
+</g>
+<!-- DEBUG\nreply\nresponseTime ==  -->
+<g id="node8" class="node">
+<title>DEBUG\nreply\nresponseTime == </title>
+<polygon fill="none" stroke="#ff0000" points="117.4753,-245.0014 -.1587,-245.0014 -.1587,-186.1986 117.4753,-186.1986 117.4753,-245.0014"/>
+<text text-anchor="middle" x="58.6583" y="-228.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">DEBUG</text>
+<text text-anchor="middle" x="58.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">reply</text>
+<text text-anchor="middle" x="58.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">responseTime == </text>
+</g>
+<!-- DEBUG\n!(result instanceof OperationAborted)\nthread instanceof ExecutionThread\nDEBUG\nresponse.getReturnType() != null\n -->
+<g id="node9" class="node">
+<title>DEBUG\n!(result instanceof OperationAborted)\nthread instanceof ExecutionThread\nDEBUG\nresponse.getReturnType() != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="362.6218,-261.6 134.6948,-261.6 134.6948,-169.6 362.6218,-169.6 362.6218,-261.6"/>
+<text text-anchor="middle" x="248.6583" y="-245" font-family="Times,serif" font-size="14.00" fill="#ff0000">DEBUG</text>
+<text text-anchor="middle" x="248.6583" y="-228.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">!(result instanceof OperationAborted)</text>
+<text text-anchor="middle" x="248.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">thread instanceof ExecutionThread</text>
+<text text-anchor="middle" x="248.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">DEBUG</text>
+<text text-anchor="middle" x="248.6583" y="-177.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">response.getReturnType() != null</text>
+</g>
+<!-- !(result instanceof OperationAborted)\n -->
+<g id="node10" class="node">
+<title>!(result instanceof OperationAborted)\n</title>
+<polygon fill="none" stroke="#ff0000" points="607.6218,-233.6 379.6948,-233.6 379.6948,-197.6 607.6218,-197.6 607.6218,-233.6"/>
+<text text-anchor="middle" x="493.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">!(result instanceof OperationAborted)</text>
+</g>
+<!-- description.getRegisterID() &gt; 0\n -->
+<g id="node11" class="node">
+<title>description.getRegisterID() &gt; 0\n</title>
+<polygon fill="none" stroke="#ff0000" points="816.6054,-233.6 624.7112,-233.6 624.7112,-197.6 816.6054,-197.6 816.6054,-233.6"/>
+<text text-anchor="middle" x="720.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">description.getRegisterID() &gt; 0</text>
+</g>
+<!-- operation.getAnnotation(ServiceOperation.class) != null\n -->
+<g id="node12" class="node">
+<title>operation.getAnnotation(ServiceOperation.class) != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="1166.4494,-233.6 834.8672,-233.6 834.8672,-197.6 1166.4494,-197.6 1166.4494,-233.6"/>
+<text text-anchor="middle" x="1000.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">operation.getAnnotation(ServiceOperation.class) != null</text>
+</g>
+<!-- configuration.multipleThreads == false\n -->
+<g id="node13" class="node">
+<title>configuration.multipleThreads == false\n</title>
+<polygon fill="none" stroke="#ff0000" points="1420.5493,-233.6 1184.7673,-233.6 1184.7673,-197.6 1420.5493,-197.6 1420.5493,-233.6"/>
+<text text-anchor="middle" x="1302.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">configuration.multipleThreads == false</text>
+</g>
+<!-- Class: [AbstractService] -->
+<g id="node14" class="node">
+<title>Class: [AbstractService]</title>
+<ellipse fill="none" stroke="#000000" cx="2447.6583" cy="-366" rx="105.3045" ry="18"/>
+<text text-anchor="middle" x="2447.6583" y="-361.8" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [AbstractService]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;DEBUG\nreply\nresponseTime ==  -->
+<g id="edge28" class="edge">
+<title>Class: [AbstractService]&#45;&gt;DEBUG\nreply\nresponseTime == </title>
+<path fill="none" stroke="#ff0000" d="M2342.544,-365.1805C1926.9658,-361.8172 416.3106,-348.3778 315.8981,-330 227.5161,-313.824 205.6268,-302.5643 125.6583,-261.6 119.1832,-258.2831 112.5983,-254.4362 106.2107,-250.4073"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="107.9411,-247.3575 97.6513,-244.8334 104.1212,-253.2234 107.9411,-247.3575"/>
+<text text-anchor="middle" x="352.0384" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">sendRequest</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;DEBUG\n!(result instanceof OperationAborted)\nthread instanceof ExecutionThread\nDEBUG\nresponse.getReturnType() != null\n -->
+<g id="edge29" class="edge">
+<title>Class: [AbstractService]&#45;&gt;DEBUG\n!(result instanceof OperationAborted)\nthread instanceof ExecutionThread\nDEBUG\nresponse.getReturnType() != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2342.3827,-365.0066C1956.4561,-361.2345 637.0427,-347.1424 548.6807,-330 481.549,-316.9764 409.864,-290.166 353.4039,-265.7721"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="354.6849,-262.5124 344.1195,-261.7233 351.8868,-268.9289 354.6849,-262.5124"/>
+<text text-anchor="middle" x="581.1471" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">onMessage</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;!(result instanceof OperationAborted)\n -->
+<g id="edge30" class="edge">
+<title>Class: [AbstractService]&#45;&gt;!(result instanceof OperationAborted)\n</title>
+<path fill="none" stroke="#ff0000" d="M2342.4245,-364.9045C1984.2056,-361.0265 830.0575,-347.2517 752.4479,-330 670.0624,-311.6867 581.6987,-266.4283 532.4875,-238.6399"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="534.1852,-235.5789 523.7646,-233.6649 530.7172,-241.6595 534.1852,-235.5789"/>
+<text text-anchor="middle" x="762.7635" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">call</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;description.getRegisterID() &gt; 0\n -->
+<g id="edge31" class="edge">
+<title>Class: [AbstractService]&#45;&gt;description.getRegisterID() &gt; 0\n</title>
+<path fill="none" stroke="#ff0000" d="M2342.5198,-365.6267C1997.5872,-364.1412 918.4251,-357.3229 849.0481,-330 803.2316,-311.956 763.1577,-269.6749 740.4453,-241.8782"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="742.94,-239.3929 733.9669,-233.7595 737.4684,-243.759 742.94,-239.3929"/>
+<text text-anchor="middle" x="921.9634" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">updateServiceDescription</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;operation.getAnnotation(ServiceOperation.class) != null\n -->
+<g id="edge32" class="edge">
+<title>Class: [AbstractService]&#45;&gt;operation.getAnnotation(ServiceOperation.class) != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2342.4593,-365.1246C2016.6976,-362.187 1044.8942,-351.6262 1019.9583,-330 996.0193,-309.2383 994.2146,-270.7894 996.3801,-244.2336"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="999.8899,-244.3228 997.4537,-234.0119 992.9282,-243.5915 999.8899,-244.3228"/>
+<text text-anchor="middle" x="1091.0083" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">createServiceDescription</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;configuration.multipleThreads == false\n -->
+<g id="edge33" class="edge">
+<title>Class: [AbstractService]&#45;&gt;configuration.multipleThreads == false\n</title>
+<path fill="none" stroke="#ff0000" d="M2342.6443,-364.9644C2041.3538,-361.7451 1194.2828,-350.855 1174.0089,-330 1158.3951,-313.9386 1162.2133,-298.6427 1174.0089,-279.6 1185.6284,-260.8416 1204.5771,-247.4054 1224.403,-237.8531"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1225.8707,-241.0307 1233.5507,-233.7323 1222.9956,-234.6484 1225.8707,-241.0307"/>
+<text text-anchor="middle" x="1229.483" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">applyConfiguration</text>
+</g>
+<!-- Class: [Request] -->
+<g id="node15" class="node">
+<title>Class: [Request]</title>
+<ellipse fill="none" stroke="#000000" cx="1513.6583" cy="-215.6" rx="74.6914" ry="18"/>
+<text text-anchor="middle" x="1513.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [Request]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [Request] -->
+<g id="edge1" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [Request]</title>
+<path fill="none" stroke="#000000" d="M2342.7426,-364.6327C2062.5023,-360.7322 1316.4043,-348.6189 1298.3595,-330 1282.7702,-313.9148 1283.6352,-296.4806 1298.3595,-279.6 1317.7183,-257.4062 1401.6902,-270.8258 1429.6583,-261.6 1446.9187,-255.9064 1464.7544,-246.6879 1479.527,-237.993"/>
+<polygon fill="#000000" stroke="#000000" points="1481.5554,-240.8564 1488.2967,-232.683 1477.9297,-234.8685 1481.5554,-240.8564"/>
+<text text-anchor="middle" x="1334.8077" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[call</text>
+<text text-anchor="middle" x="1334.8077" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1334.8077" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getOpName]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [Request] -->
+<g id="edge2" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [Request]</title>
+<path fill="none" stroke="#000000" d="M2342.7053,-364.324C2079.2942,-359.869 1410.0265,-346.9093 1393.6849,-330 1378.1184,-313.8927 1381.9113,-298.6563 1393.6849,-279.6 1403.0817,-264.3907 1413.8211,-269.895 1429.6583,-261.6 1444.5195,-253.8162 1460.7148,-245.0224 1474.884,-237.2239"/>
+<polygon fill="#000000" stroke="#000000" points="1476.8056,-240.161 1483.8682,-232.2635 1473.4222,-234.033 1476.8056,-240.161"/>
+<text text-anchor="middle" x="1426.145" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[call</text>
+<text text-anchor="middle" x="1426.145" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1426.145" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getParams]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [Request] -->
+<g id="edge9" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [Request]</title>
+<path fill="none" stroke="#000000" d="M2343.1522,-364.0045C2095.8363,-359.0344 1494.1868,-345.3888 1479.3595,-330 1456.3522,-306.1214 1475.4748,-267.4326 1493.0692,-241.7558"/>
+<polygon fill="#000000" stroke="#000000" points="1495.9415,-243.7563 1498.9143,-233.587 1490.2487,-239.6828 1495.9415,-243.7563"/>
+<text text-anchor="middle" x="1515.8077" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[onMessage</text>
+<text text-anchor="middle" x="1515.8077" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1515.8077" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getOpName]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [Request] -->
+<g id="edge10" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [Request]</title>
+<path fill="none" stroke="#000000" d="M2342.6511,-364.5699C2117.5713,-361.1095 1606.4218,-350.9793 1575.0201,-330 1554.4908,-316.2845 1563.1672,-301.4429 1551.6583,-279.6 1545.0517,-267.0611 1537.1309,-253.5188 1530.2347,-242.1344"/>
+<polygon fill="#000000" stroke="#000000" points="1533.1731,-240.2307 1524.9685,-233.5274 1527.2021,-243.8841 1533.1731,-240.2307"/>
+<text text-anchor="middle" x="1609.4774" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[onMessage</text>
+<text text-anchor="middle" x="1609.4774" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1609.4774" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getParams]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [Request] -->
+<g id="edge19" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [Request]</title>
+<path fill="none" stroke="#000000" d="M2343.1225,-363.7232C2138.3567,-358.9071 1701.7891,-346.7395 1673.4885,-330 1650.8875,-316.6317 1662.0286,-297.3286 1642.6583,-279.6 1620.9904,-259.7685 1592.0398,-244.6597 1567.0552,-234.1159"/>
+<polygon fill="#000000" stroke="#000000" points="1568.2785,-230.8349 1557.6973,-230.2981 1565.6342,-237.3163 1568.2785,-230.8349"/>
+<text text-anchor="middle" x="1722.2432" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[sendRequest</text>
+<text text-anchor="middle" x="1722.2432" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1722.2432" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getServiceName]</text>
+</g>
+<!-- Class: [ServiceDescription] -->
+<g id="node16" class="node">
+<title>Class: [ServiceDescription]</title>
+<ellipse fill="none" stroke="#000000" cx="2226.6583" cy="-215.6" rx="117.4855" ry="18"/>
+<text text-anchor="middle" x="2226.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [ServiceDescription]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [ServiceDescription] -->
+<g id="edge3" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [ServiceDescription]</title>
+<path fill="none" stroke="#000000" d="M2343.11,-364.0384C2161.2574,-360.1099 1804.1429,-349.8973 1785.2977,-330 1769.8943,-313.7367 1770.639,-296.5376 1785.2977,-279.6 1806.4432,-255.1672 1987.681,-235.3854 2111.2344,-224.5779"/>
+<polygon fill="#000000" stroke="#000000" points="2111.8523,-228.0376 2121.513,-223.6878 2111.2483,-221.0637 2111.8523,-228.0376"/>
+<text text-anchor="middle" x="1858.3386" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[createServiceDescription</text>
+<text text-anchor="middle" x="1858.3386" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1858.3386" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">setOperationList]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [ServiceDescription] -->
+<g id="edge4" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [ServiceDescription]</title>
+<path fill="none" stroke="#000000" d="M2344.8332,-362.0528C2203.873,-356.1333 1966.4364,-344.1303 1953.2977,-330 1897.3289,-269.8072 2017.6831,-240.1887 2116.081,-226.4265"/>
+<polygon fill="#000000" stroke="#000000" points="2116.694,-229.8755 2126.1333,-225.0641 2115.7538,-222.9389 2116.694,-229.8755"/>
+<text text-anchor="middle" x="2026.3386" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[createServiceDescription</text>
+<text text-anchor="middle" x="2026.3386" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2026.3386" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">setServiceType]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [ServiceDescription] -->
+<g id="edge14" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [ServiceDescription]</title>
+<path fill="none" stroke="#000000" d="M2345.7372,-361.4858C2255.6954,-356.4233 2136.3929,-346.6571 2121.4731,-330 2106.5279,-313.3146 2110.497,-299.1265 2121.4731,-279.6 2132.0947,-260.7041 2150.806,-246.736 2169.5315,-236.7566"/>
+<polygon fill="#000000" stroke="#000000" points="2171.3131,-239.779 2178.6898,-232.174 2168.1806,-233.5189 2171.3131,-239.779"/>
+<text text-anchor="middle" x="2163.2509" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[register</text>
+<text text-anchor="middle" x="2163.2509" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2163.2509" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getRegisterID]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [ServiceDescription] -->
+<g id="edge15" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [ServiceDescription]</title>
+<path fill="none" stroke="#000000" d="M2357.5019,-356.6885C2300.8644,-349.9109 2236.9017,-340.1717 2228.1477,-330 2207.9914,-306.5794 2211.7823,-269.3781 2217.8591,-243.7933"/>
+<polygon fill="#000000" stroke="#000000" points="2221.2902,-244.5072 2220.4444,-233.9462 2214.5197,-242.7296 2221.2902,-244.5072"/>
+<text text-anchor="middle" x="2274.9136" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[register</text>
+<text text-anchor="middle" x="2274.9136" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2274.9136" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getServiceType]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [ServiceDescription] -->
+<g id="edge16" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [ServiceDescription]</title>
+<path fill="none" stroke="#000000" d="M2381.6551,-351.9358C2368.0781,-346.7364 2354.6912,-339.648 2344.0285,-330 2325.7199,-313.4337 2336.6328,-298.4271 2320.6583,-279.6 2306.6268,-263.0628 2287.3288,-248.9335 2269.8678,-238.1907"/>
+<polygon fill="#000000" stroke="#000000" points="2271.3266,-234.9863 2260.9418,-232.8868 2267.7507,-241.0041 2271.3266,-234.9863"/>
+<text text-anchor="middle" x="2385.4732" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[register</text>
+<text text-anchor="middle" x="2385.4732" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2385.4732" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">setRegisterID]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [ServiceDescription] -->
+<g id="edge25" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [ServiceDescription]</title>
+<path fill="none" stroke="#000000" d="M2447.913,-347.7108C2447.1836,-328.3527 2443.0448,-298.0961 2425.6583,-279.6 2408.7117,-261.5718 2353.3605,-244.5915 2305.3243,-232.6576"/>
+<polygon fill="#000000" stroke="#000000" points="2306.0599,-229.2344 2295.5152,-230.2642 2304.4006,-236.0349 2306.0599,-229.2344"/>
+<text text-anchor="middle" x="2488.2509" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[unRegister</text>
+<text text-anchor="middle" x="2488.2509" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2488.2509" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getRegisterID]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [ServiceDescription] -->
+<g id="edge26" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [ServiceDescription]</title>
+<path fill="none" stroke="#000000" d="M2506.9937,-351.0663C2516.7515,-345.9676 2525.6317,-339.1396 2531.6583,-330 2543.9893,-311.2996 2545.7777,-296.9897 2531.6583,-279.6 2507.669,-250.0545 2417.9361,-233.6542 2341.9626,-224.874"/>
+<polygon fill="#000000" stroke="#000000" points="2342.1475,-221.3729 2331.8198,-223.737 2341.3676,-228.3293 2342.1475,-221.3729"/>
+<text text-anchor="middle" x="2616.2937" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[updateServiceDescription</text>
+<text text-anchor="middle" x="2616.2937" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2616.2937" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getRegisterID]</text>
+</g>
+<!-- Class: [AbstractMessage] -->
+<g id="node17" class="node">
+<title>Class: [AbstractMessage]</title>
+<ellipse fill="none" stroke="#000000" cx="2912.6583" cy="-215.6" rx="109.9612" ry="18"/>
+<text text-anchor="middle" x="2912.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [AbstractMessage]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [AbstractMessage] -->
+<g id="edge5" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [AbstractMessage]</title>
+<path fill="none" stroke="#000000" d="M2546.8594,-359.9471C2604.5129,-354.8253 2670.4389,-345.7165 2694.6583,-330 2716.8963,-315.5693 2705.7611,-296.0387 2726.5587,-279.6 2755.9559,-256.3641 2794.3211,-241.2909 2828.5748,-231.6511"/>
+<polygon fill="#000000" stroke="#000000" points="2829.8414,-234.9346 2838.5859,-228.9525 2828.0195,-228.1759 2829.8414,-234.9346"/>
+<text text-anchor="middle" x="2763.2081" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[onMessage</text>
+<text text-anchor="middle" x="2763.2081" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2763.2081" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getEndpoint]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [AbstractMessage] -->
+<g id="edge6" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [AbstractMessage]</title>
+<path fill="none" stroke="#000000" d="M2548.3359,-360.7636C2645.0751,-354.9242 2779.4939,-344.3753 2799.6583,-330 2819.762,-315.668 2807.2588,-298.6039 2823.0201,-279.6 2836.5336,-263.3064 2855.122,-249.1367 2871.8691,-238.3008"/>
+<polygon fill="#000000" stroke="#000000" points="2873.8046,-241.2185 2880.4223,-232.9447 2870.0894,-235.2857 2873.8046,-241.2185"/>
+<text text-anchor="middle" x="2857.4774" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[onMessage</text>
+<text text-anchor="middle" x="2857.4774" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2857.4774" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getId]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [AbstractMessage] -->
+<g id="edge7" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [AbstractMessage]</title>
+<path fill="none" stroke="#000000" d="M2552.272,-364.0486C2675.3031,-360.7494 2866.0081,-352.102 2890.6583,-330 2903.1309,-318.8168 2908.6737,-274.2039 2911.0325,-244.1084"/>
+<polygon fill="#000000" stroke="#000000" points="2914.5496,-243.9884 2911.7644,-233.7662 2907.5671,-243.4942 2914.5496,-243.9884"/>
+<text text-anchor="middle" x="2941.4774" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[onMessage</text>
+<text text-anchor="middle" x="2941.4774" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2941.4774" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getType]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [AbstractMessage] -->
+<g id="edge17" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [AbstractMessage]</title>
+<path fill="none" stroke="#000000" d="M2551.0911,-362.5943C2701.7323,-357.1229 2965.2582,-345.4074 2979.6583,-330 2994.9535,-313.6349 2988.4668,-300.1954 2979.6583,-279.6 2972.9646,-263.9491 2960.3566,-250.3017 2947.8675,-239.6756"/>
+<polygon fill="#000000" stroke="#000000" points="2949.7266,-236.6792 2939.741,-233.1383 2945.339,-242.1335 2949.7266,-236.6792"/>
+<text text-anchor="middle" x="3027.3687" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[sendRequest</text>
+<text text-anchor="middle" x="3027.3687" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3027.3687" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getId]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [AbstractMessage] -->
+<g id="edge18" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [AbstractMessage]</title>
+<path fill="none" stroke="#000000" d="M2552.1413,-363.6361C2724.4954,-359.2205 3051.24,-348.4573 3068.6583,-330 3084.0323,-313.7089 3081.1346,-298.2038 3068.6583,-279.6 3052.8298,-255.9975 3026.573,-241.0924 3000.0731,-231.6825"/>
+<polygon fill="#000000" stroke="#000000" points="3000.9111,-228.2733 2990.3179,-228.4584 2998.7144,-234.9197 3000.9111,-228.2733"/>
+<text text-anchor="middle" x="3117.3687" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[sendRequest</text>
+<text text-anchor="middle" x="3117.3687" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3117.3687" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getType]</text>
+</g>
+<!-- Class: [ExecutionThread] -->
+<g id="node18" class="node">
+<title>Class: [ExecutionThread]</title>
+<ellipse fill="none" stroke="#000000" cx="3199.6583" cy="-215.6" rx="109.9689" ry="18"/>
+<text text-anchor="middle" x="3199.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [ExecutionThread]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [ExecutionThread] -->
+<g id="edge8" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [ExecutionThread]</title>
+<path fill="none" stroke="#000000" d="M2552.0392,-363.7439C2743.7754,-359.18 3134.7484,-347.751 3158.6583,-330 3185.577,-310.0152 3194.8747,-270.762 3198.0553,-243.8615"/>
+<polygon fill="#000000" stroke="#000000" points="3201.542,-244.1674 3199.0255,-233.8758 3194.5748,-243.4905 3201.542,-244.1674"/>
+<text text-anchor="middle" x="3223.4774" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[onMessage</text>
+<text text-anchor="middle" x="3223.4774" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3223.4774" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getToken]</text>
+</g>
+<!-- Class: [Response] -->
+<g id="node19" class="node">
+<title>Class: [Response]</title>
+<ellipse fill="none" stroke="#000000" cx="3407.6583" cy="-215.6" rx="80.492" ry="18"/>
+<text text-anchor="middle" x="3407.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [Response]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [Response] -->
+<g id="edge11" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [Response]</title>
+<path fill="none" stroke="#000000" d="M2552.2613,-363.9899C2765.2322,-359.5383 3231.6971,-347.8121 3261.6583,-330 3284.1374,-316.6361 3273.1957,-297.749 3292.0243,-279.6 3298.1514,-273.6941 3336.0111,-253.1398 3366.7667,-236.8984"/>
+<polygon fill="#000000" stroke="#000000" points="3368.411,-239.9882 3375.6296,-232.233 3365.1504,-233.794 3368.411,-239.9882"/>
+<text text-anchor="middle" x="3332.4753" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[onMessage</text>
+<text text-anchor="middle" x="3332.4753" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3332.4753" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getRequestID]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [Response] -->
+<g id="edge12" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [Response]</title>
+<path fill="none" stroke="#000000" d="M2553.0984,-365.1625C2789.0895,-362.8474 3341.7344,-354.7959 3373.6583,-330 3387.2714,-319.4265 3397.5513,-274.2731 3403.0804,-243.9554"/>
+<polygon fill="#000000" stroke="#000000" points="3406.5583,-244.3852 3404.8357,-233.9314 3399.6632,-243.1778 3406.5583,-244.3852"/>
+<text text-anchor="middle" x="3438.976" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[onMessage</text>
+<text text-anchor="middle" x="3438.976" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3438.976" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getReturnType]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [Response] -->
+<g id="edge13" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [Response]</title>
+<path fill="none" stroke="#000000" d="M2552.4454,-364.2698C2812.8448,-359.7218 3469.5978,-346.6272 3485.6583,-330 3501.2206,-313.8886 3495.2365,-299.8489 3485.6583,-279.6 3477.6439,-262.6571 3462.7026,-248.6967 3448.0249,-238.1856"/>
+<polygon fill="#000000" stroke="#000000" points="3449.7122,-235.1014 3439.4678,-232.3989 3445.7909,-240.9 3449.7122,-235.1014"/>
+<text text-anchor="middle" x="3541.3056" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[onMessage</text>
+<text text-anchor="middle" x="3541.3056" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3541.3056" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getReturnValue]</text>
+</g>
+<!-- Class: [ServiceProvider] -->
+<g id="node20" class="node">
+<title>Class: [ServiceProvider]</title>
+<ellipse fill="none" stroke="#000000" cx="3756.6583" cy="-215.6" rx="105.89" ry="18"/>
+<text text-anchor="middle" x="3756.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [ServiceProvider]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [ServiceProvider] -->
+<g id="edge20" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [ServiceProvider]</title>
+<path fill="none" stroke="#000000" d="M2552.9242,-365.3195C2827.4077,-363.194 3546.8963,-355.2346 3591.6583,-330 3614.9189,-316.8868 3604.3371,-297.2651 3624.3609,-279.6 3645.9075,-260.5915 3674.0982,-245.9219 3698.9182,-235.4523"/>
+<polygon fill="#000000" stroke="#000000" points="3700.3092,-238.6649 3708.2448,-231.6451 3697.6636,-232.1841 3700.3092,-238.6649"/>
+<text text-anchor="middle" x="3663.307" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[sendRequest</text>
+<text text-anchor="middle" x="3663.307" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3663.307" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">sendMessage]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [ServiceProvider] -->
+<g id="edge22" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [ServiceProvider]</title>
+<path fill="none" stroke="#000000" d="M2552.4327,-364.4632C2849.9042,-359.9106 3679.7951,-345.8213 3703.6583,-330 3724.1838,-316.3917 3716.344,-301.9512 3726.6835,-279.6 3732.2215,-267.6283 3738.3944,-254.4247 3743.6924,-243.1351"/>
+<polygon fill="#000000" stroke="#000000" points="3747.0004,-244.325 3748.0849,-233.7858 3740.6648,-241.3483 3747.0004,-244.325"/>
+<text text-anchor="middle" x="3768.6457" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[sendResponse</text>
+<text text-anchor="middle" x="3768.6457" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3768.6457" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">sendMessage]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [ServiceProvider] -->
+<g id="edge23" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [ServiceProvider]</title>
+<path fill="none" stroke="#000000" d="M2552.9506,-365.164C2868.9453,-362.4063 3788.7813,-352.4624 3810.6583,-330 3835.2381,-304.7624 3807.8142,-266.2372 3783.9059,-240.9846"/>
+<polygon fill="#000000" stroke="#000000" points="3786.1632,-238.2879 3776.6604,-233.6031 3781.1677,-243.1914 3786.1632,-238.2879"/>
+<text text-anchor="middle" x="3860.4809" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[startService</text>
+<text text-anchor="middle" x="3860.4809" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3860.4809" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">startListening]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [ServiceProvider] -->
+<g id="edge24" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [ServiceProvider]</title>
+<path fill="none" stroke="#000000" d="M2552.9177,-365.3524C2883.7417,-363.0689 3882.0642,-354.1838 3905.6583,-330 3921.3008,-313.9665 3917.9817,-298.3054 3905.6583,-279.6 3890.3463,-256.3583 3864.6405,-241.5229 3838.8518,-232.0673"/>
+<polygon fill="#000000" stroke="#000000" points="3839.9606,-228.7476 3829.366,-228.8215 3837.6943,-235.3706 3839.9606,-228.7476"/>
+<text text-anchor="middle" x="3956.098" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[stopService</text>
+<text text-anchor="middle" x="3956.098" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3956.098" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">stopListening]</text>
+</g>
+<!-- Class: [SimClock] -->
+<g id="node21" class="node">
+<title>Class: [SimClock]</title>
+<ellipse fill="none" stroke="#000000" cx="3994.6583" cy="-215.6" rx="82.235" ry="18"/>
+<text text-anchor="middle" x="3994.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [SimClock]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [SimClock] -->
+<g id="edge21" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [SimClock]</title>
+<path fill="none" stroke="#000000" d="M2553.0554,-365.517C2898.41,-363.6858 3975.3464,-355.9055 4000.6583,-330 4022.4998,-307.6464 4015.2666,-269.6309 4006.423,-243.6036"/>
+<polygon fill="#000000" stroke="#000000" points="4009.6077,-242.122 4002.8803,-233.9371 4003.0352,-244.5308 4009.6077,-242.122"/>
+<text text-anchor="middle" x="4061.6969" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[sendRequest</text>
+<text text-anchor="middle" x="4061.6969" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4061.6969" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">getCurrentTime]</text>
+</g>
+<!-- Class: [ServiceOperation] -->
+<g id="node22" class="node">
+<title>Class: [ServiceOperation]</title>
+<ellipse fill="none" stroke="#000000" cx="4205.6583" cy="-215.6" rx="111.107" ry="18"/>
+<text text-anchor="middle" x="4205.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [ServiceOperation]</text>
+</g>
+<!-- Class: [AbstractService]&#45;&gt;Class: [ServiceOperation] -->
+<g id="edge27" class="edge">
+<title>Class: [AbstractService]&#45;&gt;Class: [ServiceOperation]</title>
+<path fill="none" stroke="#000000" d="M2552.7692,-364.911C2913.0018,-361.0285 4077.5447,-347.1753 4112.6583,-330 4150.0916,-311.6901 4177.5259,-270.4009 4192.5396,-242.7652"/>
+<polygon fill="#000000" stroke="#000000" points="4195.7903,-244.1023 4197.3282,-233.6196 4189.5889,-240.8552 4195.7903,-244.1023"/>
+<text text-anchor="middle" x="4240.3386" y="-317.4" font-family="Times,serif" font-size="14.00" fill="#000000">[createServiceDescription</text>
+<text text-anchor="middle" x="4240.3386" y="-300.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4240.3386" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">OperationCost]</text>
+</g>
+<!-- Class: [ServiceDescription]&#45;&gt;opList.get(i).getOpName().equals(opName)\n -->
+<g id="edge34" class="edge">
+<title>Class: [ServiceDescription]&#45;&gt;opList.get(i).getOpName().equals(opName)\n</title>
+<path fill="none" stroke="#ff0000" d="M2161.9204,-200.5217C2084.7643,-182.2175 1952.1349,-149.6972 1839.6583,-116.8 1813.9761,-109.2884 1785.9107,-100.2365 1761.6962,-92.1566"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1762.5171,-88.7404 1751.9232,-88.8788 1760.2912,-95.3771 1762.5171,-88.7404"/>
+<text text-anchor="middle" x="2007.9746" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">containsOperation</text>
+</g>
+<!-- Class: [ServiceDescription]&#45;&gt;op.getOpName().equals(opName)\n -->
+<g id="edge35" class="edge">
+<title>Class: [ServiceDescription]&#45;&gt;op.getOpName().equals(opName)\n</title>
+<path fill="none" stroke="#ff0000" d="M2193.76,-198.2776C2144.1648,-172.1634 2050.1993,-122.6863 1995.0529,-93.6492"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1996.367,-90.3856 1985.8879,-88.8235 1993.1056,-96.5795 1996.367,-90.3856"/>
+<text text-anchor="middle" x="2134.1997" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">getOperation</text>
+</g>
+<!-- Class: [ServiceDescription]&#45;&gt;customProperties.containsKey(RESPONSE_TIME)\n -->
+<g id="edge36" class="edge">
+<title>Class: [ServiceDescription]&#45;&gt;customProperties.containsKey(RESPONSE_TIME)\n</title>
+<path fill="none" stroke="#ff0000" d="M2226.6583,-197.5538C2226.6583,-172.9495 2226.6583,-128.609 2226.6583,-99.4382"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2230.1584,-99.0736 2226.6583,-89.0737 2223.1584,-99.0737 2230.1584,-99.0736"/>
+<text text-anchor="middle" x="2276.8126" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">getResponseTime</text>
+</g>
+<!-- Class: [ServiceDescription]&#45;&gt;os != null\nis != null\n -->
+<g id="edge37" class="edge">
+<title>Class: [ServiceDescription]&#45;&gt;os != null\nis != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2261.2142,-198.2499C2295.4932,-180.2356 2348.6843,-150.0703 2389.6583,-116.8 2396.1028,-111.5672 2402.5076,-105.3912 2408.3292,-99.2921"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2411.1402,-101.4069 2415.3504,-91.6845 2405.9962,-96.6594 2411.1402,-101.4069"/>
+<text text-anchor="middle" x="2380.8182" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">clone</text>
+</g>
+<!-- Class: [ServiceDescription]&#45;&gt;obj instanceof ServiceDescription\nregisterID == service.getRegisterID() &amp;&amp; endpoint.equals(service.getServiceEndpoint()) &amp;&amp; type.equals(service.getServiceType())\n!opList.get(i).equals(service.getOperationList().get(i))\n!service.getCustomProperties().containsKey(key)\n!service.getCustomProperties().get(key).equals(value)\n -->
+<g id="edge38" class="edge">
+<title>Class: [ServiceDescription]&#45;&gt;obj instanceof ServiceDescription\nregisterID == service.getRegisterID() &amp;&amp; endpoint.equals(service.getServiceEndpoint()) &amp;&amp; type.equals(service.getServiceType())\n!opList.get(i).equals(service.getOperationList().get(i))\n!service.getCustomProperties().containsKey(key)\n!service.getCustomProperties().get(key).equals(value)\n</title>
+<path fill="none" stroke="#ff0000" d="M2292.5325,-200.6492C2376.6921,-181.5484 2526.4541,-147.5586 2651.6452,-119.1453"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2652.783,-122.4762 2661.7603,-116.8496 2651.2336,-115.6498 2652.783,-122.4762"/>
+<text text-anchor="middle" x="2583.5405" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">equals</text>
+</g>
+<!-- Class: [SimClock]&#45;&gt;parallel\nparallelTimes.containsKey(token)\n -->
+<g id="edge39" class="edge">
+<title>Class: [SimClock]&#45;&gt;parallel\nparallelTimes.containsKey(token)\n</title>
+<path fill="none" stroke="#ff0000" d="M3962.8583,-198.7989C3945.7602,-187.8652 3926.2662,-171.8652 3916.6821,-151.6 3909.3379,-136.0709 3910.141,-116.9517 3912.9857,-101.2104"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="3916.4093,-101.9373 3915.0848,-91.4256 3909.5651,-100.4689 3916.4093,-101.9373"/>
+<text text-anchor="middle" x="3944.6464" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">increment</text>
+</g>
+<!-- Class: [SimClock]&#45;&gt;parallel\nparallelTimes.containsKey(token)\n -->
+<g id="edge40" class="edge">
+<title>Class: [SimClock]&#45;&gt;parallel\nparallelTimes.containsKey(token)\n</title>
+<path fill="none" stroke="#ff0000" d="M3991.9058,-197.5043C3988.8418,-180.6069 3982.9163,-155.0276 3972.6583,-134.8 3966.2575,-122.1783 3957.1165,-109.6892 3948.3367,-99.1406"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="3950.921,-96.7778 3941.7446,-91.4821 3945.6157,-101.3445 3950.921,-96.7778"/>
+<text text-anchor="middle" x="4024.3666" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">getCurrentTime</text>
+</g>
+<!-- Class: [SimClock]&#45;&gt;maxTime &lt; value\n -->
+<g id="edge41" class="edge">
+<title>Class: [SimClock]&#45;&gt;maxTime &lt; value\n</title>
+<path fill="none" stroke="#ff0000" d="M4021.7261,-198.4059C4038.2179,-186.8178 4058.7269,-170.2728 4072.6583,-151.6 4084.4908,-135.7404 4093.0743,-115.149 4098.6569,-98.7228"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="4102.0177,-99.7044 4101.7473,-89.113 4095.3538,-97.5613 4102.0177,-99.7044"/>
+<text text-anchor="middle" x="4114.145" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">endParallel</text>
+</g>
+</g>
+</svg>

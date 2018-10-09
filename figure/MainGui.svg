@@ -1,0 +1,510 @@
+<svg width="3468pt" height="655pt"
+ viewBox="0.00 0.00 3467.82 655.20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 651.2)">
+<title>project</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-651.2 3463.8175,-651.2 3463.8175,4 -4,4"/>
+<text text-anchor="middle" x="1729.9088" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">Method Calls for :application.MainGui</text>
+<!-- lock != null\n -->
+<g id="node1" class="node">
+<title>lock != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="81.6636,-248.4 -.222,-248.4 -.222,-212.4 81.6636,-212.4 81.6636,-248.4"/>
+<text text-anchor="middle" x="40.7208" y="-226.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">lock != null</text>
+</g>
+<!-- !file.exists()\nstrs.length == 3\n -->
+<g id="node2" class="node">
+<title>!file.exists()\nstrs.length == 3\n</title>
+<polygon fill="none" stroke="#ff0000" points="203.4466,-251.0019 99.995,-251.0019 99.995,-209.7981 203.4466,-209.7981 203.4466,-251.0019"/>
+<text text-anchor="middle" x="151.7208" y="-234.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">!file.exists()</text>
+<text text-anchor="middle" x="151.7208" y="-217.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">strs.length == 3</text>
+</g>
+<!-- !yourFile.exists()\n -->
+<g id="node3" class="node">
+<title>!yourFile.exists()\n</title>
+<polygon fill="none" stroke="#ff0000" points="334.0268,-248.4 221.4148,-248.4 221.4148,-212.4 334.0268,-212.4 334.0268,-248.4"/>
+<text text-anchor="middle" x="277.7208" y="-226.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">!yourFile.exists()</text>
+</g>
+<!-- services != null &amp;&amp; services.contains(service)\n -->
+<g id="node4" class="node">
+<title>services != null &amp;&amp; services.contains(service)\n</title>
+<polygon fill="none" stroke="#ff0000" points="627.6229,-248.4 351.8187,-248.4 351.8187,-212.4 627.6229,-212.4 627.6229,-248.4"/>
+<text text-anchor="middle" x="489.7208" y="-226.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">services != null &amp;&amp; services.contains(service)</text>
+</g>
+<!-- selected\n(newValue == null)\n -->
+<g id="node5" class="node">
+<title>selected\n(newValue == null)\n</title>
+<polygon fill="none" stroke="#ff0000" points="771.8605,-251.0019 645.5811,-251.0019 645.5811,-209.7981 771.8605,-209.7981 771.8605,-251.0019"/>
+<text text-anchor="middle" x="708.7208" y="-234.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">selected</text>
+<text text-anchor="middle" x="708.7208" y="-217.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">(newValue == null)</text>
+</g>
+<!-- (newValue == null)\n -->
+<g id="node6" class="node">
+<title>(newValue == null)\n</title>
+<polygon fill="none" stroke="#ff0000" points="916.8605,-248.4 790.5811,-248.4 790.5811,-212.4 916.8605,-212.4 916.8605,-248.4"/>
+<text text-anchor="middle" x="853.7208" y="-226.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">(newValue == null)</text>
+</g>
+<!-- newValue.matches(&quot;\\d*&quot;)\nevent.getCode().equals(KeyCode.ENTER)\nfile != null\n!service.equals(&quot;TeleAssistanceService&quot;)\nfile != null\nfile != null\nfile != null\nstr.length &gt;= 3\nfile != null\nfile != null\nfile != null\nfile != null\nfile != null\nfile != null\nProfileExecutor.profile != null\nreliabilityReq != null\nperformanceReq != null\nreliabilityReq != null\nfrIndex &lt; frInvocations.size()\ninvocations &gt;= frInvocations.get(frIndex)\nperformanceReq != null\nrtIndex &lt; rtInvocations.size()\ninvocations &gt;= rtInvocations.get(rtIndex)\nrates.containsKey(service)\n -->
+<g id="node7" class="node">
+<title>newValue.matches(&quot;\\d*&quot;)\nevent.getCode().equals(KeyCode.ENTER)\nfile != null\n!service.equals(&quot;TeleAssistanceService&quot;)\nfile != null\nfile != null\nfile != null\nstr.length &gt;= 3\nfile != null\nfile != null\nfile != null\nfile != null\nfile != null\nfile != null\nProfileExecutor.profile != null\nreliabilityReq != null\nperformanceReq != null\nreliabilityReq != null\nfrIndex &lt; frInvocations.size()\ninvocations &gt;= frInvocations.get(frIndex)\nperformanceReq != null\nrtIndex &lt; rtInvocations.size()\ninvocations &gt;= rtInvocations.get(rtIndex)\nrates.containsKey(service)\n</title>
+<polygon fill="none" stroke="#ff0000" points="1190.5772,-436.1 934.8644,-436.1 934.8644,-24.7 1190.5772,-24.7 1190.5772,-436.1"/>
+<text text-anchor="middle" x="1062.7208" y="-419.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">newValue.matches(&quot;\d*&quot;)</text>
+<text text-anchor="middle" x="1062.7208" y="-402.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">event.getCode().equals(KeyCode.ENTER)</text>
+<text text-anchor="middle" x="1062.7208" y="-385.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">file != null</text>
+<text text-anchor="middle" x="1062.7208" y="-369" font-family="Times,serif" font-size="14.00" fill="#ff0000">!service.equals(&quot;TeleAssistanceService&quot;)</text>
+<text text-anchor="middle" x="1062.7208" y="-352.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">file != null</text>
+<text text-anchor="middle" x="1062.7208" y="-335.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">file != null</text>
+<text text-anchor="middle" x="1062.7208" y="-318.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">file != null</text>
+<text text-anchor="middle" x="1062.7208" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">str.length &gt;= 3</text>
+<text text-anchor="middle" x="1062.7208" y="-285" font-family="Times,serif" font-size="14.00" fill="#ff0000">file != null</text>
+<text text-anchor="middle" x="1062.7208" y="-268.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">file != null</text>
+<text text-anchor="middle" x="1062.7208" y="-251.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">file != null</text>
+<text text-anchor="middle" x="1062.7208" y="-234.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">file != null</text>
+<text text-anchor="middle" x="1062.7208" y="-217.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">file != null</text>
+<text text-anchor="middle" x="1062.7208" y="-201" font-family="Times,serif" font-size="14.00" fill="#ff0000">file != null</text>
+<text text-anchor="middle" x="1062.7208" y="-184.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">ProfileExecutor.profile != null</text>
+<text text-anchor="middle" x="1062.7208" y="-167.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">reliabilityReq != null</text>
+<text text-anchor="middle" x="1062.7208" y="-150.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">performanceReq != null</text>
+<text text-anchor="middle" x="1062.7208" y="-133.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">reliabilityReq != null</text>
+<text text-anchor="middle" x="1062.7208" y="-117" font-family="Times,serif" font-size="14.00" fill="#ff0000">frIndex &lt; frInvocations.size()</text>
+<text text-anchor="middle" x="1062.7208" y="-100.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">invocations &gt;= frInvocations.get(frIndex)</text>
+<text text-anchor="middle" x="1062.7208" y="-83.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">performanceReq != null</text>
+<text text-anchor="middle" x="1062.7208" y="-66.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">rtIndex &lt; rtInvocations.size()</text>
+<text text-anchor="middle" x="1062.7208" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">invocations &gt;= rtInvocations.get(rtIndex)</text>
+<text text-anchor="middle" x="1062.7208" y="-33" font-family="Times,serif" font-size="14.00" fill="#ff0000">rates.containsKey(service)</text>
+</g>
+<!-- newValue.matches(&quot;\\d*&quot;)\n -->
+<g id="node8" class="node">
+<title>newValue.matches(&quot;\\d*&quot;)\n</title>
+<polygon fill="none" stroke="#ff0000" points="1368.9712,-248.4 1208.4704,-248.4 1208.4704,-212.4 1368.9712,-212.4 1368.9712,-248.4"/>
+<text text-anchor="middle" x="1288.7208" y="-226.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">newValue.matches(&quot;\d*&quot;)</text>
+</g>
+<!-- event.getCode().equals(KeyCode.ENTER)\n -->
+<g id="node9" class="node">
+<title>event.getCode().equals(KeyCode.ENTER)\n</title>
+<polygon fill="none" stroke="#ff0000" points="1642.5772,-248.4 1386.8644,-248.4 1386.8644,-212.4 1642.5772,-212.4 1642.5772,-248.4"/>
+<text text-anchor="middle" x="1514.7208" y="-226.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">event.getCode().equals(KeyCode.ENTER)</text>
+</g>
+<!-- file != null\n -->
+<g id="node10" class="node">
+<title>file != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="1736.7136,-248.4 1660.728,-248.4 1660.728,-212.4 1736.7136,-212.4 1736.7136,-248.4"/>
+<text text-anchor="middle" x="1698.7208" y="-226.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">file != null</text>
+</g>
+<!-- !service.equals(&quot;TeleAssistanceService&quot;)\n -->
+<g id="node11" class="node">
+<title>!service.equals(&quot;TeleAssistanceService&quot;)\n</title>
+<polygon fill="none" stroke="#ff0000" points="2002.2432,-248.4 1755.1984,-248.4 1755.1984,-212.4 2002.2432,-212.4 2002.2432,-248.4"/>
+<text text-anchor="middle" x="1878.7208" y="-226.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">!service.equals(&quot;TeleAssistanceService&quot;)</text>
+</g>
+<!-- file != null\nstr.length &gt;= 3\n -->
+<g id="node12" class="node">
+<title>file != null\nstr.length &gt;= 3\n</title>
+<polygon fill="none" stroke="#ff0000" points="2119.002,-251.0019 2020.4396,-251.0019 2020.4396,-209.7981 2119.002,-209.7981 2119.002,-251.0019"/>
+<text text-anchor="middle" x="2069.7208" y="-234.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">file != null</text>
+<text text-anchor="middle" x="2069.7208" y="-217.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">str.length &gt;= 3</text>
+</g>
+<!-- file.isFile()\nfile.getName().lastIndexOf(&#39;.&#39;) &gt; 0\n -->
+<g id="node13" class="node">
+<title>file.isFile()\nfile.getName().lastIndexOf(&#39;.&#39;) &gt; 0\n</title>
+<polygon fill="none" stroke="#ff0000" points="2348.3501,-251.0019 2137.0915,-251.0019 2137.0915,-209.7981 2348.3501,-209.7981 2348.3501,-251.0019"/>
+<text text-anchor="middle" x="2242.7208" y="-234.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">file.isFile()</text>
+<text text-anchor="middle" x="2242.7208" y="-217.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">file.getName().lastIndexOf(&#39;.&#39;) &gt; 0</text>
+</g>
+<!-- this.workflowPath == null\nrunButton.getId().equals(&quot;runButton&quot;)\npreAdaptation != null\nworkflowPath != null\npreAdaptation != null\npreAdaptation != null\n -->
+<g id="node14" class="node">
+<title>this.workflowPath == null\nrunButton.getId().equals(&quot;runButton&quot;)\npreAdaptation != null\nworkflowPath != null\npreAdaptation != null\npreAdaptation != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="2597.3714,-284.7002 2366.0702,-284.7002 2366.0702,-176.0998 2597.3714,-176.0998 2597.3714,-284.7002"/>
+<text text-anchor="middle" x="2481.7208" y="-268.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">this.workflowPath == null</text>
+<text text-anchor="middle" x="2481.7208" y="-251.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">runButton.getId().equals(&quot;runButton&quot;)</text>
+<text text-anchor="middle" x="2481.7208" y="-234.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">preAdaptation != null</text>
+<text text-anchor="middle" x="2481.7208" y="-217.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">workflowPath != null</text>
+<text text-anchor="middle" x="2481.7208" y="-201" font-family="Times,serif" font-size="14.00" fill="#ff0000">preAdaptation != null</text>
+<text text-anchor="middle" x="2481.7208" y="-184.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">preAdaptation != null</text>
+</g>
+<!-- runButton.getId().equals(&quot;runButton&quot;)\npreAdaptation != null\nworkflowPath != null\npreAdaptation != null\npreAdaptation != null\n -->
+<g id="node15" class="node">
+<title>runButton.getId().equals(&quot;runButton&quot;)\npreAdaptation != null\nworkflowPath != null\npreAdaptation != null\npreAdaptation != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="2846.3714,-276.4 2615.0702,-276.4 2615.0702,-184.4 2846.3714,-184.4 2846.3714,-276.4"/>
+<text text-anchor="middle" x="2730.7208" y="-259.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">runButton.getId().equals(&quot;runButton&quot;)</text>
+<text text-anchor="middle" x="2730.7208" y="-243" font-family="Times,serif" font-size="14.00" fill="#ff0000">preAdaptation != null</text>
+<text text-anchor="middle" x="2730.7208" y="-226.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">workflowPath != null</text>
+<text text-anchor="middle" x="2730.7208" y="-209.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">preAdaptation != null</text>
+<text text-anchor="middle" x="2730.7208" y="-192.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">preAdaptation != null</text>
+</g>
+<!-- workflowPath != null\npreAdaptation != null\npreAdaptation != null\n -->
+<g id="node16" class="node">
+<title>workflowPath != null\npreAdaptation != null\npreAdaptation != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="3001.6406,-259.8014 2863.801,-259.8014 2863.801,-200.9986 3001.6406,-200.9986 3001.6406,-259.8014"/>
+<text text-anchor="middle" x="2932.7208" y="-243" font-family="Times,serif" font-size="14.00" fill="#ff0000">workflowPath != null</text>
+<text text-anchor="middle" x="2932.7208" y="-226.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">preAdaptation != null</text>
+<text text-anchor="middle" x="2932.7208" y="-209.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">preAdaptation != null</text>
+</g>
+<!-- circle.getFill().equals(Color.BLACK)\nstate\n -->
+<g id="node17" class="node">
+<title>circle.getFill().equals(Color.BLACK)\nstate\n</title>
+<polygon fill="none" stroke="#ff0000" points="3247.5996,-251.0019 3019.842,-251.0019 3019.842,-209.7981 3247.5996,-209.7981 3247.5996,-251.0019"/>
+<text text-anchor="middle" x="3133.7208" y="-234.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">circle.getFill().equals(Color.BLACK)</text>
+<text text-anchor="middle" x="3133.7208" y="-217.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">state</text>
+</g>
+<!-- ProfileExecutor.profile != null\ncurrentProbability &gt; probability\nisStopped\n -->
+<g id="node18" class="node">
+<title>ProfileExecutor.profile != null\ncurrentProbability &gt; probability\nisStopped\n</title>
+<polygon fill="none" stroke="#ff0000" points="3459.9143,-259.8014 3265.5273,-259.8014 3265.5273,-200.9986 3459.9143,-200.9986 3459.9143,-259.8014"/>
+<text text-anchor="middle" x="3362.7208" y="-243" font-family="Times,serif" font-size="14.00" fill="#ff0000">ProfileExecutor.profile != null</text>
+<text text-anchor="middle" x="3362.7208" y="-226.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">currentProbability &gt; probability</text>
+<text text-anchor="middle" x="3362.7208" y="-209.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">isStopped</text>
+</g>
+<!-- Class: [MainGui] -->
+<g id="node19" class="node">
+<title>Class: [MainGui]</title>
+<ellipse fill="none" stroke="#000000" cx="1510.7208" cy="-629.2" rx="78.2046" ry="18"/>
+<text text-anchor="middle" x="1510.7208" y="-625" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [MainGui]</text>
+</g>
+<!-- Class: [Log] -->
+<g id="node20" class="node">
+<title>Class: [Log]</title>
+<ellipse fill="none" stroke="#000000" cx="841.7208" cy="-506.8" rx="59.0843" ry="18"/>
+<text text-anchor="middle" x="841.7208" y="-502.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [Log]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [Log] -->
+<g id="edge1" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [Log]</title>
+<path fill="none" stroke="#000000" d="M1432.3436,-627.8071C1260.2261,-624.3669 862.8598,-614.1835 842.7404,-593.2 828.2867,-578.1255 829.2519,-553.8944 833.1404,-534.9241"/>
+<polygon fill="#000000" stroke="#000000" points="836.5874,-535.559 835.522,-525.0179 829.7814,-533.9227 836.5874,-535.559"/>
+<text text-anchor="middle" x="864.711" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[handle</text>
+<text text-anchor="middle" x="864.711" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="864.711" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">stop]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [Log] -->
+<g id="edge13" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [Log]</title>
+<path fill="none" stroke="#000000" d="M1433.1441,-626.6717C1275.2167,-621.2362 929.4133,-607.7462 908.0728,-593.2 887.6734,-579.2953 899.7366,-562.396 884.7208,-542.8 881.3157,-538.3563 877.271,-534.0926 873.0457,-530.1523"/>
+<polygon fill="#000000" stroke="#000000" points="875.1824,-527.3718 865.3443,-523.4398 870.5831,-532.6488 875.1824,-527.3718"/>
+<text text-anchor="middle" x="935.5448" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="935.5448" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="935.5448" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">initialize]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [Log] -->
+<g id="edge14" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [Log]</title>
+<path fill="none" stroke="#000000" d="M1432.2053,-628.2641C1294.299,-625.9743 1019.7211,-618.2876 983.9592,-593.2 963.9157,-579.1391 980.0735,-559.0058 961.7208,-542.8 952.0707,-534.2787 925.6864,-525.9405 900.1075,-519.438"/>
+<polygon fill="#000000" stroke="#000000" points="900.9273,-516.0354 890.3801,-517.0392 899.2513,-522.8318 900.9273,-516.0354"/>
+<text text-anchor="middle" x="999.1016" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="999.1016" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="999.1016" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">stop]</text>
+</g>
+<!-- Class: [Utility] -->
+<g id="node21" class="node">
+<title>Class: [Utility]</title>
+<ellipse fill="none" stroke="#000000" cx="1011.7208" cy="-506.8" rx="68.9084" ry="18"/>
+<text text-anchor="middle" x="1011.7208" y="-502.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [Utility]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [Utility] -->
+<g id="edge2" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [Utility]</title>
+<path fill="none" stroke="#000000" d="M1432.5617,-627.6675C1307.9511,-624.5595 1075.1502,-615.7798 1044.8722,-593.2 1026.6405,-579.6038 1018.4351,-554.6256 1014.7423,-535.0103"/>
+<polygon fill="#000000" stroke="#000000" points="1018.1855,-534.3765 1013.1565,-525.0513 1011.2726,-535.4773 1018.1855,-534.3765"/>
+<text text-anchor="middle" x="1075.6451" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="1075.6451" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1075.6451" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">createFile]</text>
+</g>
+<!-- Class: [ApplicationController] -->
+<g id="node22" class="node">
+<title>Class: [ApplicationController]</title>
+<ellipse fill="none" stroke="#000000" cx="1548.7208" cy="-506.8" rx="128.5445" ry="18"/>
+<text text-anchor="middle" x="1548.7208" y="-502.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [ApplicationController]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [ApplicationController] -->
+<g id="edge3" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [ApplicationController]</title>
+<path fill="none" stroke="#000000" d="M1432.3931,-627.5296C1324.3425,-624.4019 1140.4728,-615.7929 1119.8652,-593.2 1104.7698,-576.6504 1104.7029,-559.2884 1119.8652,-542.8 1139.4759,-521.4741 1292.7503,-512.7748 1410.5222,-509.2303"/>
+<polygon fill="#000000" stroke="#000000" points="1410.8312,-512.7228 1420.7251,-508.9333 1410.6275,-505.7258 1410.8312,-512.7228"/>
+<text text-anchor="middle" x="1182.1486" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="1182.1486" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1182.1486" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">setCompositeService]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [ApplicationController] -->
+<g id="edge4" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [ApplicationController]</title>
+<path fill="none" stroke="#000000" d="M1436.6042,-623.1855C1368.5818,-616.8949 1276.7022,-606.142 1265.5216,-593.2 1250.8779,-576.2494 1250.7147,-559.6082 1265.5216,-542.8 1276.3336,-530.5266 1351.2979,-521.3385 1421.3786,-515.3173"/>
+<polygon fill="#000000" stroke="#000000" points="1422.003,-518.7772 1431.6747,-514.4519 1421.4167,-511.8018 1422.003,-518.7772"/>
+<text text-anchor="middle" x="1317.8204" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="1317.8204" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1317.8204" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">setConfigurations]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [ApplicationController] -->
+<g id="edge5" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [ApplicationController]</title>
+<path fill="none" stroke="#000000" d="M1450.1961,-617.7382C1424.9534,-611.6142 1399.7611,-603.2553 1392.3084,-593.2 1378.9703,-575.204 1378.3582,-560.3257 1392.3084,-542.8 1399.7439,-533.4588 1419.7275,-526.3375 1443.0255,-520.9966"/>
+<polygon fill="#000000" stroke="#000000" points="1443.7799,-524.4145 1452.8199,-518.8893 1442.3074,-517.5711 1443.7799,-524.4145"/>
+<text text-anchor="middle" x="1440.927" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="1440.927" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1440.927" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">setPrimaryStage]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [ApplicationController] -->
+<g id="edge6" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [ApplicationController]</title>
+<path fill="none" stroke="#000000" d="M1507.0872,-611.1684C1504.3141,-593.0938 1502.3908,-564.8584 1511.8526,-542.8 1513.4341,-539.1131 1515.5928,-535.6133 1518.078,-532.348"/>
+<polygon fill="#000000" stroke="#000000" points="1520.7963,-534.5572 1524.7852,-524.7419 1515.5461,-529.9274 1520.7963,-534.5572"/>
+<text text-anchor="middle" x="1539.1549" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="1539.1549" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1539.1549" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">setProbe]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [ApplicationController] -->
+<g id="edge7" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [ApplicationController]</title>
+<path fill="none" stroke="#000000" d="M1545.8864,-613.0121C1553.427,-607.8053 1560.4144,-601.2466 1564.7208,-593.2 1574.4384,-575.0425 1569.4575,-552.0084 1562.578,-534.2904"/>
+<polygon fill="#000000" stroke="#000000" points="1565.7837,-532.8849 1558.6421,-525.0588 1559.3445,-535.6303 1565.7837,-532.8849"/>
+<text text-anchor="middle" x="1625.5336" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="1625.5336" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1625.5336" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">setServiceRegistry]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [ApplicationController] -->
+<g id="edge8" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [ApplicationController]</title>
+<path fill="none" stroke="#000000" d="M1584.5955,-623.1558C1626.0057,-618.0656 1671.8651,-608.9877 1684.7208,-593.2 1698.8647,-575.8302 1698.384,-560.5504 1684.7208,-542.8 1678.5434,-534.7747 1662.0965,-528.171 1642.6817,-522.9101"/>
+<polygon fill="#000000" stroke="#000000" points="1643.4985,-519.5065 1632.9445,-520.435 1641.774,-526.2908 1643.4985,-519.5065"/>
+<text text-anchor="middle" x="1729.1514" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="1729.1514" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1729.1514" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">setTasStart]</text>
+</g>
+<!-- Class: [TASStart] -->
+<g id="node23" class="node">
+<title>Class: [TASStart]</title>
+<ellipse fill="none" stroke="#000000" cx="2108.7208" cy="-506.8" rx="79.924" ry="18"/>
+<text text-anchor="middle" x="2108.7208" y="-502.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [TASStart]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [TASStart] -->
+<g id="edge9" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [TASStart]</title>
+<path fill="none" stroke="#000000" d="M1586.413,-624.4041C1650.4314,-619.2909 1736.4387,-609.6186 1766.7208,-593.2 1792.8415,-579.0376 1784.3874,-556.7068 1810.645,-542.8 1845.8405,-524.1595 1945.2277,-514.9454 2019.6307,-510.5461"/>
+<polygon fill="#000000" stroke="#000000" points="2020.17,-514.0211 2029.9542,-509.9568 2019.771,-507.0324 2020.17,-514.0211"/>
+<text text-anchor="middle" x="1875.2587" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="1875.2587" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1875.2587" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">getAdaptationEngines]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [TASStart] -->
+<g id="edge10" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [TASStart]</title>
+<path fill="none" stroke="#000000" d="M1588.6404,-626.866C1704.5169,-622.7676 1911.6937,-612.7885 1939.7208,-593.2 1959.962,-579.0532 1944.0555,-558.5063 1963.112,-542.8 1974.3957,-533.5 2003.8016,-525.4314 2033.2581,-519.3037"/>
+<polygon fill="#000000" stroke="#000000" points="2034.1091,-522.7027 2043.2235,-517.301 2032.7299,-515.8399 2034.1091,-522.7027"/>
+<text text-anchor="middle" x="2025.5252" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="2025.5252" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2025.5252" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">getAssistanceService]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [TASStart] -->
+<g id="edge11" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [TASStart]</title>
+<path fill="none" stroke="#000000" d="M1588.5735,-626.7459C1741.4723,-621.5953 2067.8549,-608.8324 2086.7208,-593.2 2103.515,-579.2843 2108.4867,-554.5119 2109.5625,-535.0501"/>
+<polygon fill="#000000" stroke="#000000" points="2113.0654,-534.9692 2109.8097,-524.887 2106.0675,-534.7989 2113.0654,-534.9692"/>
+<text text-anchor="middle" x="2142.5469" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="2142.5469" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2142.5469" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">getMonitor]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [TASStart] -->
+<g id="edge12" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [TASStart]</title>
+<path fill="none" stroke="#000000" d="M1589.0007,-627.8197C1760.9022,-624.4054 2157.7557,-614.2718 2177.7208,-593.2 2193.1273,-576.9396 2189.3325,-561.9554 2177.7208,-542.8 2174.0502,-536.7447 2168.9909,-531.66 2163.2652,-527.4022"/>
+<polygon fill="#000000" stroke="#000000" points="2164.7846,-524.2174 2154.4837,-521.7389 2160.9907,-530.1002 2164.7846,-524.2174"/>
+<text text-anchor="middle" x="2243.3113" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="2243.3113" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2243.3113" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">getServiceRegistry]</text>
+</g>
+<!-- Class: [LoggerInfo] -->
+<g id="node24" class="node">
+<title>Class: [LoggerInfo]</title>
+<ellipse fill="none" stroke="#000000" cx="2333.7208" cy="-506.8" rx="87.4174" ry="18"/>
+<text text-anchor="middle" x="2333.7208" y="-502.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [LoggerInfo]</text>
+</g>
+<!-- Class: [MainGui]&#45;&gt;Class: [LoggerInfo] -->
+<g id="edge15" class="edge">
+<title>Class: [MainGui]&#45;&gt;Class: [LoggerInfo]</title>
+<path fill="none" stroke="#000000" d="M1589.1169,-627.9769C1783.5437,-624.6308 2274.3434,-614.1464 2302.7208,-593.2 2320.871,-579.8027 2328.4272,-554.8034 2331.5559,-535.1296"/>
+<polygon fill="#000000" stroke="#000000" points="2335.0367,-535.503 2332.8495,-525.1364 2328.0946,-534.6043 2335.0367,-535.503"/>
+<text text-anchor="middle" x="2358.8716" y="-580.6" font-family="Times,serif" font-size="14.00" fill="#000000">[start</text>
+<text text-anchor="middle" x="2358.8716" y="-563.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2358.8716" y="-547" font-family="Times,serif" font-size="14.00" fill="#000000">configure]</text>
+</g>
+<!-- Class: [Log]&#45;&gt;lock != null\n -->
+<g id="edge16" class="edge">
+<title>Class: [Log]&#45;&gt;lock != null\n</title>
+<path fill="none" stroke="#ff0000" d="M782.6706,-505.7799C624.0029,-502.7584 196.3636,-492.6667 136.5258,-470.8 53.67,-440.5218 41.5535,-315.2733 40.4057,-258.5454"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="43.9049,-258.4391 40.3045,-248.4748 36.9053,-258.5096 43.9049,-258.4391"/>
+<text text-anchor="middle" x="150.3183" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">clear</text>
+</g>
+<!-- Class: [Log]&#45;&gt;!file.exists()\nstrs.length == 3\n -->
+<g id="edge17" class="edge">
+<title>Class: [Log]&#45;&gt;!file.exists()\nstrs.length == 3\n</title>
+<path fill="none" stroke="#ff0000" d="M782.6235,-505.6352C624.3421,-502.2453 201.3068,-491.3018 179.5188,-470.8 122.124,-416.7935 133.9139,-312.8639 144.3164,-261.166"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="147.7667,-261.7675 146.4235,-251.2582 140.9198,-260.3113 147.7667,-261.7675"/>
+<text text-anchor="middle" x="217.8218" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">readFromFile</text>
+</g>
+<!-- Class: [Utility]&#45;&gt;!yourFile.exists()\n -->
+<g id="edge18" class="edge">
+<title>Class: [Utility]&#45;&gt;!yourFile.exists()\n</title>
+<path fill="none" stroke="#ff0000" d="M957.1295,-495.7352C941.8486,-493.0287 925.1883,-490.4414 909.7208,-488.8 801.5462,-477.3204 526.4832,-495.4584 420.5328,-470.8 383.6348,-462.2125 367.9345,-464.2751 342.7208,-436 297.1278,-384.8712 283.5035,-301.7845 279.4407,-258.5525"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="282.9184,-258.1385 278.6002,-248.4637 275.9426,-258.7198 282.9184,-258.1385"/>
+<text text-anchor="middle" x="448.3148" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">createFile</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;services != null &amp;&amp; services.contains(service)\n -->
+<g id="edge19" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;services != null &amp;&amp; services.contains(service)\n</title>
+<path fill="none" stroke="#ff0000" d="M1425.0234,-501.7123C1332.6458,-497.9703 1203.2905,-492.8521 1089.7208,-488.8 1058.6141,-487.6901 553.155,-491.3009 529.7334,-470.8 468.8016,-417.4665 476.612,-309.5152 484.4362,-258.4199"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="487.9116,-258.8553 486.0813,-248.4198 481.0044,-257.719 487.9116,-258.8553"/>
+<text text-anchor="middle" x="555.2145" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">initialize</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;services != null &amp;&amp; services.contains(service)\n -->
+<g id="edge20" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;services != null &amp;&amp; services.contains(service)\n</title>
+<path fill="none" stroke="#ff0000" d="M1424.5302,-501.8731C1332.1819,-498.2232 1203.08,-493.1497 1089.7208,-488.8 1063.0738,-487.7775 632.4806,-485.2372 610.0602,-470.8 534.6168,-422.2197 504.618,-311.0223 494.356,-258.6572"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="497.776,-257.9039 492.5077,-248.7118 490.8939,-259.1829 497.776,-257.9039"/>
+<text text-anchor="middle" x="620.0511" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">run</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;services != null &amp;&amp; services.contains(service)\n -->
+<g id="edge21" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;services != null &amp;&amp; services.contains(service)\n</title>
+<path fill="none" stroke="#ff0000" d="M1424.6225,-501.7995C1229.5792,-493.7846 867.3009,-478.2122 808.0602,-470.8 730.9557,-461.1527 701.9209,-478.2743 636.7208,-436 568.0917,-391.5025 521.4686,-302.8004 501.1906,-257.8591"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="504.2799,-256.1901 497.0437,-248.4514 497.8746,-259.0136 504.2799,-256.1901"/>
+<text text-anchor="middle" x="818.0511" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">run</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;selected\n(newValue == null)\n -->
+<g id="edge22" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;selected\n(newValue == null)\n</title>
+<path fill="none" stroke="#ff0000" d="M1422.1706,-503.2326C1216.6333,-496.252 828.3785,-477.673 781.7208,-436 730.5911,-390.3326 715.2698,-306.4713 710.681,-261.2482"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="714.155,-260.8017 709.7713,-251.1563 707.1833,-261.4301 714.155,-260.8017"/>
+<text text-anchor="middle" x="945.3786" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">addItems</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;(newValue == null)\n -->
+<g id="edge23" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;(newValue == null)\n</title>
+<path fill="none" stroke="#ff0000" d="M1428.7393,-500.1266C1258.6602,-489.6257 963.7646,-467.1809 925.7208,-436 871.5407,-391.5937 858.0708,-303.8121 854.7641,-258.6707"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="858.2412,-258.1897 854.1362,-248.4225 851.2543,-258.6178 858.2412,-258.1897"/>
+<text text-anchor="middle" x="1108.0427" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">changed</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;newValue.matches(&quot;\\d*&quot;)\nevent.getCode().equals(KeyCode.ENTER)\nfile != null\n!service.equals(&quot;TeleAssistanceService&quot;)\nfile != null\nfile != null\nfile != null\nstr.length &gt;= 3\nfile != null\nfile != null\nfile != null\nfile != null\nfile != null\nfile != null\nProfileExecutor.profile != null\nreliabilityReq != null\nperformanceReq != null\nreliabilityReq != null\nfrIndex &lt; frInvocations.size()\ninvocations &gt;= frInvocations.get(frIndex)\nperformanceReq != null\nrtIndex &lt; rtInvocations.size()\ninvocations &gt;= rtInvocations.get(rtIndex)\nrates.containsKey(service)\n -->
+<g id="edge24" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;newValue.matches(&quot;\\d*&quot;)\nevent.getCode().equals(KeyCode.ENTER)\nfile != null\n!service.equals(&quot;TeleAssistanceService&quot;)\nfile != null\nfile != null\nfile != null\nstr.length &gt;= 3\nfile != null\nfile != null\nfile != null\nfile != null\nfile != null\nfile != null\nProfileExecutor.profile != null\nreliabilityReq != null\nperformanceReq != null\nreliabilityReq != null\nfrIndex &lt; frInvocations.size()\ninvocations &gt;= frInvocations.get(frIndex)\nperformanceReq != null\nrtIndex &lt; rtInvocations.size()\ninvocations &gt;= rtInvocations.get(rtIndex)\nrates.containsKey(service)\n</title>
+<path fill="none" stroke="#ff0000" d="M1430.2143,-499.7361C1380.5957,-494.6415 1322.778,-485.8766 1272.0532,-470.8 1237.8569,-460.636 1226.6418,-459.4085 1199.7208,-436 1199.1442,-435.4987 1198.5691,-434.9944 1197.9953,-434.4872"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1200.3562,-431.9033 1190.6159,-427.7347 1195.6307,-437.0676 1200.3562,-431.9033"/>
+<text text-anchor="middle" x="1299.5546" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">setButton</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;newValue.matches(&quot;\\d*&quot;)\n -->
+<g id="edge25" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;newValue.matches(&quot;\\d*&quot;)\n</title>
+<path fill="none" stroke="#ff0000" d="M1435.3586,-498.1971C1395.1173,-492.872 1356.2647,-484.3506 1342.077,-470.8 1283.3194,-414.6807 1282.3974,-309.3887 1285.8214,-258.8665"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1289.3284,-258.9148 1286.6242,-248.6709 1282.35,-258.3653 1289.3284,-258.9148"/>
+<text text-anchor="middle" x="1366.0427" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">changed</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;event.getCode().equals(KeyCode.ENTER)\n -->
+<g id="edge26" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;event.getCode().equals(KeyCode.ENTER)\n</title>
+<path fill="none" stroke="#ff0000" d="M1456.7291,-494.1472C1430.7788,-488.5897 1407.403,-480.9605 1399.401,-470.8 1344.6215,-401.244 1436.0712,-301.4287 1485.8219,-255.3972"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1488.3787,-257.8029 1493.4198,-248.4841 1483.6678,-252.6253 1488.3787,-257.8029"/>
+<text text-anchor="middle" x="1418.3807" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">handle</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;file != null\n -->
+<g id="edge27" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;file != null\n</title>
+<path fill="none" stroke="#ff0000" d="M1486.3605,-491.0124C1462.9471,-482.1609 1445.0881,-469.7151 1459.401,-454 1488.3044,-422.2651 1619.4411,-464.2938 1651.7208,-436 1702.7036,-391.3125 1704.5245,-303.7146 1701.6279,-258.6543"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1705.1176,-258.3843 1700.8632,-248.6812 1698.1381,-258.9196 1705.1176,-258.3843"/>
+<text text-anchor="middle" x="1478.3807" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">handle</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;file != null\n -->
+<g id="edge29" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;file != null\n</title>
+<path fill="none" stroke="#ff0000" d="M1528.3405,-488.9751C1518.3775,-478.1375 1510.2978,-464.4254 1519.401,-454 1558.4373,-409.2939 1607.9176,-476.047 1651.7208,-436 1701.6511,-390.3513 1703.9907,-303.4966 1701.4267,-258.6949"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1704.9042,-258.2492 1700.7164,-248.5172 1697.9212,-258.7366 1704.9042,-258.2492"/>
+<text text-anchor="middle" x="1538.3807" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">handle</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;file != null\n -->
+<g id="edge30" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;file != null\n</title>
+<path fill="none" stroke="#ff0000" d="M1555.025,-488.5795C1559.9339,-477.0193 1567.8721,-462.6589 1579.401,-454 1605.8858,-434.1084 1628.5254,-459.6451 1651.7208,-436 1698.9783,-387.8263 1702.5515,-302.4524 1700.8463,-258.4107"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1704.3409,-258.2133 1700.3384,-248.4036 1697.3499,-258.5682 1704.3409,-258.2133"/>
+<text text-anchor="middle" x="1598.3807" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">handle</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;file != null\n -->
+<g id="edge32" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;file != null\n</title>
+<path fill="none" stroke="#ff0000" d="M1590.1152,-489.6157C1612.4967,-477.9876 1638.2467,-460.2876 1651.7208,-436 1683.6799,-378.3925 1693.932,-300.2031 1697.2029,-258.8181"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1700.708,-258.8683 1697.923,-248.646 1693.7254,-258.3739 1700.708,-258.8683"/>
+<text text-anchor="middle" x="1657.3807" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">handle</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;file != null\n -->
+<g id="edge33" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;file != null\n</title>
+<path fill="none" stroke="#ff0000" d="M1626.8857,-492.4369C1649.2413,-486.7343 1669.5233,-479.451 1676.7208,-470.8 1727.415,-409.8686 1715.2142,-307.7619 1705.38,-258.5719"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1708.7721,-257.6954 1703.2792,-248.6357 1701.9235,-259.1435 1708.7721,-257.6954"/>
+<text text-anchor="middle" x="1707.3807" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">handle</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;file != null\n -->
+<g id="edge34" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;file != null\n</title>
+<path fill="none" stroke="#ff0000" d="M1656.6318,-496.8638C1689.4176,-491.4671 1719.5072,-483.2451 1729.7208,-470.8 1755.9213,-438.8752 1723.7201,-314.5803 1707.2714,-258.3292"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1710.6011,-257.2466 1704.401,-248.6554 1703.8903,-259.2379 1710.6011,-257.2466"/>
+<text text-anchor="middle" x="1755.3807" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">handle</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;file != null\n -->
+<g id="edge35" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;file != null\n</title>
+<path fill="none" stroke="#ff0000" d="M1654.3599,-496.4464C1710.3003,-489.8691 1769.2205,-480.741 1777.7208,-470.8 1782.5733,-465.1251 1781.4903,-460.4453 1777.7208,-454 1769.4828,-439.9143 1755.4863,-449.0731 1745.7208,-436 1705.909,-382.7037 1698.9335,-301.4998 1698.2385,-258.845"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1701.7373,-258.6066 1698.1823,-248.626 1694.7375,-258.6451 1701.7373,-258.6066"/>
+<text text-anchor="middle" x="1800.3807" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">handle</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;!service.equals(&quot;TeleAssistanceService&quot;)\n -->
+<g id="edge28" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;!service.equals(&quot;TeleAssistanceService&quot;)\n</title>
+<path fill="none" stroke="#ff0000" d="M1661.5014,-498.0253C1731.5077,-491.5432 1810.4337,-481.9358 1822.7208,-470.8 1883.217,-415.9723 1884.6845,-309.6034 1881.4774,-258.7765"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1884.9475,-258.2413 1880.7175,-248.5276 1877.9666,-258.759 1884.9475,-258.2413"/>
+<text text-anchor="middle" x="1855.3807" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">handle</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;file != null\nstr.length &gt;= 3\n -->
+<g id="edge31" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;file != null\nstr.length &gt;= 3\n</title>
+<path fill="none" stroke="#ff0000" d="M1662.7468,-498.4222C1726.341,-492.7253 1806.7948,-483.8192 1877.7208,-470.8 1938.2408,-459.691 1967.7601,-479.0528 2011.7208,-436 2059.5552,-389.1535 2068.768,-306.1359 2070.0425,-261.258"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2073.5423,-261.2959 2070.2118,-251.2382 2066.5433,-261.1776 2073.5423,-261.2959"/>
+<text text-anchor="middle" x="2005.3807" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">handle</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;file.isFile()\nfile.getName().lastIndexOf(&#39;.&#39;) &gt; 0\n -->
+<g id="edge36" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;file.isFile()\nfile.getName().lastIndexOf(&#39;.&#39;) &gt; 0\n</title>
+<path fill="none" stroke="#ff0000" d="M1671.3319,-501.2088C1790.2863,-495.1293 1962.1466,-484.4311 2027.7208,-470.8 2073.7946,-461.2225 2091.6632,-466.2387 2127.7208,-436 2184.4131,-388.4566 2218.409,-305.4346 2233.475,-260.8201"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2236.8629,-261.7212 2236.6529,-251.1284 2230.2113,-259.5401 2236.8629,-261.7212"/>
+<text text-anchor="middle" x="2130.6591" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">fillProfiles</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;this.workflowPath == null\nrunButton.getId().equals(&quot;runButton&quot;)\npreAdaptation != null\nworkflowPath != null\npreAdaptation != null\npreAdaptation != null\n -->
+<g id="edge37" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;this.workflowPath == null\nrunButton.getId().equals(&quot;runButton&quot;)\npreAdaptation != null\nworkflowPath != null\npreAdaptation != null\npreAdaptation != null\n</title>
+<path fill="none" stroke="#ff0000" d="M1674.2605,-502.572C1887.5038,-494.3996 2302.8254,-473.8178 2357.7208,-436 2407.1766,-401.9295 2440.2408,-341.0879 2459.6992,-294.3994"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2463.0107,-295.5469 2463.528,-284.9647 2456.5244,-292.9146 2463.0107,-295.5469"/>
+<text text-anchor="middle" x="2319.8779" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">addProfile</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;runButton.getId().equals(&quot;runButton&quot;)\npreAdaptation != null\nworkflowPath != null\npreAdaptation != null\npreAdaptation != null\n -->
+<g id="edge38" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;runButton.getId().equals(&quot;runButton&quot;)\npreAdaptation != null\nworkflowPath != null\npreAdaptation != null\npreAdaptation != null\n</title>
+<path fill="none" stroke="#ff0000" d="M1672.8409,-501.8686C1881.6909,-493.4771 2287.1019,-476.7517 2352.7208,-470.8 2466.1985,-460.5075 2511.5443,-498.6462 2606.7208,-436 2660.1424,-400.8373 2694.0702,-333.9711 2712.6817,-286.0339"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2716.0564,-287.0041 2716.3116,-276.4123 2709.507,-284.5332 2716.0564,-287.0041"/>
+<text text-anchor="middle" x="2592.3807" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">handle</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;workflowPath != null\npreAdaptation != null\npreAdaptation != null\n -->
+<g id="edge39" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;workflowPath != null\npreAdaptation != null\npreAdaptation != null\n</title>
+<path fill="none" stroke="#ff0000" d="M1672.6705,-501.7937C1767.6474,-498.023 1901.9538,-492.8316 2019.7208,-488.8 2112.7403,-485.6156 2783.228,-494.3743 2855.7208,-436 2906.5045,-395.1068 2923.8007,-317.0622 2929.6876,-269.7754"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2933.1919,-269.9335 2930.8371,-259.6037 2926.2362,-269.1474 2933.1919,-269.9335"/>
+<text text-anchor="middle" x="2815.826" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">call</text>
+</g>
+<!-- Class: [ApplicationController]&#45;&gt;circle.getFill().equals(Color.BLACK)\nstate\n -->
+<g id="edge40" class="edge">
+<title>Class: [ApplicationController]&#45;&gt;circle.getFill().equals(Color.BLACK)\nstate\n</title>
+<path fill="none" stroke="#ff0000" d="M1672.1675,-501.5428C1767.1677,-497.6277 1901.7341,-492.3653 2019.7208,-488.8 2199.6831,-483.362 2650.6885,-489.8638 2829.7208,-470.8 2911.1781,-462.1262 2943.6149,-482.9822 3010.7208,-436 3072.8092,-392.5307 3108.8272,-306.7768 3124.4313,-260.9576"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="3127.8139,-261.8756 3127.6239,-251.2825 3121.1665,-259.6821 3127.8139,-261.8756"/>
+<text text-anchor="middle" x="3007.8169" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">addService</text>
+</g>
+<!-- Class: [TASStart]&#45;&gt;ProfileExecutor.profile != null\ncurrentProbability &gt; probability\nisStopped\n -->
+<g id="edge41" class="edge">
+<title>Class: [TASStart]&#45;&gt;ProfileExecutor.profile != null\ncurrentProbability &gt; probability\nisStopped\n</title>
+<path fill="none" stroke="#ff0000" d="M2173.5184,-496.2108C2193.9988,-493.2803 2216.7559,-490.4528 2237.7208,-488.8 2344.2977,-480.3978 3097.0782,-500.6953 3199.7208,-470.8 3289.3783,-444.6867 3334.6184,-330.5509 3352.7858,-269.4089"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="3356.1736,-270.2923 3355.5713,-259.7146 3349.4458,-268.3592 3356.1736,-270.2923"/>
+<text text-anchor="middle" x="3283.8618" y="-458.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">executeWorkflow</text>
+</g>
+</g>
+</svg>

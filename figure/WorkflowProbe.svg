@@ -1,0 +1,74 @@
+<svg width="1060pt" height="191pt"
+ viewBox="0.00 0.00 1059.56 191.20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 187.2)">
+<title>project</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-187.2 1055.5644,-187.2 1055.5644,4 -4,4"/>
+<text text-anchor="middle" x="525.7822" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">Method Calls for :service.adaptation.probes.WorkflowProbe</text>
+<!-- Class: [WorkflowProbe] -->
+<g id="node1" class="node">
+<title>Class: [WorkflowProbe]</title>
+<ellipse fill="none" stroke="#000000" cx="480.2754" cy="-165.2" rx="105.8959" ry="18"/>
+<text text-anchor="middle" x="480.2754" y="-161" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [WorkflowProbe]</text>
+</g>
+<!-- Class: [WorkflowProbeInterface] -->
+<g id="node2" class="node">
+<title>Class: [WorkflowProbeInterface]</title>
+<ellipse fill="none" stroke="#000000" cx="480.2754" cy="-42.8" rx="140.0023" ry="18"/>
+<text text-anchor="middle" x="480.2754" y="-38.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [WorkflowProbeInterface]</text>
+</g>
+<!-- Class: [WorkflowProbe]&#45;&gt;Class: [WorkflowProbeInterface] -->
+<g id="edge1" class="edge">
+<title>Class: [WorkflowProbe]&#45;&gt;Class: [WorkflowProbeInterface]</title>
+<path fill="none" stroke="#000000" d="M377.6746,-160.8302C243.4357,-154.6057 23.6978,-142.4614 11.4156,-129.2 -3.8052,-112.7657 -3.8052,-95.2343 11.4156,-78.8 22.5243,-66.8056 203.3394,-55.7252 337.1106,-49.1119"/>
+<polygon fill="#000000" stroke="#000000" points="337.6495,-52.5898 347.4661,-48.6042 337.3066,-45.5982 337.6495,-52.5898"/>
+<text text-anchor="middle" x="80.7053" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[notifyServiceNotFound</text>
+<text text-anchor="middle" x="80.7053" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="80.7053" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">serviceNotFound]</text>
+</g>
+<!-- Class: [WorkflowProbe]&#45;&gt;Class: [WorkflowProbeInterface] -->
+<g id="edge2" class="edge">
+<title>Class: [WorkflowProbe]&#45;&gt;Class: [WorkflowProbeInterface]</title>
+<path fill="none" stroke="#000000" d="M378.8091,-160.004C294.1537,-154.601 185.1657,-144.7274 171.3426,-129.2 156.4483,-112.4692 156.4483,-95.5308 171.3426,-78.8 183.1758,-65.5078 264.7472,-56.3589 341.0933,-50.6108"/>
+<polygon fill="#000000" stroke="#000000" points="341.6221,-54.0815 351.3383,-49.8571 341.1084,-47.1003 341.6221,-54.0815"/>
+<text text-anchor="middle" x="263.2418" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[notifyServiceOperationInvoked</text>
+<text text-anchor="middle" x="263.2418" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="263.2418" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">serviceOperationInvoked]</text>
+</g>
+<!-- Class: [WorkflowProbe]&#45;&gt;Class: [WorkflowProbeInterface] -->
+<g id="edge3" class="edge">
+<title>Class: [WorkflowProbe]&#45;&gt;Class: [WorkflowProbeInterface]</title>
+<path fill="none" stroke="#000000" d="M418.8501,-150.52C399.472,-144.5639 381.6034,-137.1991 375.9008,-129.2 362.8978,-110.9604 362.8978,-97.0396 375.9008,-78.8 380.2177,-72.7446 391.5066,-67.0526 405.1444,-62.0602"/>
+<polygon fill="#000000" stroke="#000000" points="406.5767,-65.2694 414.9045,-58.7197 404.3099,-58.6465 406.5767,-65.2694"/>
+<text text-anchor="middle" x="469.9627" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[notifyServiceOperationReturned</text>
+<text text-anchor="middle" x="469.9627" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="469.9627" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">serviceOperationReturned]</text>
+</g>
+<!-- Class: [WorkflowProbe]&#45;&gt;Class: [WorkflowProbeInterface] -->
+<g id="edge4" class="edge">
+<title>Class: [WorkflowProbe]&#45;&gt;Class: [WorkflowProbeInterface]</title>
+<path fill="none" stroke="#000000" d="M538.9181,-150.14C548.5585,-145.0524 557.3291,-138.2607 563.2754,-129.2 575.5657,-110.4728 575.5657,-97.5272 563.2754,-78.8 559.7125,-73.371 555.1355,-68.7566 549.9651,-64.8352"/>
+<polygon fill="#000000" stroke="#000000" points="551.6936,-61.7833 541.4119,-59.2262 547.8549,-67.6369 551.6936,-61.7833"/>
+<text text-anchor="middle" x="664.0237" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[notifyServiceOperationTimeout</text>
+<text text-anchor="middle" x="664.0237" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="664.0237" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">serviceOperationTimeout]</text>
+</g>
+<!-- Class: [WorkflowProbe]&#45;&gt;Class: [WorkflowProbeInterface] -->
+<g id="edge5" class="edge">
+<title>Class: [WorkflowProbe]&#45;&gt;Class: [WorkflowProbeInterface]</title>
+<path fill="none" stroke="#000000" d="M579.0788,-158.7802C654.4086,-152.8497 747.2425,-142.8853 759.2754,-129.2 774.0664,-112.3778 774.0664,-95.6222 759.2754,-78.8 749.0762,-67.2002 680.826,-58.2736 614.3888,-52.211"/>
+<polygon fill="#000000" stroke="#000000" points="614.4512,-48.7027 604.1796,-51.3 613.829,-55.675 614.4512,-48.7027"/>
+<text text-anchor="middle" x="835.9767" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[notifyWorkflowEnded</text>
+<text text-anchor="middle" x="835.9767" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="835.9767" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">workflowEnded]</text>
+</g>
+<!-- Class: [WorkflowProbe]&#45;&gt;Class: [WorkflowProbeInterface] -->
+<g id="edge6" class="edge">
+<title>Class: [WorkflowProbe]&#45;&gt;Class: [WorkflowProbeInterface]</title>
+<path fill="none" stroke="#000000" d="M585.7801,-163.5609C704.6128,-160.596 884.0447,-152.3052 905.2754,-129.2 920.4314,-112.7059 920.4314,-95.2941 905.2754,-78.8 886.5056,-58.3731 744.0851,-49.5251 629.2057,-45.6996"/>
+<polygon fill="#000000" stroke="#000000" points="628.9912,-42.1909 618.8836,-45.3667 628.7656,-49.1873 628.9912,-42.1909"/>
+<text text-anchor="middle" x="983.9199" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[notifyWorkflowStarted</text>
+<text text-anchor="middle" x="983.9199" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="983.9199" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">workflowStarted]</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,252 @@
+<svg width="2129pt" height="342pt"
+ viewBox="0.00 0.00 2129.46 341.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 337.6)">
+<title>project</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-337.6 2125.4622,-337.6 2125.4622,4 -4,4"/>
+<text text-anchor="middle" x="1060.7311" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">Method Calls for :application.view.controller.LogController</text>
+<!-- lock != null\n -->
+<g id="node1" class="node">
+<title>lock != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="1790.6322,-63.6 1708.7466,-63.6 1708.7466,-27.6 1790.6322,-27.6 1790.6322,-63.6"/>
+<text text-anchor="middle" x="1749.6894" y="-41.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">lock != null</text>
+</g>
+<!-- !file.exists()\nstrs.length == 3\n -->
+<g id="node2" class="node">
+<title>!file.exists()\nstrs.length == 3\n</title>
+<polygon fill="none" stroke="#ff0000" points="1912.4152,-66.2019 1808.9636,-66.2019 1808.9636,-24.9981 1912.4152,-24.9981 1912.4152,-66.2019"/>
+<text text-anchor="middle" x="1860.6894" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">!file.exists()</text>
+<text text-anchor="middle" x="1860.6894" y="-33" font-family="Times,serif" font-size="14.00" fill="#ff0000">strs.length == 3</text>
+</g>
+<!-- file != null\nfromDatePicker.getValue() != null\ntoDatePicker.getValue() != null\n!filterTextField.getText().isEmpty()\nDesktop.isDesktopSupported()\n -->
+<g id="node3" class="node">
+<title>file != null\nfromDatePicker.getValue() != null\ntoDatePicker.getValue() != null\n!filterTextField.getText().isEmpty()\nDesktop.isDesktopSupported()\n</title>
+<polygon fill="none" stroke="#ff0000" points="217.5685,-211.2 -.1897,-211.2 -.1897,-119.2 217.5685,-119.2 217.5685,-211.2"/>
+<text text-anchor="middle" x="108.6894" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">file != null</text>
+<text text-anchor="middle" x="108.6894" y="-177.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">fromDatePicker.getValue() != null</text>
+<text text-anchor="middle" x="108.6894" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">toDatePicker.getValue() != null</text>
+<text text-anchor="middle" x="108.6894" y="-144.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">!filterTextField.getText().isEmpty()</text>
+<text text-anchor="middle" x="108.6894" y="-127.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">Desktop.isDesktopSupported()</text>
+</g>
+<!-- date != null\nstring != null &amp;&amp; !string.isEmpty()\nitem.isBefore(fromDatePicker.getValue())\n -->
+<g id="node4" class="node">
+<title>date != null\nstring != null &amp;&amp; !string.isEmpty()\nitem.isBefore(fromDatePicker.getValue())\n</title>
+<polygon fill="none" stroke="#ff0000" points="489.5732,-194.6014 235.8056,-194.6014 235.8056,-135.7986 489.5732,-135.7986 489.5732,-194.6014"/>
+<text text-anchor="middle" x="362.6894" y="-177.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">date != null</text>
+<text text-anchor="middle" x="362.6894" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">string != null &amp;&amp; !string.isEmpty()</text>
+<text text-anchor="middle" x="362.6894" y="-144.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">item.isBefore(fromDatePicker.getValue())</text>
+</g>
+<!-- date != null\n -->
+<g id="node5" class="node">
+<title>date != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="587.8463,-183.2 507.5325,-183.2 507.5325,-147.2 587.8463,-147.2 587.8463,-183.2"/>
+<text text-anchor="middle" x="547.6894" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">date != null</text>
+</g>
+<!-- string != null &amp;&amp; !string.isEmpty()\n -->
+<g id="node6" class="node">
+<title>string != null &amp;&amp; !string.isEmpty()\n</title>
+<polygon fill="none" stroke="#ff0000" points="819.7306,-183.2 605.6482,-183.2 605.6482,-147.2 819.7306,-147.2 819.7306,-183.2"/>
+<text text-anchor="middle" x="712.6894" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">string != null &amp;&amp; !string.isEmpty()</text>
+</g>
+<!-- item.isBefore(fromDatePicker.getValue())\n -->
+<g id="node7" class="node">
+<title>item.isBefore(fromDatePicker.getValue())\n</title>
+<polygon fill="none" stroke="#ff0000" points="1091.5732,-183.2 837.8056,-183.2 837.8056,-147.2 1091.5732,-147.2 1091.5732,-183.2"/>
+<text text-anchor="middle" x="964.6894" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">item.isBefore(fromDatePicker.getValue())</text>
+</g>
+<!-- newValue == null\nnewValue == null\nnewValue == null || newValue.isEmpty()\nlog.getTitle().toLowerCase().indexOf(lowerCaseFilter) !=  -->
+<g id="node8" class="node">
+<title>newValue == null\nnewValue == null\nnewValue == null || newValue.isEmpty()\nlog.getTitle().toLowerCase().indexOf(lowerCaseFilter) != </title>
+<polygon fill="none" stroke="#ff0000" points="1455.5634,-202.9003 1109.8154,-202.9003 1109.8154,-127.4997 1455.5634,-127.4997 1455.5634,-202.9003"/>
+<text text-anchor="middle" x="1282.6894" y="-186.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">newValue == null</text>
+<text text-anchor="middle" x="1282.6894" y="-169.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">newValue == null</text>
+<text text-anchor="middle" x="1282.6894" y="-152.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">newValue == null || newValue.isEmpty()</text>
+<text text-anchor="middle" x="1282.6894" y="-135.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">log.getTitle().toLowerCase().indexOf(lowerCaseFilter) != </text>
+</g>
+<!-- Class: [LogController] -->
+<g id="node9" class="node">
+<title>Class: [LogController]</title>
+<ellipse fill="none" stroke="#000000" cx="1312.6894" cy="-315.6" rx="98.9707" ry="18"/>
+<text text-anchor="middle" x="1312.6894" y="-311.4" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [LogController]</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;file != null\nfromDatePicker.getValue() != null\ntoDatePicker.getValue() != null\n!filterTextField.getText().isEmpty()\nDesktop.isDesktopSupported()\n -->
+<g id="edge12" class="edge">
+<title>Class: [LogController]&#45;&gt;file != null\nfromDatePicker.getValue() != null\ntoDatePicker.getValue() != null\n!filterTextField.getText().isEmpty()\nDesktop.isDesktopSupported()\n</title>
+<path fill="none" stroke="#ff0000" d="M1214.2174,-313.9959C988.046,-310.0054 444.6081,-298.5638 363.5772,-279.6 306.3419,-266.2051 246.1752,-239.8549 198.6791,-215.8172"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="200.1547,-212.6407 189.658,-211.2025 196.9668,-218.8727 200.1547,-212.6407"/>
+<text text-anchor="middle" x="393.2455" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">setButtons</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;date != null\nstring != null &amp;&amp; !string.isEmpty()\nitem.isBefore(fromDatePicker.getValue())\n -->
+<g id="edge13" class="edge">
+<title>Class: [LogController]&#45;&gt;date != null\nstring != null &amp;&amp; !string.isEmpty()\nitem.isBefore(fromDatePicker.getValue())\n</title>
+<path fill="none" stroke="#ff0000" d="M1213.8795,-314.5956C1013.1365,-312.0607 571.0897,-303.7806 506.5126,-279.6 463.2242,-263.3909 422.8687,-228.8882 395.9909,-201.9894"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="398.2747,-199.3191 388.7762,-194.6256 393.2746,-204.2181 398.2747,-199.3191"/>
+<text text-anchor="middle" x="562.2778" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">initializeDatePicker</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;date != null\n -->
+<g id="edge14" class="edge">
+<title>Class: [LogController]&#45;&gt;date != null\n</title>
+<path fill="none" stroke="#ff0000" d="M1213.8842,-314.6919C1070.6787,-312.5036 812.8159,-305.0419 723.5744,-279.6 661.9639,-262.0354 648.6769,-248.6388 596.6894,-211.2 588.1678,-205.0632 579.5817,-197.5559 572.0298,-190.4002"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="574.4707,-187.8918 564.8632,-183.4255 569.5885,-192.9083 574.4707,-187.8918"/>
+<text text-anchor="middle" x="746.2469" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">toString</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;string != null &amp;&amp; !string.isEmpty()\n -->
+<g id="edge15" class="edge">
+<title>Class: [LogController]&#45;&gt;string != null &amp;&amp; !string.isEmpty()\n</title>
+<path fill="none" stroke="#ff0000" d="M1216.7611,-311.3099C1090.709,-305.1893 881.364,-293.1773 848.2532,-279.6 801.3139,-260.3522 758.6488,-218.5032 734.1947,-191.1117"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="736.7176,-188.6799 727.4987,-183.4584 731.4493,-193.2891 736.7176,-188.6799"/>
+<text text-anchor="middle" x="879.4075" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">fromString</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;item.isBefore(fromDatePicker.getValue())\n -->
+<g id="edge16" class="edge">
+<title>Class: [LogController]&#45;&gt;item.isBefore(fromDatePicker.getValue())\n</title>
+<path fill="none" stroke="#ff0000" d="M1214.3464,-313.2953C1105.2154,-309.6979 941.8192,-300.8066 922.479,-279.6 899.7939,-254.7257 921.5799,-216.6108 941.3409,-191.3034"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="944.2985,-193.2142 947.8977,-183.2495 938.8699,-188.7948 944.2985,-193.2142"/>
+<text text-anchor="middle" x="932.7946" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">call</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;item.isBefore(fromDatePicker.getValue())\n -->
+<g id="edge17" class="edge">
+<title>Class: [LogController]&#45;&gt;item.isBefore(fromDatePicker.getValue())\n</title>
+<path fill="none" stroke="#ff0000" d="M1216.2199,-311.5021C1122.3496,-306.5419 991.453,-296.6561 974.7132,-279.6 952.8653,-257.3393 953.9771,-219.5623 958.1458,-193.547"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="961.6205,-194.004 959.991,-183.5352 954.7364,-192.7352 961.6205,-194.004"/>
+<text text-anchor="middle" x="1007.1775" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">updateItem</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;newValue == null\nnewValue == null\nnewValue == null || newValue.isEmpty()\nlog.getTitle().toLowerCase().indexOf(lowerCaseFilter) !=  -->
+<g id="edge18" class="edge">
+<title>Class: [LogController]&#45;&gt;newValue == null\nnewValue == null\nnewValue == null || newValue.isEmpty()\nlog.getTitle().toLowerCase().indexOf(lowerCaseFilter) != </title>
+<path fill="none" stroke="#ff0000" d="M1220.8348,-308.8225C1150.1411,-302.6464 1062.6381,-292.5241 1051.3724,-279.6 1036.6537,-262.7145 1037.8085,-247.0264 1051.3724,-229.2 1054.2872,-225.3693 1085.2442,-215.9635 1123.6166,-205.5072"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1124.7802,-208.8183 1133.5196,-202.8289 1122.9526,-202.0611 1124.7802,-208.8183"/>
+<text text-anchor="middle" x="1091.3479" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">initializeFilter</text>
+</g>
+<!-- Class: [Report] -->
+<g id="node10" class="node">
+<title>Class: [Report]</title>
+<ellipse fill="none" stroke="#000000" cx="1542.6894" cy="-165.2" rx="69.537" ry="18"/>
+<text text-anchor="middle" x="1542.6894" y="-161" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [Report]</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;Class: [Report] -->
+<g id="edge1" class="edge">
+<title>Class: [LogController]&#45;&gt;Class: [Report]</title>
+<path fill="none" stroke="#000000" d="M1228.6917,-306.1371C1195.9168,-300.5619 1163.7947,-292.0846 1153.8226,-279.6 1139.8428,-262.0979 1138.448,-245.4906 1153.8226,-229.2 1177.5699,-204.0379 1431.5888,-221.2705 1464.6894,-211.2 1481.2222,-206.1701 1497.938,-196.9787 1511.6315,-188.1269"/>
+<polygon fill="#000000" stroke="#000000" points="1513.8057,-190.8831 1520.1614,-182.4063 1509.9067,-185.0695 1513.8057,-190.8831"/>
+<text text-anchor="middle" x="1198.6228" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[setButtons</text>
+<text text-anchor="middle" x="1198.6228" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1198.6228" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">addEmptyLine]</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;Class: [Report] -->
+<g id="edge2" class="edge">
+<title>Class: [LogController]&#45;&gt;Class: [Report]</title>
+<path fill="none" stroke="#000000" d="M1280.3458,-298.1763C1273.8774,-293.0926 1267.9507,-286.8993 1264.2826,-279.6 1254.2245,-259.5851 1249.1685,-245.7325 1264.2826,-229.2 1294.4529,-196.1984 1422.1232,-224.892 1464.6894,-211.2 1481.0175,-205.9479 1497.5952,-196.8175 1511.2441,-188.0686"/>
+<polygon fill="#000000" stroke="#000000" points="1513.3611,-190.8643 1519.7584,-182.4189 1509.4908,-185.0316 1513.3611,-190.8643"/>
+<text text-anchor="middle" x="1302.3928" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[setButtons</text>
+<text text-anchor="middle" x="1302.3928" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1302.3928" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">addSentence]</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;Class: [Report] -->
+<g id="edge3" class="edge">
+<title>Class: [LogController]&#45;&gt;Class: [Report]</title>
+<path fill="none" stroke="#000000" d="M1327.5024,-297.4498C1331.7031,-291.8939 1336.1045,-285.6487 1339.6894,-279.6 1352.2341,-258.4338 1343.1461,-244.2735 1362.5926,-229.2 1399.0097,-200.9722 1421.4651,-227.1585 1464.6894,-211.2 1480.5378,-205.3487 1496.825,-196.3043 1510.39,-187.7786"/>
+<polygon fill="#000000" stroke="#000000" points="1512.3819,-190.6586 1518.879,-182.2897 1508.5811,-184.7803 1512.3819,-190.6586"/>
+<text text-anchor="middle" x="1399.2378" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[setButtons</text>
+<text text-anchor="middle" x="1399.2378" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1399.2378" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">addSubTitle]</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;Class: [Report] -->
+<g id="edge4" class="edge">
+<title>Class: [LogController]&#45;&gt;Class: [Report]</title>
+<path fill="none" stroke="#000000" d="M1377.0379,-301.8837C1401.7534,-295.5766 1426.2973,-287.7029 1435.6894,-279.6 1454.3643,-263.4886 1443.5014,-248.4536 1458.9166,-229.2 1471.8499,-213.0463 1489.6995,-198.6777 1505.6001,-187.6682"/>
+<polygon fill="#000000" stroke="#000000" points="1507.8341,-190.3842 1514.1897,-181.9074 1503.935,-184.5706 1507.8341,-190.3842"/>
+<text text-anchor="middle" x="1491.5758" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[setButtons</text>
+<text text-anchor="middle" x="1491.5758" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1491.5758" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">addTable]</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;Class: [Report] -->
+<g id="edge5" class="edge">
+<title>Class: [LogController]&#45;&gt;Class: [Report]</title>
+<path fill="none" stroke="#000000" d="M1406.5303,-309.9917C1454.444,-305.1357 1506.0857,-296.149 1522.6894,-279.6 1545.0304,-257.3325 1547.5348,-219.5571 1546.104,-193.544"/>
+<polygon fill="#000000" stroke="#000000" points="1549.5905,-193.2335 1545.3301,-183.5331 1542.6114,-193.7731 1549.5905,-193.2335"/>
+<text text-anchor="middle" x="1577.5758" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[setButtons</text>
+<text text-anchor="middle" x="1577.5758" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1577.5758" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">addTitle]</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;Class: [Report] -->
+<g id="edge6" class="edge">
+<title>Class: [LogController]&#45;&gt;Class: [Report]</title>
+<path fill="none" stroke="#000000" d="M1407.4839,-310.3255C1489.2504,-304.7804 1596.2768,-294.7366 1609.6894,-279.6 1624.5451,-262.8349 1618.4979,-249.7954 1609.6894,-229.2 1602.7748,-213.0326 1589.5491,-199.0031 1576.6628,-188.2335"/>
+<polygon fill="#000000" stroke="#000000" points="1578.7544,-185.4253 1568.7426,-181.9592 1574.4077,-190.9122 1578.7544,-185.4253"/>
+<text text-anchor="middle" x="1651.5758" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[setButtons</text>
+<text text-anchor="middle" x="1651.5758" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1651.5758" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">close]</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;Class: [Report] -->
+<g id="edge7" class="edge">
+<title>Class: [LogController]&#45;&gt;Class: [Report]</title>
+<path fill="none" stroke="#000000" d="M1410.4897,-312.8999C1515.3396,-308.972 1669.3269,-299.8097 1687.6894,-279.6 1702.7528,-263.0213 1699.9195,-247.9666 1687.6894,-229.2 1670.4796,-202.7923 1639.6388,-187.2032 1610.8117,-178.0384"/>
+<polygon fill="#000000" stroke="#000000" points="1611.7176,-174.6565 1601.1353,-175.1702 1609.7283,-181.3679 1611.7176,-174.6565"/>
+<text text-anchor="middle" x="1730.5758" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[setButtons</text>
+<text text-anchor="middle" x="1730.5758" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1730.5758" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">open]</text>
+</g>
+<!-- Class: [Log] -->
+<g id="node11" class="node">
+<title>Class: [Log]</title>
+<ellipse fill="none" stroke="#000000" cx="1805.6894" cy="-165.2" rx="59.0843" ry="18"/>
+<text text-anchor="middle" x="1805.6894" y="-161" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [Log]</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;Class: [Log] -->
+<g id="edge8" class="edge">
+<title>Class: [LogController]&#45;&gt;Class: [Log]</title>
+<path fill="none" stroke="#000000" d="M1410.7398,-313.4822C1535.8052,-309.9202 1739.2792,-300.9033 1766.6894,-279.6 1792.9005,-259.2286 1801.6098,-220.3461 1804.4388,-193.6113"/>
+<polygon fill="#000000" stroke="#000000" points="1807.9528,-193.5912 1805.3037,-183.3329 1800.9774,-193.0042 1807.9528,-193.5912"/>
+<text text-anchor="middle" x="1829.5758" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[setButtons</text>
+<text text-anchor="middle" x="1829.5758" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1829.5758" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">clear]</text>
+</g>
+<!-- Class: [LogEntry] -->
+<g id="node12" class="node">
+<title>Class: [LogEntry]</title>
+<ellipse fill="none" stroke="#000000" cx="1986.6894" cy="-165.2" rx="80.494" ry="18"/>
+<text text-anchor="middle" x="1986.6894" y="-161" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [LogEntry]</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;Class: [LogEntry] -->
+<g id="edge9" class="edge">
+<title>Class: [LogController]&#45;&gt;Class: [LogEntry]</title>
+<path fill="none" stroke="#000000" d="M1411.3383,-314.2419C1560.0455,-311.4383 1828.3258,-303.1508 1865.6894,-279.6 1887.4142,-265.9066 1876.6515,-248.1836 1893.946,-229.2 1908.8674,-212.8212 1928.7386,-198.4081 1946.2593,-187.4273"/>
+<polygon fill="#000000" stroke="#000000" points="1948.4455,-190.1941 1955.1686,-182.0056 1944.8065,-184.2142 1948.4455,-190.1941"/>
+<text text-anchor="middle" x="1930.0611" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[setButtons</text>
+<text text-anchor="middle" x="1930.0611" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1930.0611" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">getMessage]</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;Class: [LogEntry] -->
+<g id="edge10" class="edge">
+<title>Class: [LogController]&#45;&gt;Class: [LogEntry]</title>
+<path fill="none" stroke="#000000" d="M1410.7223,-313.3311C1587.6937,-308.7996 1944.1981,-297.4993 1964.6894,-279.6 1977.3059,-268.5794 1982.8064,-223.9187 1985.1173,-193.7692"/>
+<polygon fill="#000000" stroke="#000000" points="1988.6356,-193.6243 1985.8317,-183.4072 1981.6521,-193.1427 1988.6356,-193.6243"/>
+<text text-anchor="middle" x="2012.5758" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[setButtons</text>
+<text text-anchor="middle" x="2012.5758" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2012.5758" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">getTime]</text>
+</g>
+<!-- Class: [LogController]&#45;&gt;Class: [LogEntry] -->
+<g id="edge11" class="edge">
+<title>Class: [LogController]&#45;&gt;Class: [LogEntry]</title>
+<path fill="none" stroke="#000000" d="M1411.4651,-314.3348C1607.1278,-311.3421 2027.0747,-302.2978 2048.6894,-279.6 2073.7864,-253.2455 2042.7447,-214.7574 2016.2807,-189.8432"/>
+<polygon fill="#000000" stroke="#000000" points="2018.3877,-187.0283 2008.6359,-182.8867 2013.6765,-192.2056 2018.3877,-187.0283"/>
+<text text-anchor="middle" x="2089.5758" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[setButtons</text>
+<text text-anchor="middle" x="2089.5758" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2089.5758" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">getTitle]</text>
+</g>
+<!-- Class: [Log]&#45;&gt;lock != null\n -->
+<g id="edge19" class="edge">
+<title>Class: [Log]&#45;&gt;lock != null\n</title>
+<path fill="none" stroke="#ff0000" d="M1797.3056,-147.2947C1788.0681,-127.566 1773.1062,-95.6117 1762.4196,-72.788"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1765.5407,-71.2 1758.1305,-63.6277 1759.2012,-74.1683 1765.5407,-71.2"/>
+<text text-anchor="middle" x="1788.2869" y="-88.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">clear</text>
+</g>
+<!-- Class: [Log]&#45;&gt;!file.exists()\nstrs.length == 3\n -->
+<g id="edge20" class="edge">
+<title>Class: [Log]&#45;&gt;!file.exists()\nstrs.length == 3\n</title>
+<path fill="none" stroke="#ff0000" d="M1813.9235,-147.2947C1822.6289,-128.3643 1836.5108,-98.1776 1846.8925,-75.602"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1850.104,-76.9954 1851.1023,-66.4477 1843.7443,-74.0707 1850.104,-76.9954"/>
+<text text-anchor="middle" x="1879.7904" y="-88.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">readFromFile</text>
+</g>
+</g>
+</svg>

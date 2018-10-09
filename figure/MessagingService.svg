@@ -1,0 +1,125 @@
+<svg width="1861pt" height="342pt"
+ viewBox="0.00 0.00 1861.47 341.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 337.6)">
+<title>project</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-337.6 1857.4697,-337.6 1857.4697,4 -4,4"/>
+<text text-anchor="middle" x="926.7349" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">Method Calls for :service.messagingservice.MessagingService</text>
+<!-- parallel\nparallelTimes.containsKey(token)\n -->
+<g id="node1" class="node">
+<title>parallel\nparallelTimes.containsKey(token)\n</title>
+<polygon fill="none" stroke="#ff0000" points="1714.4075,-66.2019 1507.6639,-66.2019 1507.6639,-24.9981 1714.4075,-24.9981 1714.4075,-66.2019"/>
+<text text-anchor="middle" x="1611.0357" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">parallel</text>
+<text text-anchor="middle" x="1611.0357" y="-33" font-family="Times,serif" font-size="14.00" fill="#ff0000">parallelTimes.containsKey(token)</text>
+</g>
+<!-- maxTime &lt; value\n -->
+<g id="node2" class="node">
+<title>maxTime &lt; value\n</title>
+<polygon fill="none" stroke="#ff0000" points="1853.4038,-63.6 1738.6676,-63.6 1738.6676,-27.6 1853.4038,-27.6 1853.4038,-63.6"/>
+<text text-anchor="middle" x="1796.0357" y="-41.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">maxTime &lt; value</text>
+</g>
+<!-- !(endPoint.contains(&quot;.#CLIENT#.&quot;) || destinationEndPoint.contains(&quot;.#CLIENT#.&quot;) || endPoint.endsWith(&quot;.registry&quot;) || destinationEndPoint.endsWith(&quot;.registry&quot;))\nmsg.getType().equals(&quot;response&quot;)\nmessageLoss &gt; 0\n100 / messageLoss == messageCount\nminDelay + maxDelay != 0\n -->
+<g id="node3" class="node">
+<title>!(endPoint.contains(&quot;.#CLIENT#.&quot;) || destinationEndPoint.contains(&quot;.#CLIENT#.&quot;) || endPoint.endsWith(&quot;.registry&quot;) || destinationEndPoint.endsWith(&quot;.registry&quot;))\nmsg.getType().equals(&quot;response&quot;)\nmessageLoss &gt; 0\n100 / messageLoss == messageCount\nminDelay + maxDelay != 0\n</title>
+<polygon fill="none" stroke="#ff0000" points="926.1071,-211.2 -.0357,-211.2 -.0357,-119.2 926.1071,-119.2 926.1071,-211.2"/>
+<text text-anchor="middle" x="463.0357" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">!(endPoint.contains(&quot;.#CLIENT#.&quot;) || destinationEndPoint.contains(&quot;.#CLIENT#.&quot;) || endPoint.endsWith(&quot;.registry&quot;) || destinationEndPoint.endsWith(&quot;.registry&quot;))</text>
+<text text-anchor="middle" x="463.0357" y="-177.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">msg.getType().equals(&quot;response&quot;)</text>
+<text text-anchor="middle" x="463.0357" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">messageLoss &gt; 0</text>
+<text text-anchor="middle" x="463.0357" y="-144.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">100 / messageLoss == messageCount</text>
+<text text-anchor="middle" x="463.0357" y="-127.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">minDelay + maxDelay != 0</text>
+</g>
+<!-- Class: [MessagingService] -->
+<g id="node4" class="node">
+<title>Class: [MessagingService]</title>
+<ellipse fill="none" stroke="#000000" cx="1262.0357" cy="-315.6" rx="114.0582" ry="18"/>
+<text text-anchor="middle" x="1262.0357" y="-311.4" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [MessagingService]</text>
+</g>
+<!-- Class: [MessagingService]&#45;&gt;!(endPoint.contains(&quot;.#CLIENT#.&quot;) || destinationEndPoint.contains(&quot;.#CLIENT#.&quot;) || endPoint.endsWith(&quot;.registry&quot;) || destinationEndPoint.endsWith(&quot;.registry&quot;))\nmsg.getType().equals(&quot;response&quot;)\nmessageLoss &gt; 0\n100 / messageLoss == messageCount\nminDelay + maxDelay != 0\n -->
+<g id="edge5" class="edge">
+<title>Class: [MessagingService]&#45;&gt;!(endPoint.contains(&quot;.#CLIENT#.&quot;) || destinationEndPoint.contains(&quot;.#CLIENT#.&quot;) || endPoint.endsWith(&quot;.registry&quot;) || destinationEndPoint.endsWith(&quot;.registry&quot;))\nmsg.getType().equals(&quot;response&quot;)\nmessageLoss &gt; 0\n100 / messageLoss == messageCount\nminDelay + maxDelay != 0\n</title>
+<path fill="none" stroke="#ff0000" d="M1179.9712,-303.0458C1137.8818,-296.4258 1085.8333,-287.9597 1039.3989,-279.6 925.9654,-259.1782 800.3956,-234.5 695.4955,-213.2999"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="695.9049,-209.8119 685.4094,-211.2594 694.5168,-216.6729 695.9049,-209.8119"/>
+<text text-anchor="middle" x="1077.3541" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">sendMessage</text>
+</g>
+<!-- Class: [AbstractMessage] -->
+<g id="node5" class="node">
+<title>Class: [AbstractMessage]</title>
+<ellipse fill="none" stroke="#000000" cx="1054.0357" cy="-165.2" rx="109.9612" ry="18"/>
+<text text-anchor="middle" x="1054.0357" y="-161" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [AbstractMessage]</text>
+</g>
+<!-- Class: [MessagingService]&#45;&gt;Class: [AbstractMessage] -->
+<g id="edge1" class="edge">
+<title>Class: [MessagingService]&#45;&gt;Class: [AbstractMessage]</title>
+<path fill="none" stroke="#000000" d="M1216.0971,-298.9947C1203.5436,-293.6013 1190.2393,-287.0555 1178.7383,-279.6 1139.1931,-253.9651 1100.2453,-215.5405 1076.6721,-190.4184"/>
+<polygon fill="#000000" stroke="#000000" points="1079.2318,-188.0314 1069.8663,-183.0779 1074.0987,-192.7906 1079.2318,-188.0314"/>
+<text text-anchor="middle" x="1218.6844" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[sendMessage</text>
+<text text-anchor="middle" x="1218.6844" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1218.6844" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">getType]</text>
+</g>
+<!-- Class: [Response] -->
+<g id="node6" class="node">
+<title>Class: [Response]</title>
+<ellipse fill="none" stroke="#000000" cx="1262.0357" cy="-165.2" rx="80.492" ry="18"/>
+<text text-anchor="middle" x="1262.0357" y="-161" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [Response]</text>
+</g>
+<!-- Class: [MessagingService]&#45;&gt;Class: [Response] -->
+<g id="edge2" class="edge">
+<title>Class: [MessagingService]&#45;&gt;Class: [Response]</title>
+<path fill="none" stroke="#000000" d="M1262.0357,-297.4582C1262.0357,-271.5995 1262.0357,-223.9045 1262.0357,-193.4107"/>
+<polygon fill="#000000" stroke="#000000" points="1265.5358,-193.4061 1262.0357,-183.4061 1258.5358,-193.4061 1265.5358,-193.4061"/>
+<text text-anchor="middle" x="1302.8527" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[sendMessage</text>
+<text text-anchor="middle" x="1302.8527" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1302.8527" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">getRequestID]</text>
+</g>
+<!-- Class: [MessageReceiver] -->
+<g id="node7" class="node">
+<title>Class: [MessageReceiver]</title>
+<ellipse fill="none" stroke="#000000" cx="1472.0357" cy="-165.2" rx="111.6674" ry="18"/>
+<text text-anchor="middle" x="1472.0357" y="-161" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [MessageReceiver]</text>
+</g>
+<!-- Class: [MessagingService]&#45;&gt;Class: [MessageReceiver] -->
+<g id="edge3" class="edge">
+<title>Class: [MessagingService]&#45;&gt;Class: [MessageReceiver]</title>
+<path fill="none" stroke="#000000" d="M1309.4972,-299.1947C1322.4583,-293.8032 1336.1863,-287.2084 1348.0357,-279.6 1387.4002,-254.3243 1425.9118,-216.0586 1449.3127,-190.8496"/>
+<polygon fill="#000000" stroke="#000000" points="1452.1863,-192.8942 1456.3614,-183.1566 1447.0252,-188.1653 1452.1863,-192.8942"/>
+<text text-anchor="middle" x="1448.6844" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[sendMessage</text>
+<text text-anchor="middle" x="1448.6844" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1448.6844" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">onMessage]</text>
+</g>
+<!-- Class: [SimClock] -->
+<g id="node8" class="node">
+<title>Class: [SimClock]</title>
+<ellipse fill="none" stroke="#000000" cx="1684.0357" cy="-165.2" rx="82.235" ry="18"/>
+<text text-anchor="middle" x="1684.0357" y="-161" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [SimClock]</text>
+</g>
+<!-- Class: [MessagingService]&#45;&gt;Class: [SimClock] -->
+<g id="edge4" class="edge">
+<title>Class: [MessagingService]&#45;&gt;Class: [SimClock]</title>
+<path fill="none" stroke="#000000" d="M1365.4596,-307.909C1405.8153,-302.7311 1451.9274,-294.073 1492.0357,-279.6 1553.3634,-257.47 1616.9008,-215.1056 1653.3263,-188.6029"/>
+<polygon fill="#000000" stroke="#000000" points="1655.5683,-191.2987 1661.549,-182.5533 1651.42,-185.6602 1655.5683,-191.2987"/>
+<text text-anchor="middle" x="1629.6844" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">[sendMessage</text>
+<text text-anchor="middle" x="1629.6844" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1629.6844" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">increment]</text>
+</g>
+<!-- Class: [SimClock]&#45;&gt;parallel\nparallelTimes.containsKey(token)\n -->
+<g id="edge6" class="edge">
+<title>Class: [SimClock]&#45;&gt;parallel\nparallelTimes.containsKey(token)\n</title>
+<path fill="none" stroke="#ff0000" d="M1652.2357,-148.3989C1635.1376,-137.4652 1615.6436,-121.4652 1606.0595,-101.2 1602.4363,-93.5389 1601.869,-84.6243 1602.6926,-76.2063"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1606.1534,-76.7293 1604.2752,-66.3023 1599.2411,-75.6248 1606.1534,-76.7293"/>
+<text text-anchor="middle" x="1634.0238" y="-88.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">increment</text>
+</g>
+<!-- Class: [SimClock]&#45;&gt;parallel\nparallelTimes.containsKey(token)\n -->
+<g id="edge7" class="edge">
+<title>Class: [SimClock]&#45;&gt;parallel\nparallelTimes.containsKey(token)\n</title>
+<path fill="none" stroke="#ff0000" d="M1682.4769,-147.1169C1680.2464,-129.7614 1674.8754,-103.4472 1662.0357,-84.4 1659.3403,-80.4015 1656.0957,-76.6448 1652.565,-73.1625"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1654.7917,-70.4585 1645.0006,-66.4107 1650.1304,-75.6809 1654.7917,-70.4585"/>
+<text text-anchor="middle" x="1714.744" y="-88.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">getCurrentTime</text>
+</g>
+<!-- Class: [SimClock]&#45;&gt;maxTime &lt; value\n -->
+<g id="edge8" class="edge">
+<title>Class: [SimClock]&#45;&gt;maxTime &lt; value\n</title>
+<path fill="none" stroke="#ff0000" d="M1709.8549,-147.9049C1726.3359,-136.0398 1747.4529,-119.2279 1763.0357,-101.2 1770.4128,-92.6653 1777.0836,-82.2628 1782.4657,-72.7742"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1785.7005,-74.1516 1787.3967,-63.6934 1779.5489,-70.8112 1785.7005,-74.1516"/>
+<text text-anchor="middle" x="1805.5224" y="-88.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">endParallel</text>
+</g>
+</g>
+</svg>

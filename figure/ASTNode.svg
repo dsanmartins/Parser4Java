@@ -1,0 +1,632 @@
+<svg width="5041pt" height="325pt"
+ viewBox="0.00 0.00 5041.46 324.80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 320.8)">
+<title>project</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-320.8 5037.4601,-320.8 5037.4601,4 -4,4"/>
+<text text-anchor="middle" x="2516.7301" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">Method Calls for :service.workflow.ast.ASTNode</text>
+<!-- next == null || next == stopGraph\nthis instanceof IF\nifTask.False != ifTask.next\n -->
+<g id="node1" class="node">
+<title>next == null || next == stopGraph\nthis instanceof IF\nifTask.False != ifTask.next\n</title>
+<polygon fill="none" stroke="#ff0000" points="3860.0767,-83.4014 3657.1071,-83.4014 3657.1071,-24.5986 3860.0767,-24.5986 3860.0767,-83.4014"/>
+<text text-anchor="middle" x="3758.5919" y="-66.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">next == null || next == stopGraph</text>
+<text text-anchor="middle" x="3758.5919" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">this instanceof IF</text>
+<text text-anchor="middle" x="3758.5919" y="-33" font-family="Times,serif" font-size="14.00" fill="#ff0000">ifTask.False != ifTask.next</text>
+</g>
+<!-- next != null\nnext.prev != null\n -->
+<g id="node2" class="node">
+<title>next != null\nnext.prev != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="3987.4089,-74.6019 3877.7749,-74.6019 3877.7749,-33.3981 3987.4089,-33.3981 3987.4089,-74.6019"/>
+<text text-anchor="middle" x="3932.5919" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">next != null</text>
+<text text-anchor="middle" x="3932.5919" y="-41.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">next.prev != null</text>
+</g>
+<!-- this.next == null\n -->
+<g id="node3" class="node">
+<title>this.next == null\n</title>
+<polygon fill="none" stroke="#ff0000" points="4113.994,-72 4005.1898,-72 4005.1898,-36 4113.994,-36 4113.994,-72"/>
+<text text-anchor="middle" x="4059.5919" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">this.next == null</text>
+</g>
+<!-- name != null\n -->
+<g id="node4" class="node">
+<title>name != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="4219.2488,-72 4131.935,-72 4131.935,-36 4219.2488,-36 4219.2488,-72"/>
+<text text-anchor="middle" x="4175.5919" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">name != null</text>
+</g>
+<!-- q != null\n -->
+<g id="node5" class="node">
+<title>q != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="4301.9292,-72 4237.2546,-72 4237.2546,-36 4301.9292,-36 4301.9292,-72"/>
+<text text-anchor="middle" x="4269.5919" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">q != null</text>
+</g>
+<!-- token != null\nthis.children != null\ni instanceof ASTNode\n -->
+<g id="node6" class="node">
+<title>token != null\nthis.children != null\ni instanceof ASTNode\n</title>
+<polygon fill="none" stroke="#ff0000" points="141.2758,-194.6014 -.092,-194.6014 -.092,-135.7986 141.2758,-135.7986 141.2758,-194.6014"/>
+<text text-anchor="middle" x="70.5919" y="-177.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">token != null</text>
+<text text-anchor="middle" x="70.5919" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">this.children != null</text>
+<text text-anchor="middle" x="70.5919" y="-144.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">i instanceof ASTNode</text>
+</g>
+<!-- this.children != null\ni instanceof ASTNode\n -->
+<g id="node7" class="node">
+<title>this.children != null\ni instanceof ASTNode\n</title>
+<polygon fill="none" stroke="#ff0000" points="300.2758,-185.8019 158.908,-185.8019 158.908,-144.5981 300.2758,-144.5981 300.2758,-185.8019"/>
+<text text-anchor="middle" x="229.5919" y="-169.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">this.children != null</text>
+<text text-anchor="middle" x="229.5919" y="-152.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">i instanceof ASTNode</text>
+</g>
+<!-- getChild(i).getClass().getSimpleName().equals(name)\n -->
+<g id="node8" class="node">
+<title>getChild(i).getClass().getSimpleName().equals(name)\n</title>
+<polygon fill="none" stroke="#ff0000" points="637.2115,-183.2 317.9723,-183.2 317.9723,-147.2 637.2115,-147.2 637.2115,-183.2"/>
+<text text-anchor="middle" x="477.5919" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">getChild(i).getClass().getSimpleName().equals(name)</text>
+</g>
+<!-- first != null\nparamList != null &amp;&amp; paramList.size() &gt; 0\n -->
+<g id="node9" class="node">
+<title>first != null\nparamList != null &amp;&amp; paramList.size() &gt; 0\n</title>
+<polygon fill="none" stroke="#ff0000" points="911.7073,-185.8019 655.4765,-185.8019 655.4765,-144.5981 911.7073,-144.5981 911.7073,-185.8019"/>
+<text text-anchor="middle" x="783.5919" y="-169.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">first != null</text>
+<text text-anchor="middle" x="783.5919" y="-152.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">paramList != null &amp;&amp; paramList.size() &gt; 0</text>
+</g>
+<!-- paramList != null\nresult != null\n -->
+<g id="node10" class="node">
+<title>paramList != null\nresult != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="1043.6871,-185.8019 929.4967,-185.8019 929.4967,-144.5981 1043.6871,-144.5981 1043.6871,-185.8019"/>
+<text text-anchor="middle" x="986.5919" y="-169.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">paramList != null</text>
+<text text-anchor="middle" x="986.5919" y="-152.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">result != null</text>
+</g>
+<!-- first != null\nsize() &lt;= 1 &amp;&amp; !returnList\n -->
+<g id="node11" class="node">
+<title>first != null\nsize() &lt;= 1 &amp;&amp; !returnList\n</title>
+<polygon fill="none" stroke="#ff0000" points="1227.114,-185.8019 1062.0698,-185.8019 1062.0698,-144.5981 1227.114,-144.5981 1227.114,-185.8019"/>
+<text text-anchor="middle" x="1144.5919" y="-169.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">first != null</text>
+<text text-anchor="middle" x="1144.5919" y="-152.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">size() &lt;= 1 &amp;&amp; !returnList</text>
+</g>
+<!-- first != null\n -->
+<g id="node12" class="node">
+<title>first != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="1404.4754,-183.2 1324.7084,-183.2 1324.7084,-147.2 1404.4754,-147.2 1404.4754,-183.2"/>
+<text text-anchor="middle" x="1364.5919" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">first != null</text>
+</g>
+<!-- size() &gt; 0\nlast != null\n -->
+<g id="node13" class="node">
+<title>size() &gt; 0\nlast != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="1499.869,-185.8019 1423.3148,-185.8019 1423.3148,-144.5981 1499.869,-144.5981 1499.869,-185.8019"/>
+<text text-anchor="middle" x="1461.5919" y="-169.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">size() &gt; 0</text>
+<text text-anchor="middle" x="1461.5919" y="-152.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">last != null</text>
+</g>
+<!-- getChildCount() != 0 &amp;&amp; first != null\ngetChildCount() == 0\n -->
+<g id="node14" class="node">
+<title>getChildCount() != 0 &amp;&amp; first != null\ngetChildCount() == 0\n</title>
+<polygon fill="none" stroke="#ff0000" points="1745.0831,-185.8019 1518.1007,-185.8019 1518.1007,-144.5981 1745.0831,-144.5981 1745.0831,-185.8019"/>
+<text text-anchor="middle" x="1631.5919" y="-169.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getChildCount() != 0 &amp;&amp; first != null</text>
+<text text-anchor="middle" x="1631.5919" y="-152.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">getChildCount() == 0</text>
+</g>
+<!-- size() == 0\n -->
+<g id="node15" class="node">
+<title>size() == 0\n</title>
+<polygon fill="none" stroke="#ff0000" points="1839.9668,-183.2 1763.217,-183.2 1763.217,-147.2 1839.9668,-147.2 1839.9668,-183.2"/>
+<text text-anchor="middle" x="1801.5919" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">size() == 0</text>
+</g>
+<!-- first != null\nstmntList.size() &gt; 0\n -->
+<g id="node16" class="node">
+<title>first != null\nstmntList.size() &gt; 0\n</title>
+<polygon fill="none" stroke="#ff0000" points="1983.4675,-185.8019 1857.7163,-185.8019 1857.7163,-144.5981 1983.4675,-144.5981 1983.4675,-185.8019"/>
+<text text-anchor="middle" x="1920.5919" y="-169.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">first != null</text>
+<text text-anchor="middle" x="1920.5919" y="-152.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">stmntList.size() &gt; 0</text>
+</g>
+<!-- getChildCount() &gt; 2\n -->
+<g id="node17" class="node">
+<title>getChildCount() &gt; 2\n</title>
+<polygon fill="none" stroke="#ff0000" points="2131.2583,-183.2 2001.9255,-183.2 2001.9255,-147.2 2131.2583,-147.2 2131.2583,-183.2"/>
+<text text-anchor="middle" x="2066.5919" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">getChildCount() &gt; 2</text>
+</g>
+<!-- first != null\nifStatement.size() &gt; 0\nelseStmnt != null &amp;&amp; elseStmnt.size() &gt; 0\n -->
+<g id="node18" class="node">
+<title>first != null\nifStatement.size() &gt; 0\nelseStmnt != null &amp;&amp; elseStmnt.size() &gt; 0\n</title>
+<polygon fill="none" stroke="#ff0000" points="2402.1273,-194.6014 2149.0565,-194.6014 2149.0565,-135.7986 2402.1273,-135.7986 2402.1273,-194.6014"/>
+<text text-anchor="middle" x="2275.5919" y="-177.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">first != null</text>
+<text text-anchor="middle" x="2275.5919" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">ifStatement.size() &gt; 0</text>
+<text text-anchor="middle" x="2275.5919" y="-144.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">elseStmnt != null &amp;&amp; elseStmnt.size() &gt; 0</text>
+</g>
+<!-- elseStmnt != null\n -->
+<g id="node19" class="node">
+<title>elseStmnt != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="2532.648,-183.2 2420.5358,-183.2 2420.5358,-147.2 2532.648,-147.2 2532.648,-183.2"/>
+<text text-anchor="middle" x="2476.5919" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">elseStmnt != null</text>
+</g>
+<!-- getExpression() != null\n -->
+<g id="node20" class="node">
+<title>getExpression() != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="2696.5623,-183.2 2550.6215,-183.2 2550.6215,-147.2 2696.5623,-147.2 2696.5623,-183.2"/>
+<text text-anchor="middle" x="2623.5919" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">getExpression() != null</text>
+</g>
+<!-- first != null\nexp != null\n -->
+<g id="node21" class="node">
+<title>first != null\nexp != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="2794.4754,-185.8019 2714.7084,-185.8019 2714.7084,-144.5981 2794.4754,-144.5981 2794.4754,-185.8019"/>
+<text text-anchor="middle" x="2754.5919" y="-169.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">first != null</text>
+<text text-anchor="middle" x="2754.5919" y="-152.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">exp != null</text>
+</g>
+<!-- first != null\nleftExpression instanceof VarRef\n -->
+<g id="node22" class="node">
+<title>first != null\nleftExpression instanceof VarRef\n</title>
+<polygon fill="none" stroke="#ff0000" points="3014.6801,-185.8019 2812.5037,-185.8019 2812.5037,-144.5981 3014.6801,-144.5981 3014.6801,-185.8019"/>
+<text text-anchor="middle" x="2913.5919" y="-169.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">first != null</text>
+<text text-anchor="middle" x="2913.5919" y="-152.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">leftExpression instanceof VarRef</text>
+</g>
+<!-- last != null\n -->
+<g id="node23" class="node">
+<title>last != null\n</title>
+<polygon fill="none" stroke="#ff0000" points="3109.869,-183.2 3033.3148,-183.2 3033.3148,-147.2 3109.869,-147.2 3109.869,-183.2"/>
+<text text-anchor="middle" x="3071.5919" y="-161" font-family="Times,serif" font-size="14.00" fill="#ff0000">last != null</text>
+</g>
+<!-- first != null\nargs != null &amp;&amp; args.size() &gt; 0\n -->
+<g id="node24" class="node">
+<title>first != null\nargs != null &amp;&amp; args.size() &gt; 0\n</title>
+<polygon fill="none" stroke="#ff0000" points="3317.3294,-185.8019 3127.8544,-185.8019 3127.8544,-144.5981 3317.3294,-144.5981 3317.3294,-185.8019"/>
+<text text-anchor="middle" x="3222.5919" y="-169.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">first != null</text>
+<text text-anchor="middle" x="3222.5919" y="-152.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">args != null &amp;&amp; args.size() &gt; 0</text>
+</g>
+<!-- Class: [ASTNode] -->
+<g id="node25" class="node">
+<title>Class: [ASTNode]</title>
+<ellipse fill="none" stroke="#000000" cx="2248.5919" cy="-298.8" rx="82.7799" ry="18"/>
+<text text-anchor="middle" x="2248.5919" y="-294.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [ASTNode]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;token != null\nthis.children != null\ni instanceof ASTNode\n -->
+<g id="edge20" class="edge">
+<title>Class: [ASTNode]&#45;&gt;token != null\nthis.children != null\ni instanceof ASTNode\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.8441,-298.2961C1802.6347,-295.956 363.4793,-285.2967 270.1501,-262.8 218.0842,-250.2497 163.7842,-222.5962 124.9944,-199.918"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="126.3602,-196.6589 115.9734,-194.57 122.7905,-202.6803 126.3602,-196.6589"/>
+<text text-anchor="middle" x="283.8128" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">print</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;this.children != null\ni instanceof ASTNode\n -->
+<g id="edge21" class="edge">
+<title>Class: [ASTNode]&#45;&gt;this.children != null\ni instanceof ASTNode\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.7427,-298.2517C1819.0042,-295.819 498.3162,-285.121 412.6059,-262.8 358.155,-248.6197 301.991,-215.3877 266.4917,-191.6448"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="268.165,-188.5505 257.9253,-185.8303 264.2337,-194.3423 268.165,-188.5505"/>
+<text text-anchor="middle" x="459.0849" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">setSymbolTable</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;getChild(i).getClass().getSimpleName().equals(name)\n -->
+<g id="edge22" class="edge">
+<title>Class: [ASTNode]&#45;&gt;getChild(i).getClass().getSimpleName().equals(name)\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.929,-297.9296C1832.2654,-294.3044 600.74,-279.7972 564.0337,-262.8 532.3017,-248.1062 507.3877,-215.602 492.6191,-192.1355"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="495.4588,-190.0681 487.282,-183.3309 489.4728,-193.6968 495.4588,-190.0681"/>
+<text text-anchor="middle" x="586.371" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">isExists</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;getChild(i).getClass().getSimpleName().equals(name)\n -->
+<g id="edge23" class="edge">
+<title>Class: [ASTNode]&#45;&gt;getChild(i).getClass().getSimpleName().equals(name)\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.8424,-298.558C1869.7873,-297.4549 873.3739,-291.618 733.1655,-262.8 674.259,-250.6925 663.7687,-233.8649 607.5919,-212.4 585.0253,-203.7774 560.117,-194.6419 538.1931,-186.7285"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="539.2679,-183.3956 528.6735,-183.3013 536.8967,-189.9818 539.2679,-183.3956"/>
+<text text-anchor="middle" x="757.3051" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getNode</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\nparamList != null &amp;&amp; paramList.size() &gt; 0\n -->
+<g id="edge24" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\nparamList != null &amp;&amp; paramList.size() &gt; 0\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.9043,-298.069C1863.7425,-295.2298 835.5286,-284.0243 808.8177,-262.8 789.1817,-247.1974 783.6248,-218.4792 782.5377,-196.2185"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="786.0366,-196.127 782.3193,-186.2057 779.0383,-196.2797 786.0366,-196.127"/>
+<text text-anchor="middle" x="830.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;paramList != null\nresult != null\n -->
+<g id="edge25" class="edge">
+<title>Class: [ASTNode]&#45;&gt;paramList != null\nresult != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.7477,-298.1882C1870.9303,-295.8166 889.0456,-286.1743 866.2721,-262.8 850.6404,-246.756 853.1585,-230.5602 866.2721,-212.4 881.1613,-191.7807 896.864,-203.5557 920.5919,-194.4 924.2997,-192.9693 928.1019,-191.4449 931.9182,-189.8719"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="933.5277,-192.9919 941.3877,-185.8876 930.813,-186.5398 933.5277,-192.9919"/>
+<text text-anchor="middle" x="881.7518" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">clone</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\nsize() &lt;= 1 &amp;&amp; !returnList\n -->
+<g id="edge26" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\nsize() &lt;= 1 &amp;&amp; !returnList\n</title>
+<path fill="none" stroke="#ff0000" d="M2166.0024,-298.1145C1877.9214,-295.5295 933.7681,-285.3495 911.8177,-262.8 896.1932,-246.749 897.017,-229.2137 911.8177,-212.4 932.6562,-188.7274 1021.7954,-201.198 1052.5919,-194.4 1059.8737,-192.7926 1067.4038,-190.8618 1074.8758,-188.7684"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1076.0103,-192.0837 1084.6395,-185.9365 1074.0603,-185.3608 1076.0103,-192.0837"/>
+<text text-anchor="middle" x="933.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\n -->
+<g id="edge27" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.7329,-298.0075C1885.6898,-295.1343 990.7065,-284.2851 969.8177,-262.8 954.203,-246.7395 954.5209,-228.7637 969.8177,-212.4 990.1057,-190.697 1207.1983,-198.7171 1236.5919,-194.4 1262.6385,-190.5745 1291.2373,-184.2571 1314.7834,-178.475"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1315.6886,-181.8565 1324.5431,-176.0386 1313.993,-175.065 1315.6886,-181.8565"/>
+<text text-anchor="middle" x="991.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\n -->
+<g id="edge28" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.8087,-297.8772C1895.591,-294.6706 1055.5105,-283.086 1035.8177,-262.8 1020.2153,-246.7275 1020.7022,-228.9313 1035.8177,-212.4 1050.9316,-195.8704 1214.4691,-197.8987 1236.5919,-194.4 1262.5948,-190.2877 1291.1893,-183.9422 1314.7439,-178.2158"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1315.6368,-181.6005 1324.5079,-175.8078 1313.9607,-174.8042 1315.6368,-181.6005"/>
+<text text-anchor="middle" x="1057.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\n -->
+<g id="edge29" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.7963,-297.731C1905.5752,-294.1766 1120.3151,-281.8871 1101.8177,-262.8 1086.229,-246.7142 1087.0641,-229.255 1101.8177,-212.4 1121.7191,-189.664 1206.8564,-199.7658 1236.5919,-194.4 1262.4995,-189.725 1291.0847,-183.3246 1314.6578,-177.7073"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1315.5278,-181.098 1324.4312,-175.3552 1313.8899,-174.2923 1315.5278,-181.098"/>
+<text text-anchor="middle" x="1123.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\n -->
+<g id="edge36" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.7604,-297.5666C1915.8087,-293.65 1185.1222,-280.6905 1167.8177,-262.8 1152.2444,-246.6993 1153.9482,-229.9897 1167.8177,-212.4 1168.9816,-210.9239 1256.6115,-190.3084 1314.5252,-176.8156"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1315.6643,-180.1441 1324.6103,-174.468 1314.0772,-173.3264 1315.6643,-180.1441"/>
+<text text-anchor="middle" x="1189.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\n -->
+<g id="edge40" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2166.1968,-297.3894C1927.2589,-293.1046 1249.9432,-279.5077 1233.8177,-262.8 1218.2618,-246.6825 1220.9449,-230.7317 1233.8177,-212.4 1243.5601,-198.5262 1281.9843,-185.6668 1314.6814,-176.8857"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1315.815,-180.2071 1324.6068,-174.2948 1314.047,-173.434 1315.815,-180.2071"/>
+<text text-anchor="middle" x="1255.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\n -->
+<g id="edge44" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.9046,-297.1737C1937.6774,-292.4902 1314.7515,-278.3112 1299.8177,-262.8 1284.2817,-246.6633 1289.6623,-232.3657 1299.8177,-212.4 1304.407,-203.3774 1311.619,-195.671 1319.5924,-189.2616"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1321.753,-192.0174 1327.7506,-183.2836 1317.6156,-186.371 1321.753,-192.0174"/>
+<text text-anchor="middle" x="1321.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\n -->
+<g id="edge46" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.8253,-298.4691C1951.5597,-297.2097 1393.4334,-291.2056 1365.8177,-262.8 1348.3802,-244.8637 1350.6456,-215.1593 1355.689,-193.2229"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1359.0976,-194.0218 1358.227,-183.4628 1352.3229,-192.2601 1359.0976,-194.0218"/>
+<text text-anchor="middle" x="1387.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\n -->
+<g id="edge47" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2166.0138,-297.4653C1964.5259,-293.8995 1461.9179,-283.0196 1431.8177,-262.8 1411.3441,-249.0469 1422.336,-232.8796 1408.5919,-212.4 1403.5665,-204.9118 1397.3508,-197.4658 1391.1904,-190.7759"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1393.4977,-188.1244 1384.0586,-183.3126 1388.4369,-192.9605 1393.4977,-188.1244"/>
+<text text-anchor="middle" x="1453.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\n -->
+<g id="edge49" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2166.1148,-297.1299C1976.7883,-292.9877 1525.1334,-281.2259 1497.8177,-262.8 1477.3707,-249.0074 1493.2121,-228.5742 1474.5919,-212.4 1453.5734,-194.1426 1440.1251,-205.498 1414.5919,-194.4 1410.3813,-192.5699 1406.0817,-190.4634 1401.8588,-188.2373"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1403.2468,-185.0056 1392.8011,-183.2342 1399.8622,-191.133 1403.2468,-185.0056"/>
+<text text-anchor="middle" x="1519.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\n -->
+<g id="edge50" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2166.1764,-296.7299C1989.5231,-291.9847 1588.3603,-279.4378 1563.8177,-262.8 1543.4026,-248.9603 1560.3684,-227.1379 1540.5919,-212.4 1495.2332,-178.5978 1468.0115,-213.0105 1414.5919,-194.4 1409.7328,-192.7072 1404.8178,-190.5238 1400.0635,-188.1139"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1401.6315,-184.9824 1391.176,-183.2695 1398.2813,-191.1287 1401.6315,-184.9824"/>
+<text text-anchor="middle" x="1585.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\n -->
+<g id="edge52" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2166.7677,-296.2628C2003.6378,-290.8993 1651.6262,-277.6734 1629.8177,-262.8 1609.4413,-248.9033 1626.7194,-226.6548 1606.5919,-212.4 1571.6204,-187.6323 1455.3896,-207.5147 1414.5919,-194.4 1409.5766,-192.7878 1404.5193,-190.612 1399.6474,-188.1709"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1401.0233,-184.9349 1390.5668,-183.228 1397.6766,-191.0831 1401.0233,-184.9349"/>
+<text text-anchor="middle" x="1651.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\n -->
+<g id="edge53" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.9626,-298.0297C2021.231,-296.0074 1733.5674,-288.7371 1695.8177,-262.8 1675.4895,-248.8329 1692.8878,-226.4141 1672.5919,-212.4 1625.2981,-179.7441 1469.5127,-211.3356 1414.5919,-194.4 1409.3686,-192.7893 1404.1084,-190.5455 1399.0627,-188.0102"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1400.7203,-184.9275 1390.2663,-183.2056 1397.3648,-191.0709 1400.7203,-184.9275"/>
+<text text-anchor="middle" x="1717.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\n -->
+<g id="edge54" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2165.9895,-297.5226C2034.6513,-294.7859 1789.7082,-286.5338 1757.8177,-262.8 1738.585,-248.4865 1757.9507,-226.5425 1738.5919,-212.4 1709.4779,-191.1309 1449.1208,-204.7804 1414.5919,-194.4 1409.3573,-192.8263 1404.0907,-190.6038 1399.0418,-188.0791"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1400.6982,-184.9958 1390.2428,-183.283 1397.3481,-191.1421 1400.6982,-184.9958"/>
+<text text-anchor="middle" x="1779.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;size() &gt; 0\nlast != null\n -->
+<g id="edge30" class="edge">
+<title>Class: [ASTNode]&#45;&gt;size() &gt; 0\nlast != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2166.5097,-296.4947C2050.7311,-292.5451 1850.51,-282.887 1823.8303,-262.8 1804.6758,-248.3787 1823.9153,-226.5942 1804.5919,-212.4 1751.6603,-173.5185 1572.2631,-214.0431 1509.5919,-194.4 1506.2324,-193.347 1502.8661,-192.0105 1499.5616,-190.4914"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1500.9626,-187.2761 1490.4697,-185.8102 1497.7583,-193.4996 1500.9626,-187.2761"/>
+<text text-anchor="middle" x="1845.9727" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">setNext</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;getChildCount() != 0 &amp;&amp; first != null\ngetChildCount() == 0\n -->
+<g id="edge31" class="edge">
+<title>Class: [ASTNode]&#45;&gt;getChildCount() != 0 &amp;&amp; first != null\ngetChildCount() == 0\n</title>
+<path fill="none" stroke="#ff0000" d="M2167.5442,-295.1346C2068.5095,-289.9713 1911.381,-279.3013 1889.8177,-262.8 1870.7784,-248.2302 1889.2314,-227.4779 1870.5919,-212.4 1830.0291,-179.5879 1805.7906,-204.4332 1754.5919,-194.4 1744.7172,-192.4649 1734.4344,-190.2864 1724.2063,-188.0136"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1724.9568,-184.5951 1714.4319,-185.8107 1723.4177,-191.4238 1724.9568,-184.5951"/>
+<text text-anchor="middle" x="1911.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;size() == 0\n -->
+<g id="edge32" class="edge">
+<title>Class: [ASTNode]&#45;&gt;size() == 0\n</title>
+<path fill="none" stroke="#ff0000" d="M2169.8499,-293.295C2088.9204,-286.9792 1972.4376,-275.8025 1955.8303,-262.8 1936.9518,-248.0192 1954.8688,-227.9185 1936.5919,-212.4 1906.1607,-186.5616 1885.6822,-209.1645 1848.5919,-194.4 1844.3608,-192.7157 1840.0851,-190.654 1835.9263,-188.4122"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1837.4808,-185.2681 1827.0715,-183.2939 1833.9776,-191.3285 1837.4808,-185.2681"/>
+<text text-anchor="middle" x="1977.9727" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">setNext</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\nstmntList.size() &gt; 0\n -->
+<g id="edge33" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\nstmntList.size() &gt; 0\n</title>
+<path fill="none" stroke="#ff0000" d="M2169.1594,-293.8022C2114.5548,-288.9261 2048.0466,-279.6843 2025.8177,-262.8 2006.177,-247.8816 2019.2256,-230.6109 2002.5919,-212.4 1995.213,-204.3214 1986.1225,-197.2513 1976.7107,-191.2119"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1978.3853,-188.1344 1968.0168,-185.9558 1974.7637,-194.1247 1978.3853,-188.1344"/>
+<text text-anchor="middle" x="2047.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\nstmntList.size() &gt; 0\n -->
+<g id="edge34" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\nstmntList.size() &gt; 0\n</title>
+<path fill="none" stroke="#ff0000" d="M2178.9309,-288.9612C2143.6636,-282.789 2105.4719,-273.8947 2091.8177,-262.8 2072.676,-247.2465 2087.6803,-228.0189 2068.5919,-212.4 2041.7269,-190.418 2025.6609,-204.9536 1992.5919,-194.4 1987.8152,-192.8756 1982.9076,-191.1782 1978.0079,-189.3902"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1979.2236,-186.1082 1968.6317,-185.8619 1976.7582,-192.6596 1979.2236,-186.1082"/>
+<text text-anchor="middle" x="2113.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\nstmntList.size() &gt; 0\n -->
+<g id="edge35" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\nstmntList.size() &gt; 0\n</title>
+<path fill="none" stroke="#ff0000" d="M2190.9139,-285.6487C2177.4244,-280.3569 2164.0304,-272.9983 2153.8177,-262.8 2136.8533,-245.8595 2153.4396,-227.2168 2134.5919,-212.4 2109.5857,-192.7418 2023.3659,-202.4446 1992.5919,-194.4 1987.2086,-192.9928 1981.6908,-191.2809 1976.2216,-189.3991"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1977.0631,-185.9811 1966.469,-185.8574 1974.6737,-192.5607 1977.0631,-185.9811"/>
+<text text-anchor="middle" x="2175.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;getChildCount() &gt; 2\n -->
+<g id="edge37" class="edge">
+<title>Class: [ASTNode]&#45;&gt;getChildCount() &gt; 2\n</title>
+<path fill="none" stroke="#ff0000" d="M2234.3746,-281.0223C2230.1961,-275.3748 2225.8037,-268.9857 2222.2721,-262.8 2210.182,-241.6237 2218.8316,-228.5839 2200.5919,-212.4 2179.4483,-193.6394 2166.2992,-203.6591 2139.5919,-194.4 2133.0931,-192.1469 2126.3243,-189.6495 2119.6437,-187.0912"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2120.5489,-183.6877 2109.9604,-183.3207 2118.009,-190.2107 2120.5489,-183.6877"/>
+<text text-anchor="middle" x="2237.7518" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">clone</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\nifStatement.size() &gt; 0\nelseStmnt != null &amp;&amp; elseStmnt.size() &gt; 0\n -->
+<g id="edge38" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\nifStatement.size() &gt; 0\nelseStmnt != null &amp;&amp; elseStmnt.size() &gt; 0\n</title>
+<path fill="none" stroke="#ff0000" d="M2252.2332,-280.7821C2256.1678,-261.3135 2262.5588,-229.6897 2267.6621,-204.438"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2271.1379,-204.9072 2269.6883,-194.412 2264.2766,-203.5205 2271.1379,-204.9072"/>
+<text text-anchor="middle" x="2286.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;elseStmnt != null\n -->
+<g id="edge39" class="edge">
+<title>Class: [ASTNode]&#45;&gt;elseStmnt != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2285.045,-282.5562C2294.7017,-277.1664 2304.6403,-270.532 2312.5919,-262.8 2331.32,-244.5892 2321.928,-228.0674 2342.8303,-212.4 2368.1081,-193.453 2381.8006,-204.9088 2411.5919,-194.4 2417.5637,-192.2935 2423.7461,-189.8619 2429.8161,-187.3195"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2431.4206,-190.4392 2439.2158,-183.2639 2428.6474,-184.0119 2431.4206,-190.4392"/>
+<text text-anchor="middle" x="2364.9727" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">setNext</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;getExpression() != null\n -->
+<g id="edge41" class="edge">
+<title>Class: [ASTNode]&#45;&gt;getExpression() != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2312.8624,-287.4233C2342.7501,-281.0517 2374.189,-272.4524 2385.5919,-262.8 2404.3403,-246.9297 2388.5855,-227.0903 2408.2721,-212.4 2456.1918,-176.6418 2483.4886,-208.5049 2541.5919,-194.4 2550.4352,-192.2532 2559.6554,-189.5007 2568.5858,-186.5462"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2569.8027,-189.8291 2578.131,-183.2801 2567.5364,-183.2061 2569.8027,-189.8291"/>
+<text text-anchor="middle" x="2423.7518" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">clone</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\nexp != null\n -->
+<g id="edge42" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\nexp != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2324.3379,-291.5619C2369.2556,-285.9298 2420.7988,-276.6983 2438.5919,-262.8 2458.0291,-247.6175 2441.5503,-226.4551 2461.8177,-212.4 2506.4542,-181.4453 2653.7885,-210.7407 2705.5919,-194.4 2708.952,-193.3401 2712.3245,-192.0108 2715.6411,-190.5075"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2717.4358,-193.5222 2724.7834,-185.8892 2714.2795,-187.2742 2717.4358,-193.5222"/>
+<text text-anchor="middle" x="2483.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\nleftExpression instanceof VarRef\n -->
+<g id="edge43" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\nleftExpression instanceof VarRef\n</title>
+<path fill="none" stroke="#ff0000" d="M2330.023,-295.7253C2394.3313,-291.7922 2477.5791,-282.8846 2504.5919,-262.8 2524.3845,-248.0838 2507.4905,-226.3686 2527.8177,-212.4 2553.1251,-195.0091 2773.2888,-199.3626 2803.5919,-194.4 2813.566,-192.7666 2823.946,-190.6201 2834.1715,-188.2308"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2835.0133,-191.6282 2843.9096,-185.8744 2833.367,-184.8245 2835.0133,-191.6282"/>
+<text text-anchor="middle" x="2549.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;last != null\n -->
+<g id="edge45" class="edge">
+<title>Class: [ASTNode]&#45;&gt;last != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2328.2044,-293.971C2417.1629,-287.9411 2551.3192,-276.7065 2570.5919,-262.8 2590.5947,-248.3667 2573.3383,-226.1298 2593.8303,-212.4 2633.5352,-185.7973 2977.8521,-208.2584 3023.5919,-194.4 3028.5978,-192.8833 3033.6128,-190.7207 3038.4132,-188.2495"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="3040.3444,-191.1782 3047.3217,-183.2052 3036.8953,-185.0869 3040.3444,-191.1782"/>
+<text text-anchor="middle" x="2615.9727" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">setNext</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;last != null\n -->
+<g id="edge51" class="edge">
+<title>Class: [ASTNode]&#45;&gt;last != null\n</title>
+<path fill="none" stroke="#ff0000" d="M2330.1047,-295.5498C2436.5261,-290.6506 2612.1889,-280.0653 2636.5919,-262.8 2656.7262,-248.5548 2639.3812,-226.2082 2659.8177,-212.4 2693.3499,-189.7435 2984.9065,-206.2813 3023.5919,-194.4 3028.5352,-192.8818 3033.4897,-190.7401 3038.2387,-188.2982"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="3040.0736,-191.2816 3047.061,-183.3176 3036.6322,-185.186 3040.0736,-191.2816"/>
+<text text-anchor="middle" x="2681.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;first != null\nargs != null &amp;&amp; args.size() &gt; 0\n -->
+<g id="edge48" class="edge">
+<title>Class: [ASTNode]&#45;&gt;first != null\nargs != null &amp;&amp; args.size() &gt; 0\n</title>
+<path fill="none" stroke="#ff0000" d="M2330.7991,-296.7434C2453.3771,-293.0112 2672.9028,-283.5084 2702.5919,-262.8 2722.8211,-248.6899 2705.3561,-226.1709 2725.8177,-212.4 2762.0613,-188.0075 3075.4608,-201.3498 3118.5919,-194.4 3128.2428,-192.8449 3138.2753,-190.7125 3148.1338,-188.3024"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="3149.0874,-191.6713 3157.9138,-185.8108 3147.3592,-184.888 3149.0874,-191.6713"/>
+<text text-anchor="middle" x="2747.979" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getFirst</text>
+</g>
+<!-- Class: [TaskGraph] -->
+<g id="node26" class="node">
+<title>Class: [TaskGraph]</title>
+<ellipse fill="none" stroke="#000000" cx="4059.5919" cy="-165.2" rx="86.2717" ry="18"/>
+<text text-anchor="middle" x="4059.5919" y="-161" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [TaskGraph]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge1" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.2397,-297.6954C2468.9272,-295.177 2733.6798,-287.1914 2768.5919,-262.8 2788.7046,-248.7482 2770.7567,-226.0924 2791.1157,-212.4 2815.8148,-195.7887 3296.8465,-195.4924 3326.5919,-194.4 3555.5208,-185.9925 3824.6199,-174.984 3964.4194,-169.1803"/>
+<polygon fill="#000000" stroke="#000000" points="3964.8232,-172.6666 3974.6692,-168.7544 3964.5326,-165.6726 3964.8232,-172.6666"/>
+<text text-anchor="middle" x="2873.83" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="2873.83" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2873.83" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">ARRAY_ACCESS.setIndex]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge2" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2330.9593,-296.8853C2511.9187,-292.3693 2930.1637,-280.1155 2955.5919,-262.8 2975.9241,-248.9547 2958.0813,-226.1716 2978.4635,-212.4 2983.5491,-208.9638 3701.4841,-179.6562 3964.4716,-169.0289"/>
+<polygon fill="#000000" stroke="#000000" points="3964.915,-172.5139 3974.7656,-168.6131 3964.6324,-165.5196 3964.915,-172.5139"/>
+<text text-anchor="middle" x="3045.6561" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="3045.6561" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3045.6561" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">BinaryOp.setBinaryOp]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge3" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.3103,-297.6874C2541.2746,-294.5517 3080.5772,-284.427 3112.5919,-262.8 3132.9588,-249.0415 3115.052,-226.2538 3135.3541,-212.4 3152.3131,-200.8274 3731.7351,-177.6323 3964.3536,-168.7619"/>
+<polygon fill="#000000" stroke="#000000" points="3964.6355,-172.2538 3974.4951,-168.3758 3964.3692,-165.2588 3964.6355,-172.2538"/>
+<text text-anchor="middle" x="3186.7108" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="3186.7108" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3186.7108" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">BinaryOp.setLeft]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge4" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.3415,-298.1415C2562.4248,-295.9916 3200.2227,-287.8119 3237.5919,-262.8 3258.0481,-249.1083 3240.2547,-226.3221 3260.5547,-212.4 3289.1169,-192.8115 3757.8823,-175.1044 3963.826,-168.2303"/>
+<polygon fill="#000000" stroke="#000000" points="3964.1498,-171.7216 3974.028,-167.8915 3963.9173,-164.7255 3964.1498,-171.7216"/>
+<text text-anchor="middle" x="3315.6105" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="3315.6105" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3315.6105" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">BinaryOp.setRight]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge5" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.4762,-298.5082C2583.7069,-297.3101 3327.452,-291.3612 3370.5919,-262.8 3391.1708,-249.1755 3373.5939,-226.4203 3393.9053,-212.4 3439.5686,-180.8802 3789.6251,-170.1033 3962.9658,-166.675"/>
+<polygon fill="#000000" stroke="#000000" points="3963.1802,-170.1716 3973.1106,-166.4788 3963.0448,-163.1729 3963.1802,-170.1716"/>
+<text text-anchor="middle" x="3455.4352" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="3455.4352" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3455.4352" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">CALL.addArgument]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge6" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.3562,-297.6243C2608.9447,-293.5317 3490.923,-279.2592 3515.5919,-262.8 3536.0212,-249.1695 3518.2497,-226.656 3538.2475,-212.4 3572.0216,-188.3232 3822.7444,-174.5828 3963.8237,-168.6805"/>
+<polygon fill="#000000" stroke="#000000" points="3964.357,-172.1615 3974.2042,-168.252 3964.0683,-165.1675 3964.357,-172.1615"/>
+<text text-anchor="middle" x="3598.2641" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="3598.2641" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3598.2641" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">Expression.setValue]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge7" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.1817,-297.8606C2628.7221,-294.3285 3629.7504,-281.1068 3657.5919,-262.8 3678.2115,-249.2418 3660.9638,-226.9564 3680.8913,-212.4 3703.6087,-195.8057 3862.8753,-180.4544 3967.5033,-172.0011"/>
+<polygon fill="#000000" stroke="#000000" points="3968.0779,-175.4664 3977.7668,-171.1798 3967.5194,-168.4887 3968.0779,-175.4664"/>
+<text text-anchor="middle" x="3714.4422" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="3714.4422" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3714.4422" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">IF.setFalse]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge8" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.291,-297.9868C2641.0917,-294.7929 3716.7978,-282.317 3746.5919,-262.8 3767.2536,-249.2653 3750.3277,-227.3225 3770.0105,-212.4 3800.2977,-189.4377 3893.6771,-177.2073 3966.2997,-170.9997"/>
+<polygon fill="#000000" stroke="#000000" points="3966.7235,-174.4766 3976.4005,-170.1632 3966.1458,-167.5005 3966.7235,-174.4766"/>
+<text text-anchor="middle" x="3801.8826" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="3801.8826" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3801.8826" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">IF.setTrue]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge9" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.3361,-298.1088C2652.5964,-295.2761 3801.0458,-283.7043 3832.5919,-262.8 3853.0698,-249.2301 3836.298,-227.9875 3855.2853,-212.4 3874.0674,-196.981 3928.8234,-184.8074 3976.9245,-176.6876"/>
+<polygon fill="#000000" stroke="#000000" points="3977.7739,-180.095 3987.0724,-175.0168 3976.6366,-173.188 3977.7739,-180.095"/>
+<text text-anchor="middle" x="3946.7452" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="3946.7452" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3946.7452" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">MemoryOperation.setVarName]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge10" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.3455,-298.513C2678.9032,-297.1364 4004.1449,-290.1031 4037.5919,-262.8 4048.2355,-254.1115 4054.1259,-218.8882 4057.073,-193.2442"/>
+<polygon fill="#000000" stroke="#000000" points="4060.555,-193.5978 4058.1282,-183.2847 4053.594,-192.8602 4060.555,-193.5978"/>
+<text text-anchor="middle" x="4133.7129" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="4133.7129" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4133.7129" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">PARALLEL.getStatements]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge11" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.4338,-298.0618C2703.1497,-294.6543 4199.8188,-279.8827 4216.5919,-262.8 4232.2856,-246.8166 4229.9579,-230.3753 4216.5919,-212.4 4206.2686,-198.5167 4170.3442,-187.1751 4135.4619,-179.0919"/>
+<polygon fill="#000000" stroke="#000000" points="4136.1963,-175.6698 4125.6731,-176.8991 4134.6661,-182.5005 4136.1963,-175.6698"/>
+<text text-anchor="middle" x="4281.2178" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="4281.2178" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4281.2178" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">Store.setAssignOp]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge12" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.3975,-298.1529C2717.3395,-295.0418 4321.6815,-281.0214 4339.5919,-262.8 4400.7962,-200.5329 4258.0066,-177.9324 4154.655,-169.7697"/>
+<polygon fill="#000000" stroke="#000000" points="4154.7055,-166.2637 4144.4705,-169.0014 4154.1788,-173.2438 4154.7055,-166.2637"/>
+<text text-anchor="middle" x="4426.884" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="4426.884" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4426.884" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">Store.setRightExpression]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge13" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.4539,-298.2587C2736.022,-295.5212 4485.1543,-282.5503 4504.5919,-262.8 4520.3042,-246.8349 4519.5725,-229.0536 4504.5919,-212.4 4481.6766,-186.9256 4279.0179,-174.1464 4155.2287,-168.6628"/>
+<polygon fill="#000000" stroke="#000000" points="4155.1239,-165.155 4144.9814,-168.2175 4154.82,-172.1484 4155.1239,-165.155"/>
+<text text-anchor="middle" x="4579.5355" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="4579.5355" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4579.5355" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">UnaryOp.setUnaryOp]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge14" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.4346,-298.3392C2751.4789,-295.908 4626.8269,-283.879 4647.5919,-262.8 4663.3118,-246.8424 4662.7842,-228.8607 4647.5919,-212.4 4631.142,-194.5767 4316.9671,-177.2818 4154.7689,-169.4958"/>
+<polygon fill="#000000" stroke="#000000" points="4154.4652,-165.9774 4144.3097,-168.9968 4154.1315,-172.9695 4154.4652,-165.9774"/>
+<text text-anchor="middle" x="4682.3093" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="4682.3093" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4682.3093" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">getPrev]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge15" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.4551,-298.371C2758.1221,-296.0674 4688.2511,-284.4552 4709.5919,-262.8 4725.3148,-246.8454 4724.8467,-228.8027 4709.5919,-212.4 4691.0024,-192.4117 4330.9867,-175.7343 4154.9265,-168.7368"/>
+<polygon fill="#000000" stroke="#000000" points="4155.0153,-165.2376 4144.8849,-168.3402 4154.739,-172.2322 4155.0153,-165.2376"/>
+<text text-anchor="middle" x="4744.3093" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="4744.3093" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4744.3093" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">setNext]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge16" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.3938,-298.4017C2764.4345,-296.224 4749.6736,-285.0333 4771.5919,-262.8 4787.3177,-246.8482 4786.8983,-228.7547 4771.5919,-212.4 4750.8633,-190.2518 4344.941,-174.3616 4155.477,-168.1211"/>
+<polygon fill="#000000" stroke="#000000" points="4155.3519,-164.6152 4145.2428,-167.7864 4155.123,-171.6115 4155.3519,-164.6152"/>
+<text text-anchor="middle" x="4806.3093" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[getFirst</text>
+<text text-anchor="middle" x="4806.3093" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4806.3093" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">setPrev]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge17" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.2528,-298.4313C2770.4155,-296.3778 4811.0942,-285.6132 4833.5919,-262.8 4849.3204,-246.8509 4848.9415,-228.7141 4833.5919,-212.4 4810.6993,-188.0689 4357.8494,-173.0897 4155.658,-167.59"/>
+<polygon fill="#000000" stroke="#000000" points="4155.7263,-164.0906 4145.6355,-167.3195 4155.5374,-171.0881 4155.7263,-164.0906"/>
+<text text-anchor="middle" x="4877.4422" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[setNext</text>
+<text text-anchor="middle" x="4877.4422" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4877.4422" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">IF.setFalse]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge18" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.2587,-298.4669C2778.6965,-296.5697 4891.34,-286.368 4914.5919,-262.8 4930.3238,-246.8542 4929.9884,-228.6699 4914.5919,-212.4 4888.8639,-185.2125 4374.295,-171.5873 4156.0799,-167.0138"/>
+<polygon fill="#000000" stroke="#000000" points="4155.9864,-163.5112 4145.9159,-166.8028 4155.841,-170.5097 4155.9864,-163.5112"/>
+<text text-anchor="middle" x="4949.303" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[setNext</text>
+<text text-anchor="middle" x="4949.303" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4949.303" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">setNext]</text>
+</g>
+<!-- Class: [ASTNode]&#45;&gt;Class: [TaskGraph] -->
+<g id="edge19" class="edge">
+<title>Class: [ASTNode]&#45;&gt;Class: [TaskGraph]</title>
+<path fill="none" stroke="#000000" d="M2331.3152,-298.4926C2785.1165,-296.7117 4952.7632,-286.9453 4976.5919,-262.8 4992.3262,-246.8566 4992.0186,-228.6412 4976.5919,-212.4 4948.6685,-183.0024 4385.8223,-170.5182 4156.0334,-166.6329"/>
+<polygon fill="#000000" stroke="#000000" points="4156.0659,-163.1331 4146.0088,-166.4653 4155.9489,-170.1321 4156.0659,-163.1331"/>
+<text text-anchor="middle" x="5010.526" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">[setPrev</text>
+<text text-anchor="middle" x="5010.526" y="-233.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="5010.526" y="-216.6" font-family="Times,serif" font-size="14.00" fill="#000000">setPrev]</text>
+</g>
+<!-- Class: [TaskGraph]&#45;&gt;next == null || next == stopGraph\nthis instanceof IF\nifTask.False != ifTask.next\n -->
+<g id="edge55" class="edge">
+<title>Class: [TaskGraph]&#45;&gt;next == null || next == stopGraph\nthis instanceof IF\nifTask.False != ifTask.next\n</title>
+<path fill="none" stroke="#ff0000" d="M4000.0662,-152.1072C3966.1625,-143.8832 3923.1971,-132.1563 3886.1879,-118 3864.0084,-109.5162 3840.5563,-98.417 3819.8916,-87.8489"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="3821.4037,-84.6905 3810.9139,-83.2022 3818.1861,-90.9072 3821.4037,-84.6905"/>
+<text text-anchor="middle" x="3927.7939" y="-105.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">printHierarchy</text>
+</g>
+<!-- Class: [TaskGraph]&#45;&gt;next != null\nnext.prev != null\n -->
+<g id="edge56" class="edge">
+<title>Class: [TaskGraph]&#45;&gt;next != null\nnext.prev != null\n</title>
+<path fill="none" stroke="#ff0000" d="M4030.426,-148.2072C4017.1249,-139.859 4001.5285,-129.197 3988.7405,-118 3976.6328,-107.3987 3964.668,-94.2388 3954.9144,-82.6141"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="3957.595,-80.3634 3948.5406,-74.8618 3952.1879,-84.809 3957.595,-80.3634"/>
+<text text-anchor="middle" x="4023.0176" y="-105.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">createClone</text>
+</g>
+<!-- Class: [TaskGraph]&#45;&gt;this.next == null\n -->
+<g id="edge57" class="edge">
+<title>Class: [TaskGraph]&#45;&gt;this.next == null\n</title>
+<path fill="none" stroke="#ff0000" d="M4059.5919,-146.8376C4059.5919,-129.2683 4059.5919,-102.5179 4059.5919,-82.2375"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="4063.092,-82.0207 4059.5919,-72.0207 4056.092,-82.0208 4063.092,-82.0207"/>
+<text text-anchor="middle" x="4080.1957" y="-105.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">getLast</text>
+</g>
+<!-- Class: [TaskGraph]&#45;&gt;name != null\n -->
+<g id="edge58" class="edge">
+<title>Class: [TaskGraph]&#45;&gt;name != null\n</title>
+<path fill="none" stroke="#ff0000" d="M4077.9724,-147.58C4097.1737,-129.1733 4127.4721,-100.1286 4149.2218,-79.2789"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="4151.7294,-81.7235 4156.5262,-72.2768 4146.8853,-76.6703 4151.7294,-81.7235"/>
+<text text-anchor="middle" x="4138.7518" y="-105.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">clone</text>
+</g>
+<!-- Class: [TaskGraph]&#45;&gt;q != null\n -->
+<g id="edge59" class="edge">
+<title>Class: [TaskGraph]&#45;&gt;q != null\n</title>
+<path fill="none" stroke="#ff0000" d="M4097.8122,-148.912C4132.7128,-133.5159 4185.3064,-108.9878 4228.5919,-83.2 4231.3696,-81.5451 4234.2009,-79.7586 4237.0122,-77.9132"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="4239.009,-80.788 4245.3126,-72.2724 4235.0745,-74.9983 4239.009,-80.788"/>
+<text text-anchor="middle" x="4215.1494" y="-105.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">toString</text>
+</g>
+</g>
+</svg>

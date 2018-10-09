@@ -1,0 +1,170 @@
+<svg width="1371pt" height="191pt"
+ viewBox="0.00 0.00 1371.31 191.20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 187.2)">
+<title>project</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-187.2 1367.308,-187.2 1367.308,4 -4,4"/>
+<text text-anchor="middle" x="681.654" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">Method Calls for :application.log.Report</text>
+<!-- Class: [Report] -->
+<g id="node1" class="node">
+<title>Class: [Report]</title>
+<ellipse fill="none" stroke="#000000" cx="552.2119" cy="-165.2" rx="69.537" ry="18"/>
+<text text-anchor="middle" x="552.2119" y="-161" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [Report]</text>
+</g>
+<!-- Class: [Document] -->
+<g id="node2" class="node">
+<title>Class: [Document]</title>
+<ellipse fill="none" stroke="#000000" cx="315.2119" cy="-42.8" rx="83.9241" ry="18"/>
+<text text-anchor="middle" x="315.2119" y="-38.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [Document]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [Document] -->
+<g id="edge1" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [Document]</title>
+<path fill="none" stroke="#000000" d="M482.8756,-163.0772C340.5172,-158.3803 27.2184,-146.1649 11.3451,-129.2 -3.9591,-112.8433 -3.5332,-95.545 11.3451,-78.8 25.374,-63.0109 139.2433,-52.9457 223.4908,-47.5862"/>
+<polygon fill="#000000" stroke="#000000" points="223.8464,-51.0709 233.6094,-46.9559 223.4111,-44.0845 223.8464,-51.0709"/>
+<text text-anchor="middle" x="56.1453" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[addEmptyLine</text>
+<text text-anchor="middle" x="56.1453" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="56.1453" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">add]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [Document] -->
+<g id="edge2" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [Document]</title>
+<path fill="none" stroke="#000000" d="M482.291,-164.4196C366.6015,-162.3946 145.6642,-155.1381 121.8051,-129.2 106.6403,-112.7139 107.4883,-96.0276 121.8051,-78.8 135.2979,-62.5639 180.8592,-53.6137 224.3714,-48.6988"/>
+<polygon fill="#000000" stroke="#000000" points="224.9128,-52.1611 234.4861,-47.6222 224.1718,-45.2004 224.9128,-52.1611"/>
+<text text-anchor="middle" x="159.9153" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[addSentence</text>
+<text text-anchor="middle" x="159.9153" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="159.9153" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">add]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [Document] -->
+<g id="edge4" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [Document]</title>
+<path fill="none" stroke="#000000" d="M482.9208,-162.5416C390.7424,-158.2807 237.3279,-148.3796 220.1151,-129.2 205.1537,-112.5291 207.3849,-97.231 220.1151,-78.8 224.6638,-72.2142 237.9219,-65.7771 253.1485,-60.2097"/>
+<polygon fill="#000000" stroke="#000000" points="254.5176,-63.4396 262.8234,-56.862 252.2286,-56.8244 254.5176,-63.4396"/>
+<text text-anchor="middle" x="256.7603" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[addSubTitle</text>
+<text text-anchor="middle" x="256.7603" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="256.7603" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">add]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [Document] -->
+<g id="edge6" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [Document]</title>
+<path fill="none" stroke="#000000" d="M485.8687,-159.4345C420.093,-153.0359 327.5495,-141.9189 316.4643,-129.2 302.8253,-113.551 303.5648,-89.576 307.1239,-70.848"/>
+<polygon fill="#000000" stroke="#000000" points="310.5436,-71.5932 309.3178,-61.0695 303.7134,-70.0607 310.5436,-71.5932"/>
+<text text-anchor="middle" x="345.5857" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[addTable</text>
+<text text-anchor="middle" x="345.5857" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="345.5857" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">add]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [Document] -->
+<g id="edge10" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [Document]</title>
+<path fill="none" stroke="#000000" d="M490.6113,-156.7348C453.4212,-150.5518 410.4837,-141.1675 395.8977,-129.2 376.9071,-113.6187 389.3932,-97.2819 373.2119,-78.8 368.7534,-73.7077 363.3977,-69.0958 357.767,-65.0034"/>
+<polygon fill="#000000" stroke="#000000" points="359.647,-62.05 349.393,-59.3839 355.7463,-67.8625 359.647,-62.05"/>
+<text text-anchor="middle" x="421.869" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[addTitle</text>
+<text text-anchor="middle" x="421.869" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="421.869" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">add]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [Document] -->
+<g id="edge12" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [Document]</title>
+<path fill="none" stroke="#000000" d="M505.351,-151.7151C492.6301,-146.3124 479.6597,-138.9811 469.7869,-129.2 452.3506,-111.9256 465.8579,-94.7609 447.2119,-78.8 437.6933,-70.6522 413.6034,-63.1061 388.5681,-57.0495"/>
+<polygon fill="#000000" stroke="#000000" points="389.114,-53.5829 378.5802,-54.7184 387.5229,-60.3997 389.114,-53.5829"/>
+<text text-anchor="middle" x="486.9244" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[close</text>
+<text text-anchor="middle" x="486.9244" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="486.9244" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">close]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [Document] -->
+<g id="edge13" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [Document]</title>
+<path fill="none" stroke="#000000" d="M537.7016,-147.4403C533.4352,-141.7935 528.9484,-135.4003 525.3367,-129.2 513.0231,-108.0616 522.3385,-94.0521 503.2119,-78.8 487.2497,-66.0714 443.3023,-57.2682 401.9102,-51.5546"/>
+<polygon fill="#000000" stroke="#000000" points="402.1146,-48.051 391.7408,-50.2038 401.1928,-54.9901 402.1146,-48.051"/>
+<text text-anchor="middle" x="542.1495" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[open</text>
+<text text-anchor="middle" x="542.1495" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="542.1495" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">open]</text>
+</g>
+<!-- Class: [Paragraph] -->
+<g id="node3" class="node">
+<title>Class: [Paragraph]</title>
+<ellipse fill="none" stroke="#000000" cx="710.2119" cy="-42.8" rx="82.7587" ry="18"/>
+<text text-anchor="middle" x="710.2119" y="-38.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [Paragraph]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [Paragraph] -->
+<g id="edge3" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [Paragraph]</title>
+<path fill="none" stroke="#000000" d="M556.0959,-147.2034C561.2775,-124.7887 570.9612,-88.2815 580.9215,-78.8 589.7098,-70.4341 612.747,-62.9167 636.9846,-56.9421"/>
+<polygon fill="#000000" stroke="#000000" points="638.1123,-60.272 647.037,-54.5623 636.4996,-53.4603 638.1123,-60.272"/>
+<text text-anchor="middle" x="634.8571" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[addSentence</text>
+<text text-anchor="middle" x="634.8571" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="634.8571" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">setIndentationLeft]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [Paragraph] -->
+<g id="edge5" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [Paragraph]</title>
+<path fill="none" stroke="#000000" d="M611.5951,-155.6017C642.945,-149.3755 677.168,-140.3486 688.2119,-129.2 703.3071,-113.9616 708.5063,-89.9042 710.1,-71.0405"/>
+<polygon fill="#000000" stroke="#000000" points="713.6025,-71.091 710.662,-60.9124 706.6132,-70.7031 713.6025,-71.091"/>
+<text text-anchor="middle" x="749.2589" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[addSubTitle</text>
+<text text-anchor="middle" x="749.2589" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="749.2589" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">setAlignment]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [Paragraph] -->
+<g id="edge11" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [Paragraph]</title>
+<path fill="none" stroke="#000000" d="M618.5844,-159.6169C685.3491,-153.3128 780.0063,-142.2198 791.2119,-129.2 805.8239,-112.2221 803.4179,-97.5822 791.2119,-78.8 786.7308,-71.9047 780.5911,-66.3195 773.6805,-61.7978"/>
+<polygon fill="#000000" stroke="#000000" points="775.0041,-58.524 764.5816,-56.6206 771.5423,-64.6081 775.0041,-58.524"/>
+<text text-anchor="middle" x="842.2589" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[addTitle</text>
+<text text-anchor="middle" x="842.2589" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="842.2589" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">setAlignment]</text>
+</g>
+<!-- Class: [PdfPCell] -->
+<g id="node4" class="node">
+<title>Class: [PdfPCell]</title>
+<ellipse fill="none" stroke="#000000" cx="916.2119" cy="-42.8" rx="78.22" ry="18"/>
+<text text-anchor="middle" x="916.2119" y="-38.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [PdfPCell]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [PdfPCell] -->
+<g id="edge7" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [PdfPCell]</title>
+<path fill="none" stroke="#000000" d="M620.6807,-161.7102C712.3595,-156.4502 865.9011,-145.357 886.2119,-129.2 903.7213,-115.2714 911.0445,-90.5004 914.0902,-71.0423"/>
+<polygon fill="#000000" stroke="#000000" points="917.5928,-71.2426 915.3797,-60.8815 910.6485,-70.3613 917.5928,-71.2426"/>
+<text text-anchor="middle" x="983.193" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[addTable</text>
+<text text-anchor="middle" x="983.193" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="983.193" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">setHorizontalAlignment]</text>
+</g>
+<!-- Class: [PdfPTable] -->
+<g id="node5" class="node">
+<title>Class: [PdfPTable]</title>
+<ellipse fill="none" stroke="#000000" cx="1097.2119" cy="-42.8" rx="84.002" ry="18"/>
+<text text-anchor="middle" x="1097.2119" y="-38.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [PdfPTable]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [PdfPTable] -->
+<g id="edge8" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [PdfPTable]</title>
+<path fill="none" stroke="#000000" d="M622.066,-164.1239C752.3142,-161.5523 1022.2809,-153.3472 1057.2119,-129.2 1077.5042,-115.1722 1070.0943,-101.1836 1080.4643,-78.8 1081.7836,-75.9522 1083.1634,-72.9786 1084.5404,-70.0141"/>
+<polygon fill="#000000" stroke="#000000" points="1087.81,-71.2835 1088.8523,-60.74 1081.4625,-68.3322 1087.81,-71.2835"/>
+<text text-anchor="middle" x="1109.5857" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[addTable</text>
+<text text-anchor="middle" x="1109.5857" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1109.5857" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">addCell]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [PdfPTable] -->
+<g id="edge9" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [PdfPTable]</title>
+<path fill="none" stroke="#000000" d="M621.7262,-163.4382C772.966,-159.266 1119.7961,-147.7205 1137.2119,-129.2 1152.5569,-112.8816 1146.325,-99.2624 1137.2119,-78.8 1135.366,-74.6554 1132.781,-70.7877 1129.8038,-67.2411"/>
+<polygon fill="#000000" stroke="#000000" points="1132.2666,-64.7531 1122.7943,-60.0069 1127.2394,-69.6242 1132.2666,-64.7531"/>
+<text text-anchor="middle" x="1176.5373" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[addTable</text>
+<text text-anchor="middle" x="1176.5373" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1176.5373" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">setWidths]</text>
+</g>
+<!-- Class: [PdfWriter] -->
+<g id="node6" class="node">
+<title>Class: [PdfWriter]</title>
+<ellipse fill="none" stroke="#000000" cx="1281.2119" cy="-42.8" rx="82.1925" ry="18"/>
+<text text-anchor="middle" x="1281.2119" y="-38.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [PdfWriter]</text>
+</g>
+<!-- Class: [Report]&#45;&gt;Class: [PdfWriter] -->
+<g id="edge14" class="edge">
+<title>Class: [Report]&#45;&gt;Class: [PdfWriter]</title>
+<path fill="none" stroke="#000000" d="M622.1082,-164.5697C781.0478,-162.6823 1159.809,-155.4549 1211.2119,-129.2 1236.4081,-116.3306 1255.697,-89.88 1267.5845,-69.6159"/>
+<polygon fill="#000000" stroke="#000000" points="1270.6831,-71.246 1272.5202,-60.8117 1264.5771,-67.823 1270.6831,-71.246"/>
+<text text-anchor="middle" x="1295.4146" y="-116.6" font-family="Times,serif" font-size="14.00" fill="#000000">[open</text>
+<text text-anchor="middle" x="1295.4146" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1295.4146" y="-83" font-family="Times,serif" font-size="14.00" fill="#000000">getInstance]</text>
+</g>
+</g>
+</svg>

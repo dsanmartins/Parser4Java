@@ -1,0 +1,64 @@
+<svg width="934pt" height="336pt"
+ viewBox="0.00 0.00 934.07 336.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 332)">
+<title>project</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-332 930.0714,-332 930.0714,4 -4,4"/>
+<text text-anchor="middle" x="463.0357" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">Method Calls for :service.messagingservice.MessagingServiceProvider</text>
+<!-- !(endPoint.contains(&quot;.#CLIENT#.&quot;) || destinationEndPoint.contains(&quot;.#CLIENT#.&quot;) || endPoint.endsWith(&quot;.registry&quot;) || destinationEndPoint.endsWith(&quot;.registry&quot;))\nmsg.getType().equals(&quot;response&quot;)\nmessageLoss &gt; 0\n100 / messageLoss == messageCount\nminDelay + maxDelay != 0\n -->
+<g id="node1" class="node">
+<title>!(endPoint.contains(&quot;.#CLIENT#.&quot;) || destinationEndPoint.contains(&quot;.#CLIENT#.&quot;) || endPoint.endsWith(&quot;.registry&quot;) || destinationEndPoint.endsWith(&quot;.registry&quot;))\nmsg.getType().equals(&quot;response&quot;)\nmessageLoss &gt; 0\n100 / messageLoss == messageCount\nminDelay + maxDelay != 0\n</title>
+<polygon fill="none" stroke="#ff0000" points="926.1071,-116.8 -.0357,-116.8 -.0357,-24.8 926.1071,-24.8 926.1071,-116.8"/>
+<text text-anchor="middle" x="463.0357" y="-100.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">!(endPoint.contains(&quot;.#CLIENT#.&quot;) || destinationEndPoint.contains(&quot;.#CLIENT#.&quot;) || endPoint.endsWith(&quot;.registry&quot;) || destinationEndPoint.endsWith(&quot;.registry&quot;))</text>
+<text text-anchor="middle" x="463.0357" y="-83.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">msg.getType().equals(&quot;response&quot;)</text>
+<text text-anchor="middle" x="463.0357" y="-66.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">messageLoss &gt; 0</text>
+<text text-anchor="middle" x="463.0357" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">100 / messageLoss == messageCount</text>
+<text text-anchor="middle" x="463.0357" y="-33" font-family="Times,serif" font-size="14.00" fill="#ff0000">minDelay + maxDelay != 0</text>
+</g>
+<!-- Class: [MessagingServiceProvider] -->
+<g id="node2" class="node">
+<title>Class: [MessagingServiceProvider]</title>
+<ellipse fill="none" stroke="#000000" cx="463.0357" cy="-310" rx="147.5652" ry="18"/>
+<text text-anchor="middle" x="463.0357" y="-305.8" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [MessagingServiceProvider]</text>
+</g>
+<!-- Class: [MessagingService] -->
+<g id="node3" class="node">
+<title>Class: [MessagingService]</title>
+<ellipse fill="none" stroke="#000000" cx="463.0357" cy="-187.6" rx="114.0582" ry="18"/>
+<text text-anchor="middle" x="463.0357" y="-183.4" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [MessagingService]</text>
+</g>
+<!-- Class: [MessagingServiceProvider]&#45;&gt;Class: [MessagingService] -->
+<g id="edge1" class="edge">
+<title>Class: [MessagingServiceProvider]&#45;&gt;Class: [MessagingService]</title>
+<path fill="none" stroke="#000000" d="M399.0294,-293.6969C381.9582,-287.9957 366.8239,-281.2046 361.7383,-274 348.8206,-255.6999 348.8206,-241.9001 361.7383,-223.6 366.1529,-217.346 378.1394,-211.4036 392.3918,-206.2152"/>
+<polygon fill="#000000" stroke="#000000" points="393.6992,-209.4672 402.0282,-202.9189 391.4336,-202.844 393.6992,-209.4672"/>
+<text text-anchor="middle" x="401.6844" y="-261.4" font-family="Times,serif" font-size="14.00" fill="#000000">[sendMessage</text>
+<text text-anchor="middle" x="401.6844" y="-244.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="401.6844" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">sendMessage]</text>
+</g>
+<!-- Class: [MessagingServiceProvider]&#45;&gt;Class: [MessagingService] -->
+<g id="edge2" class="edge">
+<title>Class: [MessagingServiceProvider]&#45;&gt;Class: [MessagingService]</title>
+<path fill="none" stroke="#000000" d="M463.0357,-291.9395C463.0357,-271.8712 463.0357,-239.2113 463.0357,-215.7752"/>
+<polygon fill="#000000" stroke="#000000" points="466.5358,-215.7346 463.0357,-205.7346 459.5358,-215.7347 466.5358,-215.7346"/>
+<text text-anchor="middle" x="503.8583" y="-261.4" font-family="Times,serif" font-size="14.00" fill="#000000">[startListening</text>
+<text text-anchor="middle" x="503.8583" y="-244.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="503.8583" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">register]</text>
+</g>
+<!-- Class: [MessagingServiceProvider]&#45;&gt;Class: [MessagingService] -->
+<g id="edge3" class="edge">
+<title>Class: [MessagingServiceProvider]&#45;&gt;Class: [MessagingService]</title>
+<path fill="none" stroke="#000000" d="M524.1722,-293.5738C532.8227,-288.6541 540.6064,-282.2728 546.0357,-274 558.326,-255.2728 558.326,-242.3272 546.0357,-223.6 542.1563,-217.6888 537.0748,-212.7433 531.334,-208.6068"/>
+<polygon fill="#000000" stroke="#000000" points="532.8517,-205.4285 522.5144,-203.1067 529.1476,-211.3681 532.8517,-205.4285"/>
+<text text-anchor="middle" x="595.4754" y="-261.4" font-family="Times,serif" font-size="14.00" fill="#000000">[stopListening</text>
+<text text-anchor="middle" x="595.4754" y="-244.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="595.4754" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">unRegister]</text>
+</g>
+<!-- Class: [MessagingService]&#45;&gt;!(endPoint.contains(&quot;.#CLIENT#.&quot;) || destinationEndPoint.contains(&quot;.#CLIENT#.&quot;) || endPoint.endsWith(&quot;.registry&quot;) || destinationEndPoint.endsWith(&quot;.registry&quot;))\nmsg.getType().equals(&quot;response&quot;)\nmessageLoss &gt; 0\n100 / messageLoss == messageCount\nminDelay + maxDelay != 0\n -->
+<g id="edge4" class="edge">
+<title>Class: [MessagingService]&#45;&gt;!(endPoint.contains(&quot;.#CLIENT#.&quot;) || destinationEndPoint.contains(&quot;.#CLIENT#.&quot;) || endPoint.endsWith(&quot;.registry&quot;) || destinationEndPoint.endsWith(&quot;.registry&quot;))\nmsg.getType().equals(&quot;response&quot;)\nmessageLoss &gt; 0\n100 / messageLoss == messageCount\nminDelay + maxDelay != 0\n</title>
+<path fill="none" stroke="#ff0000" d="M463.0357,-169.35C463.0357,-157.8237 463.0357,-142.2532 463.0357,-126.8954"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="466.5358,-126.8786 463.0357,-116.8786 459.5358,-126.8786 466.5358,-126.8786"/>
+<text text-anchor="middle" x="500.3541" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">sendMessage</text>
+</g>
+</g>
+</svg>
