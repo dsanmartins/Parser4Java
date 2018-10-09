@@ -71,6 +71,7 @@ public class MyAnalysis {
 		//Create graph with calls among packages
 		createGraph.createGraphWithPackageCall(ct.getPackageCall());
 
+		//Create execution trace from file. (This file is created manually)
 		String pathFileGraph = p.getProperty("pathfilegraph");
 		createGraph.createGraphFromFile(pathFileGraph);
 	}
