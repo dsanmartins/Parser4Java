@@ -21,9 +21,26 @@ public class NodeUtil {
 		InputStream in = Parser.class.getClassLoader().getResourceAsStream("configuration.properties");
 		p.load(in);
 
-		url1 = p.getProperty("source") + url1;
-		url2 = p.getProperty("source") + url2;
+		String urlPath[] = sourcePath.split("\\,");
+
+		for (String nPath:urlPath)
+		{
+			File f = new File(nPath+url1);
+			if(f.exists() && !f.isDirectory()) { 
+				url1 = f.getAbsolutePath();
+				break;
+			}
+		}
 		
+		for (String nPath:urlPath)
+		{
+			File f = new File(nPath+url2);
+			if(f.exists() && !f.isDirectory()) { 
+				url2 = f.getAbsolutePath();
+				break;
+			}
+		}
+
 		String rtn1 = "";
 		String rtn2 = "";
 

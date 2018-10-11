@@ -42,23 +42,23 @@
 <!-- Class: [CostProbe] -->
 <g id="node6" class="node">
 <title>Class: [CostProbe]</title>
-<ellipse fill="none" stroke="#000000" cx="480.0334" cy="-310" rx="83.9415" ry="18"/>
-<text text-anchor="middle" x="480.0334" y="-305.8" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [CostProbe]</text>
+<ellipse fill="none" stroke="#000000" cx="467.0334" cy="-310" rx="83.9415" ry="18"/>
+<text text-anchor="middle" x="467.0334" y="-305.8" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [CostProbe]</text>
 </g>
-<!-- Class: [CostProbeInterface] -->
+<!-- Interface: [CostProbeInterface] -->
 <g id="node7" class="node">
-<title>Class: [CostProbeInterface]</title>
-<ellipse fill="none" stroke="#000000" cx="404.0334" cy="-187.6" rx="118.0477" ry="18"/>
-<text text-anchor="middle" x="404.0334" y="-183.4" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [CostProbeInterface]</text>
+<title>Interface: [CostProbeInterface]</title>
+<ellipse fill="none" stroke="#000000" cx="391.0334" cy="-187.6" rx="131.3111" ry="18"/>
+<text text-anchor="middle" x="391.0334" y="-183.4" font-family="Times,serif" font-size="14.00" fill="#000000">Interface: [CostProbeInterface]</text>
 </g>
-<!-- Class: [CostProbe]&#45;&gt;Class: [CostProbeInterface] -->
+<!-- Class: [CostProbe]&#45;&gt;Interface: [CostProbeInterface] -->
 <g id="edge1" class="edge">
-<title>Class: [CostProbe]&#45;&gt;Class: [CostProbeInterface]</title>
-<path fill="none" stroke="#000000" d="M467.8535,-292.1675C463.9867,-286.4081 459.7333,-279.9688 455.9464,-274 443.4487,-254.3012 429.8895,-231.6886 419.7635,-214.5389"/>
-<polygon fill="#000000" stroke="#000000" points="422.6075,-212.4705 414.5197,-205.6265 416.5743,-216.0202 422.6075,-212.4705"/>
-<text text-anchor="middle" x="520.5769" y="-261.4" font-family="Times,serif" font-size="14.00" fill="#000000">[notifyCostSubscribers</text>
-<text text-anchor="middle" x="520.5769" y="-244.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="520.5769" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">serviceCost]</text>
+<title>Class: [CostProbe]&#45;&gt;Interface: [CostProbeInterface]</title>
+<path fill="none" stroke="#000000" d="M455.8193,-291.9395C443.1342,-271.5096 422.3463,-238.0303 407.7469,-214.5175"/>
+<polygon fill="#000000" stroke="#000000" points="410.542,-212.3839 402.2935,-205.7346 404.5951,-216.0765 410.542,-212.3839"/>
+<text text-anchor="middle" x="509.5769" y="-261.4" font-family="Times,serif" font-size="14.00" fill="#000000">[notifyCostSubscribers</text>
+<text text-anchor="middle" x="509.5769" y="-244.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="509.5769" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">serviceCost]</text>
 </g>
 <!-- Class: [ServiceDescription] -->
 <g id="node8" class="node">
@@ -69,11 +69,11 @@
 <!-- Class: [CostProbe]&#45;&gt;Class: [ServiceDescription] -->
 <g id="edge2" class="edge">
 <title>Class: [CostProbe]&#45;&gt;Class: [ServiceDescription]</title>
-<path fill="none" stroke="#000000" d="M536.8944,-296.6592C553.2975,-291.2274 570.6373,-283.8443 585.0334,-274 608.1227,-258.2111 628.1181,-233.2436 641.3142,-214.1997"/>
-<polygon fill="#000000" stroke="#000000" points="644.3825,-215.909 647.0575,-205.6574 638.5733,-212.0033 644.3825,-215.909"/>
-<text text-anchor="middle" x="697.5769" y="-261.4" font-family="Times,serif" font-size="14.00" fill="#000000">[notifyCostSubscribers</text>
-<text text-anchor="middle" x="697.5769" y="-244.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="697.5769" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">getOperationCost]</text>
+<path fill="none" stroke="#000000" d="M525.7083,-297.0539C543.3726,-291.5916 562.2437,-284.0924 578.0334,-274 602.7905,-258.1758 624.9658,-232.8852 639.6544,-213.7462"/>
+<polygon fill="#000000" stroke="#000000" points="642.4823,-215.8089 645.6676,-205.7042 636.8762,-211.617 642.4823,-215.8089"/>
+<text text-anchor="middle" x="694.5769" y="-261.4" font-family="Times,serif" font-size="14.00" fill="#000000">[notifyCostSubscribers</text>
+<text text-anchor="middle" x="694.5769" y="-244.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="694.5769" y="-227.8" font-family="Times,serif" font-size="14.00" fill="#000000">getOperationCost]</text>
 </g>
 <!-- Class: [ServiceDescription]&#45;&gt;opList.get(i).getOpName().equals(opName)\n -->
 <g id="edge3" class="edge">

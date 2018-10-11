@@ -1,9 +1,9 @@
-<svg width="6561pt" height="358pt"
- viewBox="0.00 0.00 6561.34 358.40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="5708pt" height="358pt"
+ viewBox="0.00 0.00 5707.50 358.40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 354.4)">
 <title>project</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-354.4 6557.3406,-354.4 6557.3406,4 -4,4"/>
-<text text-anchor="middle" x="3276.6703" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">Method Calls for :tas.adaptation.TASStart</text>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-354.4 5703.5012,-354.4 5703.5012,4 -4,4"/>
+<text text-anchor="middle" x="2849.7506" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">Method Calls for :tas.adaptation.TASStart</text>
 <!-- DEBUG\nreply\nresponseTime ==  -->
 <g id="node1" class="node">
 <title>DEBUG\nreply\nresponseTime == </title>
@@ -141,493 +141,448 @@
 <text text-anchor="middle" x="5538.6583" y="-75" font-family="Times,serif" font-size="14.00" fill="#ff0000">operation.getAnnotation(LocalOperation.class) != null</text>
 <text text-anchor="middle" x="5538.6583" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">operation.getName().equals(opName)</text>
 </g>
-<!-- operation.getAnnotation(ServiceOperation.class) != null\noperation.getName().equals(opName)\nsize == params.length\n!(flag = serviceProfiles.get(i).preInvokeOperation(opName, args))\nflag\n -->
-<g id="node21" class="node">
-<title>operation.getAnnotation(ServiceOperation.class) != null\noperation.getName().equals(opName)\nsize == params.length\n!(flag = serviceProfiles.get(i).preInvokeOperation(opName, args))\nflag\n</title>
-<polygon fill="none" stroke="#ff0000" points="6104.0967,-116.8 5717.2199,-116.8 5717.2199,-24.8 6104.0967,-24.8 6104.0967,-116.8"/>
-<text text-anchor="middle" x="5910.6583" y="-100.2" font-family="Times,serif" font-size="14.00" fill="#ff0000">operation.getAnnotation(ServiceOperation.class) != null</text>
-<text text-anchor="middle" x="5910.6583" y="-83.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">operation.getName().equals(opName)</text>
-<text text-anchor="middle" x="5910.6583" y="-66.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">size == params.length</text>
-<text text-anchor="middle" x="5910.6583" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">!(flag = serviceProfiles.get(i).preInvokeOperation(opName, args))</text>
-<text text-anchor="middle" x="5910.6583" y="-33" font-family="Times,serif" font-size="14.00" fill="#ff0000">flag</text>
-</g>
-<!-- annotation != null &amp;&amp; annotation instanceof AtomicServiceConfiguration\n -->
-<g id="node22" class="node">
-<title>annotation != null &amp;&amp; annotation instanceof AtomicServiceConfiguration\n</title>
-<polygon fill="none" stroke="#ff0000" points="6553.5231,-88.8 6121.7935,-88.8 6121.7935,-52.8 6553.5231,-52.8 6553.5231,-88.8"/>
-<text text-anchor="middle" x="6337.6583" y="-66.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">annotation != null &amp;&amp; annotation instanceof AtomicServiceConfiguration</text>
-</g>
 <!-- ProfileExecutor.profile != null\ncurrentProbability &gt; probability\nisStopped\n -->
-<g id="node23" class="node">
+<g id="node21" class="node">
 <title>ProfileExecutor.profile != null\ncurrentProbability &gt; probability\nisStopped\n</title>
-<polygon fill="none" stroke="#ff0000" points="1244.8518,-228.2014 1050.4648,-228.2014 1050.4648,-169.3986 1244.8518,-169.3986 1244.8518,-228.2014"/>
-<text text-anchor="middle" x="1147.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">ProfileExecutor.profile != null</text>
-<text text-anchor="middle" x="1147.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">currentProbability &gt; probability</text>
-<text text-anchor="middle" x="1147.6583" y="-177.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">isStopped</text>
+<polygon fill="none" stroke="#ff0000" points="1187.8518,-228.2014 993.4648,-228.2014 993.4648,-169.3986 1187.8518,-169.3986 1187.8518,-228.2014"/>
+<text text-anchor="middle" x="1090.6583" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#ff0000">ProfileExecutor.profile != null</text>
+<text text-anchor="middle" x="1090.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#ff0000">currentProbability &gt; probability</text>
+<text text-anchor="middle" x="1090.6583" y="-177.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">isStopped</text>
 </g>
 <!-- Class: [TASStart] -->
-<g id="node24" class="node">
+<g id="node22" class="node">
 <title>Class: [TASStart]</title>
-<ellipse fill="none" stroke="#000000" cx="3080.6583" cy="-332.4" rx="79.924" ry="18"/>
-<text text-anchor="middle" x="3080.6583" y="-328.2" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [TASStart]</text>
+<ellipse fill="none" stroke="#000000" cx="2954.6583" cy="-332.4" rx="79.924" ry="18"/>
+<text text-anchor="middle" x="2954.6583" y="-328.2" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [TASStart]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;ProfileExecutor.profile != null\ncurrentProbability &gt; probability\nisStopped\n -->
-<g id="edge26" class="edge">
+<g id="edge25" class="edge">
 <title>Class: [TASStart]&#45;&gt;ProfileExecutor.profile != null\ncurrentProbability &gt; probability\nisStopped\n</title>
-<path fill="none" stroke="#ff0000" d="M3000.5082,-331.8719C2666.5601,-329.5292 1399.2854,-319.1705 1317.3763,-296.4 1272.2841,-283.8645 1226.5991,-256.5777 1194.0044,-234.0348"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="1195.7832,-231.007 1185.5896,-228.1189 1191.7573,-236.7334 1195.7832,-231.007"/>
-<text text-anchor="middle" x="1367.7993" y="-267" font-family="Times,serif" font-size="14.00" fill="#ff0000">executeWorkflow</text>
+<path fill="none" stroke="#ff0000" d="M2874.6149,-331.5199C2536.125,-327.7032 1237.7987,-312.0694 1198.3763,-296.4 1167.1194,-283.9762 1139.2107,-258.0326 1119.6367,-236.015"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1122.2571,-233.6945 1113.0688,-228.4194 1116.9621,-238.273 1122.2571,-233.6945"/>
+<text text-anchor="middle" x="1248.7993" y="-267" font-family="Times,serif" font-size="14.00" fill="#ff0000">executeWorkflow</text>
 </g>
 <!-- Class: [AbstractService] -->
-<g id="node25" class="node">
+<g id="node23" class="node">
 <title>Class: [AbstractService]</title>
-<ellipse fill="none" stroke="#000000" cx="1367.6583" cy="-198.8" rx="105.3045" ry="18"/>
-<text text-anchor="middle" x="1367.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [AbstractService]</text>
+<ellipse fill="none" stroke="#000000" cx="1310.6583" cy="-198.8" rx="105.3045" ry="18"/>
+<text text-anchor="middle" x="1310.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [AbstractService]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [AbstractService] -->
 <g id="edge1" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [AbstractService]</title>
-<path fill="none" stroke="#000000" d="M3000.6381,-331.8433C2690.3166,-329.5197 1580.0197,-319.6143 1508.6021,-296.4 1463.4545,-281.7248 1419.8524,-247.4492 1393.3958,-223.6938"/>
-<polygon fill="#000000" stroke="#000000" points="1395.4908,-220.8665 1385.7528,-216.6926 1390.7625,-226.0282 1395.4908,-220.8665"/>
-<text text-anchor="middle" x="1573.1864" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[addAllServices</text>
-<text text-anchor="middle" x="1573.1864" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="1573.1864" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getServiceDescription]</text>
+<path fill="none" stroke="#000000" d="M2874.5362,-332.0821C2549.7599,-330.6133 1347.2082,-323.3605 1318.6021,-296.4 1300.232,-279.0867 1300.4994,-249.0228 1303.9642,-226.824"/>
+<polygon fill="#000000" stroke="#000000" points="1307.4132,-227.4205 1305.7897,-216.9508 1300.5298,-226.1478 1307.4132,-227.4205"/>
+<text text-anchor="middle" x="1383.1864" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[addAllServices</text>
+<text text-anchor="middle" x="1383.1864" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1383.1864" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getServiceDescription]</text>
+</g>
+<!-- Class: [TASStart]&#45;&gt;Class: [AbstractService] -->
+<g id="edge16" class="edge">
+<title>Class: [TASStart]&#45;&gt;Class: [AbstractService]</title>
+<path fill="none" stroke="#000000" d="M2874.3903,-331.6187C2603.2006,-328.7905 1731.0042,-318.0914 1606.6021,-296.4 1582.6119,-292.2169 1445.9769,-245.6395 1367.0141,-218.3703"/>
+<polygon fill="#000000" stroke="#000000" points="1367.807,-214.9413 1357.2122,-214.9822 1365.5201,-221.5572 1367.807,-214.9413"/>
+<text text-anchor="middle" x="1671.1864" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
+<text text-anchor="middle" x="1671.1864" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1671.1864" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getServiceDescription]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [AbstractService] -->
 <g id="edge17" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [AbstractService]</title>
-<path fill="none" stroke="#000000" d="M3000.3595,-331.3153C2718.8054,-327.3746 1790.05,-313.1641 1728.6021,-296.4 1684.02,-284.2372 1681.2311,-261.3917 1637.6583,-246 1584.1312,-227.092 1521.8588,-215.5565 1470.6156,-208.6283"/>
-<polygon fill="#000000" stroke="#000000" points="1470.8903,-205.1344 1460.5199,-207.3033 1469.9794,-212.0749 1470.8903,-205.1344"/>
-<text text-anchor="middle" x="1793.1864" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
-<text text-anchor="middle" x="1793.1864" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="1793.1864" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getServiceDescription]</text>
+<path fill="none" stroke="#000000" d="M2874.5859,-332.0191C2633.7827,-330.5704 1926.6259,-323.99 1826.5685,-296.4 1782.0323,-284.1195 1779.6769,-260.0231 1735.6583,-246 1678.6968,-227.8536 1525.195,-213.8584 1419.1686,-205.9733"/>
+<polygon fill="#000000" stroke="#000000" points="1419.291,-202.4729 1409.0611,-205.2294 1418.7771,-209.4541 1419.291,-202.4729"/>
+<text text-anchor="middle" x="1866.7032" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
+<text text-anchor="middle" x="1866.7032" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="1866.7032" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">register]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [AbstractService] -->
 <g id="edge18" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [AbstractService]</title>
-<path fill="none" stroke="#000000" d="M3000.4152,-331.4191C2745.0339,-328.1012 1964.8977,-316.3758 1914.5685,-296.4 1883.1652,-283.9359 1888.6388,-259.4805 1857.6583,-246 1792.5352,-217.6631 1605.4376,-206.2258 1482.1934,-201.6886"/>
-<polygon fill="#000000" stroke="#000000" points="1482.0737,-198.1821 1471.9549,-201.3221 1481.8232,-205.1777 1482.0737,-198.1821"/>
-<text text-anchor="middle" x="1954.7032" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
-<text text-anchor="middle" x="1954.7032" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="1954.7032" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">register]</text>
+<path fill="none" stroke="#000000" d="M2874.6311,-330.9644C2646.328,-326.674 2005.5567,-313.1977 1963.5685,-296.4 1932.1993,-283.8505 1937.7523,-259.2167 1906.6583,-246 1863.4272,-227.6244 1583.3162,-211.6351 1422.9523,-203.8457"/>
+<polygon fill="#000000" stroke="#000000" points="1422.7235,-200.3307 1412.5664,-203.3445 1422.386,-207.3225 1422.7235,-200.3307"/>
+<text text-anchor="middle" x="2003.7032" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
+<text text-anchor="middle" x="2003.7032" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2003.7032" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">startService]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [AbstractService] -->
-<g id="edge19" class="edge">
+<g id="edge24" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [AbstractService]</title>
-<path fill="none" stroke="#000000" d="M3000.7079,-331.4783C2763.4959,-328.5023 2077.4511,-318.0598 2034.5685,-296.4 2009.0646,-283.5181 2019.8945,-259.3987 1994.6583,-246 1950.6045,-222.6105 1649.8731,-208.5602 1481.4184,-202.4357"/>
-<polygon fill="#000000" stroke="#000000" points="1481.3829,-198.9322 1471.2635,-202.0702 1481.1311,-205.9277 1481.3829,-198.9322"/>
-<text text-anchor="middle" x="2074.7032" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
-<text text-anchor="middle" x="2074.7032" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="2074.7032" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">startService]</text>
-</g>
-<!-- Class: [TASStart]&#45;&gt;Class: [AbstractService] -->
-<g id="edge25" class="edge">
-<title>Class: [TASStart]&#45;&gt;Class: [AbstractService]</title>
-<path fill="none" stroke="#000000" d="M3000.7682,-331.086C2782.9946,-327.2655 2192.6787,-315.2241 2155.2403,-296.4 2129.5464,-283.481 2140.1938,-259.2292 2114.6583,-246 2060.0799,-217.7246 1678.1142,-205.462 1482.5212,-200.988"/>
-<polygon fill="#000000" stroke="#000000" points="1482.5671,-197.4883 1472.4906,-200.7617 1482.4091,-204.4865 1482.5671,-197.4883"/>
-<text text-anchor="middle" x="2193.3673" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[stopServices</text>
-<text text-anchor="middle" x="2193.3673" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="2193.3673" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">stopService]</text>
+<path fill="none" stroke="#000000" d="M2874.7286,-330.6711C2667.6844,-325.9777 2127.5379,-312.2791 2092.2403,-296.4 2063.8669,-283.6358 2071.8858,-259.0838 2043.6583,-246 1989.1002,-220.7117 1616.9962,-207.0642 1424.9118,-201.6323"/>
+<polygon fill="#000000" stroke="#000000" points="1424.8709,-198.1299 1414.7769,-201.3486 1424.675,-205.1271 1424.8709,-198.1299"/>
+<text text-anchor="middle" x="2130.3673" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[stopServices</text>
+<text text-anchor="middle" x="2130.3673" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2130.3673" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">stopService]</text>
 </g>
 <!-- Class: [ServiceDescription] -->
-<g id="node26" class="node">
+<g id="node24" class="node">
 <title>Class: [ServiceDescription]</title>
-<ellipse fill="none" stroke="#000000" cx="2302.6583" cy="-198.8" rx="117.4855" ry="18"/>
-<text text-anchor="middle" x="2302.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [ServiceDescription]</text>
+<ellipse fill="none" stroke="#000000" cx="2300.6583" cy="-198.8" rx="117.4855" ry="18"/>
+<text text-anchor="middle" x="2300.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [ServiceDescription]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [ServiceDescription] -->
 <g id="edge2" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [ServiceDescription]</title>
-<path fill="none" stroke="#000000" d="M3000.6642,-331.9153C2796.3355,-330.286 2269.4173,-323.4678 2243.4885,-296.4 2227.9933,-280.2241 2233.7709,-266.1824 2243.4885,-246 2247.8922,-236.8539 2255.0261,-228.9297 2262.8415,-222.3227"/>
-<polygon fill="#000000" stroke="#000000" points="2265.0411,-225.0462 2270.8081,-216.1584 2260.7573,-219.51 2265.0411,-225.0462"/>
-<text text-anchor="middle" x="2292.2432" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[addAllServices</text>
-<text text-anchor="middle" x="2292.2432" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="2292.2432" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getServiceName]</text>
+<path fill="none" stroke="#000000" d="M2874.4895,-331.6112C2681.4863,-329.32 2205.1335,-321.1716 2181.4885,-296.4 2166.022,-280.1966 2168.899,-264.5274 2181.4885,-246 2190.2091,-233.1663 2203.0199,-223.8221 2217.0458,-217.0186"/>
+<polygon fill="#000000" stroke="#000000" points="2218.6614,-220.1317 2226.4075,-212.9034 2215.8445,-213.7235 2218.6614,-220.1317"/>
+<text text-anchor="middle" x="2230.2432" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[addAllServices</text>
+<text text-anchor="middle" x="2230.2432" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2230.2432" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getServiceName]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [ServiceDescription] -->
 <g id="edge3" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [ServiceDescription]</title>
-<path fill="none" stroke="#000000" d="M3000.9391,-330.5899C2819.6689,-326.1772 2390.189,-313.9281 2364.1477,-296.4 2343.6459,-282.6005 2353.7224,-266.978 2340.6583,-246 2336.2007,-238.842 2330.809,-231.5391 2325.5053,-224.8838"/>
-<polygon fill="#000000" stroke="#000000" points="2327.9644,-222.3635 2318.9112,-216.8597 2322.5563,-226.8078 2327.9644,-222.3635"/>
-<text text-anchor="middle" x="2410.9136" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[addAllServices</text>
-<text text-anchor="middle" x="2410.9136" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="2410.9136" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getServiceType]</text>
+<path fill="none" stroke="#000000" d="M2874.9257,-330.8671C2705.1437,-327.2154 2321.7021,-316.7497 2302.1477,-296.4 2284.8144,-278.3617 2286.9761,-248.6729 2291.9132,-226.7681"/>
+<polygon fill="#000000" stroke="#000000" points="2295.3184,-227.5788 2294.4012,-217.0237 2288.536,-225.847 2295.3184,-227.5788"/>
+<text text-anchor="middle" x="2348.9136" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[addAllServices</text>
+<text text-anchor="middle" x="2348.9136" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2348.9136" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getServiceType]</text>
+</g>
+<!-- Class: [TASStart]&#45;&gt;Class: [ServiceDescription] -->
+<g id="edge19" class="edge">
+<title>Class: [TASStart]&#45;&gt;Class: [ServiceDescription]</title>
+<path fill="none" stroke="#000000" d="M2874.6341,-331.5154C2734.0736,-329.3081 2454.1895,-321.7495 2417.5713,-296.4 2397.3399,-282.3945 2411.718,-263.7322 2394.6583,-246 2384.3715,-235.3077 2371.1456,-226.6479 2357.8825,-219.8076"/>
+<polygon fill="#000000" stroke="#000000" points="2359.2541,-216.5828 2348.73,-215.36 2356.1946,-222.8788 2359.2541,-216.5828"/>
+<text text-anchor="middle" x="2478.7018" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
+<text text-anchor="middle" x="2478.7018" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2478.7018" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getCustomProperties]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [ServiceDescription] -->
 <g id="edge20" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [ServiceDescription]</title>
-<path fill="none" stroke="#000000" d="M3001.4678,-329.8159C2843.1197,-324.3524 2500.7225,-310.9313 2479.5713,-296.4 2459.2902,-282.4665 2475.1451,-262.2389 2456.6583,-246 2444.5205,-235.3381 2411.9665,-224.6852 2379.899,-216.2051"/>
-<polygon fill="#000000" stroke="#000000" points="2380.5432,-212.7568 2369.9857,-213.6456 2378.7932,-219.5345 2380.5432,-212.7568"/>
-<text text-anchor="middle" x="2540.7018" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
-<text text-anchor="middle" x="2540.7018" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="2540.7018" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getCustomProperties]</text>
-</g>
-<!-- Class: [TASStart]&#45;&gt;Class: [ServiceDescription] -->
-<g id="edge21" class="edge">
-<title>Class: [TASStart]&#45;&gt;Class: [ServiceDescription]</title>
-<path fill="none" stroke="#000000" d="M3001.2896,-329.8215C2881.3116,-325.3534 2664.4325,-314.836 2633.7985,-296.4 2611.0357,-282.701 2623.883,-260.5558 2601.6583,-246 2571.9602,-226.5495 2490.3295,-214.4828 2419.8533,-207.4237"/>
-<polygon fill="#000000" stroke="#000000" points="2419.8362,-203.9055 2409.5436,-206.4182 2419.1567,-210.8724 2419.8362,-203.9055"/>
-<text text-anchor="middle" x="2685.5882" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
-<text text-anchor="middle" x="2685.5882" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="2685.5882" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">setOperationCost]</text>
+<path fill="none" stroke="#000000" d="M2876.3096,-328.701C2771.8527,-323.2112 2597.1149,-311.8671 2571.7985,-296.4 2549.1277,-282.5492 2561.5993,-260.98 2539.6583,-246 2517.4621,-230.8458 2458.401,-219.1053 2404.5482,-211.1239"/>
+<polygon fill="#000000" stroke="#000000" points="2404.9618,-207.6473 2394.5633,-209.6773 2403.9582,-214.575 2404.9618,-207.6473"/>
+<text text-anchor="middle" x="2623.5882" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
+<text text-anchor="middle" x="2623.5882" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2623.5882" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">setOperationCost]</text>
 </g>
 <!-- Class: [InputProfile] -->
-<g id="node27" class="node">
+<g id="node25" class="node">
 <title>Class: [InputProfile]</title>
-<ellipse fill="none" stroke="#000000" cx="2923.6583" cy="-198.8" rx="90.3004" ry="18"/>
-<text text-anchor="middle" x="2923.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [InputProfile]</text>
+<ellipse fill="none" stroke="#000000" cx="2861.6583" cy="-198.8" rx="90.3004" ry="18"/>
+<text text-anchor="middle" x="2861.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [InputProfile]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [InputProfile] -->
 <g id="edge4" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [InputProfile]</title>
-<path fill="none" stroke="#000000" d="M3001.6997,-329.2513C2909.1649,-324.733 2766.2628,-314.8447 2749.7157,-296.4 2734.7574,-279.7263 2736.1077,-263.7927 2749.7157,-246 2761.4129,-230.7057 2802.064,-219.2081 2841.1268,-211.3914"/>
-<polygon fill="#000000" stroke="#000000" points="2841.8505,-214.8164 2851.0053,-209.4834 2840.5229,-207.9434 2841.8505,-214.8164"/>
-<text text-anchor="middle" x="2803.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
-<text text-anchor="middle" x="2803.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="2803.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getMaxSteps]</text>
+<path fill="none" stroke="#000000" d="M2877.8135,-327.1434C2803.4479,-321.2549 2700.1616,-310.637 2687.7157,-296.4 2672.9729,-279.5355 2674.1077,-263.7927 2687.7157,-246 2699.4129,-230.7057 2740.064,-219.2081 2779.1268,-211.3914"/>
+<polygon fill="#000000" stroke="#000000" points="2779.8505,-214.8164 2789.0053,-209.4834 2778.5229,-207.9434 2779.8505,-214.8164"/>
+<text text-anchor="middle" x="2741.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
+<text text-anchor="middle" x="2741.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2741.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getMaxSteps]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [InputProfile] -->
 <g id="edge5" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [InputProfile]</title>
-<path fill="none" stroke="#000000" d="M3002.3658,-328.6412C2952.3456,-324.4106 2893.9779,-315.4329 2878.0285,-296.4 2863.6412,-279.2313 2869.6317,-266.7667 2878.0285,-246 2881.345,-237.7978 2886.8456,-230.23 2892.9008,-223.666"/>
-<polygon fill="#000000" stroke="#000000" points="2895.5416,-225.976 2900.1663,-216.4438 2890.6067,-221.0115 2895.5416,-225.976"/>
-<text text-anchor="middle" x="2936.9732" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
-<text text-anchor="middle" x="2936.9732" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="2936.9732" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getQosRequirement]</text>
+<path fill="none" stroke="#000000" d="M2886.9621,-322.7797C2856.4468,-316.9211 2825.1947,-308.2505 2816.0285,-296.4 2802.3237,-278.6817 2807.6317,-266.7667 2816.0285,-246 2819.345,-237.7978 2824.8456,-230.23 2830.9008,-223.666"/>
+<polygon fill="#000000" stroke="#000000" points="2833.5416,-225.976 2838.1663,-216.4438 2828.6067,-221.0115 2833.5416,-225.976"/>
+<text text-anchor="middle" x="2874.9732" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
+<text text-anchor="middle" x="2874.9732" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="2874.9732" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getQosRequirement]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [InputProfile] -->
 <g id="edge6" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [InputProfile]</title>
-<path fill="none" stroke="#000000" d="M3040.5001,-316.7754C3030.7384,-311.4795 3021.0201,-304.7375 3013.7157,-296.4 2997.9348,-278.3871 3009.5821,-264.7291 2994.6583,-246 2986.9476,-236.3231 2976.702,-227.9332 2966.3992,-221.0215"/>
-<polygon fill="#000000" stroke="#000000" points="2968.107,-217.9603 2957.7858,-215.5676 2964.3622,-223.8744 2968.107,-217.9603"/>
-<text text-anchor="middle" x="3067.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
-<text text-anchor="middle" x="3067.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="3067.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getVariable]</text>
+<path fill="none" stroke="#000000" d="M2953.804,-314.2818C2952.1185,-295.6215 2947.1608,-266.4561 2932.6583,-246 2925.6359,-236.0948 2915.8238,-227.6911 2905.7308,-220.8437"/>
+<polygon fill="#000000" stroke="#000000" points="2907.561,-217.8599 2897.2418,-215.4591 2903.8116,-223.7711 2907.561,-217.8599"/>
+<text text-anchor="middle" x="3004.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
+<text text-anchor="middle" x="3004.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3004.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getVariable]</text>
 </g>
 <!-- Class: [InputProfileValue] -->
-<g id="node28" class="node">
+<g id="node26" class="node">
 <title>Class: [InputProfileValue]</title>
-<ellipse fill="none" stroke="#000000" cx="3144.6583" cy="-198.8" rx="113.4143" ry="18"/>
-<text text-anchor="middle" x="3144.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [InputProfileValue]</text>
+<ellipse fill="none" stroke="#000000" cx="3082.6583" cy="-198.8" rx="113.4143" ry="18"/>
+<text text-anchor="middle" x="3082.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [InputProfileValue]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [InputProfileValue] -->
 <g id="edge7" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [InputProfileValue]</title>
-<path fill="none" stroke="#000000" d="M3105.9875,-315.2193C3112.2605,-309.8602 3118.3982,-303.4757 3122.6583,-296.4 3135.3992,-275.238 3140.7737,-247.4688 3143.0343,-226.9636"/>
-<polygon fill="#000000" stroke="#000000" points="3146.5222,-227.2554 3143.9551,-216.9763 3139.5517,-226.6127 3146.5222,-227.2554"/>
-<text text-anchor="middle" x="3193.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
-<text text-anchor="middle" x="3193.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="3193.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getData]</text>
+<path fill="none" stroke="#000000" d="M3009.1918,-319.1449C3031.2274,-312.7465 3053.2172,-304.6723 3060.6583,-296.4 3077.5517,-277.6195 3082.3512,-248.6794 3083.3457,-227.1835"/>
+<polygon fill="#000000" stroke="#000000" points="3086.8485,-227.0834 3083.5638,-217.0107 3079.8501,-226.9333 3086.8485,-227.0834"/>
+<text text-anchor="middle" x="3134.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
+<text text-anchor="middle" x="3134.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3134.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getData]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [InputProfileValue] -->
 <g id="edge8" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [InputProfileValue]</title>
-<path fill="none" stroke="#000000" d="M3155.1801,-325.7152C3194.6672,-320.4634 3237.4848,-311.4397 3249.6583,-296.4 3263.7512,-278.9888 3261.8246,-264.808 3249.6583,-246 3241.8086,-233.865 3230.0155,-224.8195 3217.1333,-218.0863"/>
-<polygon fill="#000000" stroke="#000000" points="3218.6105,-214.9132 3208.0759,-213.7848 3215.6075,-221.2364 3218.6105,-214.9132"/>
-<text text-anchor="middle" x="3312.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
-<text text-anchor="middle" x="3312.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="3312.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getRatio]</text>
+<path fill="none" stroke="#000000" d="M3029.102,-325.7813C3093.6108,-319.2731 3178.2206,-308.5663 3188.6583,-296.4 3203.2436,-279.3992 3200.8578,-264.7865 3188.6583,-246 3180.7247,-233.7828 3168.8154,-224.7015 3155.8095,-217.9593"/>
+<polygon fill="#000000" stroke="#000000" points="3157.204,-214.7474 3146.6656,-213.6556 3154.223,-221.081 3157.204,-214.7474"/>
+<text text-anchor="middle" x="3252.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
+<text text-anchor="middle" x="3252.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3252.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getRatio]</text>
 </g>
 <!-- Class: [InputProfileVariable] -->
-<g id="node29" class="node">
+<g id="node27" class="node">
 <title>Class: [InputProfileVariable]</title>
-<ellipse fill="none" stroke="#000000" cx="3399.6583" cy="-198.8" rx="123.2844" ry="18"/>
-<text text-anchor="middle" x="3399.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [InputProfileVariable]</text>
+<ellipse fill="none" stroke="#000000" cx="3337.6583" cy="-198.8" rx="123.2844" ry="18"/>
+<text text-anchor="middle" x="3337.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [InputProfileVariable]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [InputProfileVariable] -->
 <g id="edge9" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [InputProfileVariable]</title>
-<path fill="none" stroke="#000000" d="M3157.1781,-327.0822C3236.9582,-320.872 3352.6296,-309.7319 3368.6583,-296.4 3388.8621,-279.5955 3396.0697,-249.6585 3398.5533,-227.3565"/>
-<polygon fill="#000000" stroke="#000000" points="3402.0645,-227.3745 3399.4293,-217.1126 3395.09,-226.778 3402.0645,-227.3745"/>
-<text text-anchor="middle" x="3448.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
-<text text-anchor="middle" x="3448.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="3448.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getValues]</text>
+<path fill="none" stroke="#000000" d="M3033.5598,-328.9823C3131.4114,-324.0412 3287.9319,-313.5642 3308.6583,-296.4 3328.782,-279.735 3335.3352,-249.7764 3337.2801,-227.4312"/>
+<polygon fill="#000000" stroke="#000000" points="3340.7908,-227.3589 3337.9039,-217.165 3333.8037,-226.9343 3340.7908,-227.3589"/>
+<text text-anchor="middle" x="3387.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
+<text text-anchor="middle" x="3387.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3387.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getValues]</text>
 </g>
 <!-- Class: [ProfileExecutor] -->
-<g id="node30" class="node">
+<g id="node28" class="node">
 <title>Class: [ProfileExecutor]</title>
-<ellipse fill="none" stroke="#000000" cx="3645.6583" cy="-198.8" rx="104.746" ry="18"/>
-<text text-anchor="middle" x="3645.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [ProfileExecutor]</text>
+<ellipse fill="none" stroke="#000000" cx="3583.6583" cy="-198.8" rx="104.746" ry="18"/>
+<text text-anchor="middle" x="3583.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [ProfileExecutor]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [ProfileExecutor] -->
 <g id="edge10" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [ProfileExecutor]</title>
-<path fill="none" stroke="#000000" d="M3158.6724,-328.3296C3272.3922,-322.0097 3473.5873,-309.2244 3504.6583,-296.4 3536.8683,-283.1054 3536.2155,-266.0492 3564.7157,-246 3577.2555,-237.1785 3591.5333,-228.4548 3604.5696,-220.9526"/>
-<polygon fill="#000000" stroke="#000000" points="3606.3876,-223.9453 3613.3597,-215.9678 3602.9345,-217.8562 3606.3876,-223.9453"/>
-<text text-anchor="middle" x="3618.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
-<text text-anchor="middle" x="3618.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="3618.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">readFromXml]</text>
+<path fill="none" stroke="#000000" d="M3033.5436,-329.2832C3162.2408,-323.7974 3406.8009,-311.5495 3443.6583,-296.4 3475.574,-283.2817 3474.5754,-265.9707 3502.7157,-246 3515.1111,-237.2032 3529.2411,-228.54 3542.1882,-221.0848"/>
+<polygon fill="#000000" stroke="#000000" points="3543.9543,-224.1069 3550.9267,-216.1296 3540.5015,-218.0177 3543.9543,-224.1069"/>
+<text text-anchor="middle" x="3556.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
+<text text-anchor="middle" x="3556.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3556.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">readFromXml]</text>
 </g>
 <!-- Class: [WorkflowEffector] -->
-<g id="node31" class="node">
+<g id="node29" class="node">
 <title>Class: [WorkflowEffector]</title>
-<ellipse fill="none" stroke="#000000" cx="3882.6583" cy="-198.8" rx="114.6011" ry="18"/>
-<text text-anchor="middle" x="3882.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [WorkflowEffector]</text>
+<ellipse fill="none" stroke="#000000" cx="3820.6583" cy="-198.8" rx="114.6011" ry="18"/>
+<text text-anchor="middle" x="3820.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [WorkflowEffector]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [WorkflowEffector] -->
 <g id="edge11" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [WorkflowEffector]</title>
-<path fill="none" stroke="#000000" d="M3159.7395,-329.71C3315.5419,-324.1154 3648.9752,-310.5633 3669.6583,-296.4 3690.0004,-282.4702 3673.8452,-261.727 3692.8321,-246 3695.2238,-244.019 3756.8944,-228.8831 3809.2996,-216.2771"/>
-<polygon fill="#000000" stroke="#000000" points="3810.3922,-219.6143 3819.2981,-213.8755 3808.7572,-212.8079 3810.3922,-219.6143"/>
-<text text-anchor="middle" x="3748.0714" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
-<text text-anchor="middle" x="3748.0714" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="3748.0714" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">refreshAllServices]</text>
+<path fill="none" stroke="#000000" d="M3034.2066,-330.1941C3203.1553,-325.2122 3584.3223,-312.2778 3607.6583,-296.4 3628.0419,-282.531 3611.8452,-261.727 3630.8321,-246 3633.2238,-244.019 3694.8944,-228.8831 3747.2996,-216.2771"/>
+<polygon fill="#000000" stroke="#000000" points="3748.3922,-219.6143 3757.2981,-213.8755 3746.7572,-212.8079 3748.3922,-219.6143"/>
+<text text-anchor="middle" x="3686.0714" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
+<text text-anchor="middle" x="3686.0714" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3686.0714" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">refreshAllServices]</text>
 </g>
 <!-- Class: [CompositeService] -->
-<g id="node32" class="node">
+<g id="node30" class="node">
 <title>Class: [CompositeService]</title>
-<ellipse fill="none" stroke="#000000" cx="4129.6583" cy="-198.8" rx="114.0775" ry="18"/>
-<text text-anchor="middle" x="4129.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [CompositeService]</text>
+<ellipse fill="none" stroke="#000000" cx="4067.6583" cy="-198.8" rx="114.0775" ry="18"/>
+<text text-anchor="middle" x="4067.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [CompositeService]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [CompositeService] -->
 <g id="edge12" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [CompositeService]</title>
-<path fill="none" stroke="#000000" d="M3160.5461,-330.6247C3342.7724,-326.2763 3775.4978,-314.137 3801.6583,-296.4 3822.0467,-282.5765 3804.67,-260.316 3824.7157,-246 3857.7788,-222.3874 3966.5867,-234.7074 4006.6583,-228 4024.6486,-224.9887 4043.9215,-220.8551 4061.7482,-216.6452"/>
-<polygon fill="#000000" stroke="#000000" points="4062.5804,-220.045 4071.4858,-214.3052 4060.9447,-213.2387 4062.5804,-220.045"/>
-<text text-anchor="middle" x="3878.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
-<text text-anchor="middle" x="3878.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="3878.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">setWorkflow]</text>
+<path fill="none" stroke="#000000" d="M3034.3847,-330.9706C3228.2812,-327.1955 3710.7886,-315.8883 3739.6583,-296.4 3760.0748,-282.618 3742.67,-260.316 3762.7157,-246 3795.7788,-222.3874 3904.5867,-234.7074 3944.6583,-228 3962.6486,-224.9887 3981.9215,-220.8551 3999.7482,-216.6452"/>
+<polygon fill="#000000" stroke="#000000" points="4000.5804,-220.045 4009.4858,-214.3052 3998.9447,-213.2387 4000.5804,-220.045"/>
+<text text-anchor="middle" x="3816.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
+<text text-anchor="middle" x="3816.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3816.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">setWorkflow]</text>
+</g>
+<!-- Class: [TASStart]&#45;&gt;Class: [CompositeService] -->
+<g id="edge21" class="edge">
+<title>Class: [TASStart]&#45;&gt;Class: [CompositeService]</title>
+<path fill="none" stroke="#000000" d="M3034.907,-331.4988C3251.3757,-328.7678 3833.3414,-319.3227 3867.6583,-296.4 3888.1731,-282.6967 3872.045,-261.8873 3890.9191,-246 3895.2148,-242.3841 3948.7141,-228.3557 3995.736,-216.5244"/>
+<polygon fill="#000000" stroke="#000000" points="3996.8034,-219.8652 4005.6516,-214.0377 3995.1005,-213.0755 3996.8034,-219.8652"/>
+<text text-anchor="middle" x="3951.5279" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
+<text text-anchor="middle" x="3951.5279" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="3951.5279" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">addQosRequirement]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [CompositeService] -->
 <g id="edge22" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [CompositeService]</title>
-<path fill="none" stroke="#000000" d="M3160.8074,-331.2486C3366.2964,-327.9969 3898.062,-317.5733 3929.6583,-296.4 3950.1527,-282.6663 3934.045,-261.8873 3952.9191,-246 3957.2148,-242.3841 4010.7141,-228.3557 4057.736,-216.5244"/>
-<polygon fill="#000000" stroke="#000000" points="4058.8034,-219.8652 4067.6516,-214.0377 4057.1005,-213.0755 4058.8034,-219.8652"/>
-<text text-anchor="middle" x="4013.5279" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
-<text text-anchor="middle" x="4013.5279" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="4013.5279" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">addQosRequirement]</text>
+<path fill="none" stroke="#000000" d="M3034.7852,-331.9633C3274.2145,-330.3573 3970.2899,-323.3798 4010.6583,-296.4 4031.1148,-282.7281 4021.2081,-267.2779 4033.5629,-246 4037.5412,-239.1485 4042.2793,-232.0682 4046.9391,-225.5413"/>
+<polygon fill="#000000" stroke="#000000" points="4050.0705,-227.1901 4053.1661,-217.0576 4044.4274,-223.0481 4050.0705,-227.1901"/>
+<text text-anchor="middle" x="4073.706" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
+<text text-anchor="middle" x="4073.706" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4073.706" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getCostProbe]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [CompositeService] -->
 <g id="edge23" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [CompositeService]</title>
-<path fill="none" stroke="#000000" d="M3160.7754,-331.777C3390.0895,-329.6926 4035.0299,-321.6084 4072.6583,-296.4 4093.0998,-282.7056 4083.2081,-267.2779 4095.5629,-246 4099.5412,-239.1485 4104.2793,-232.0682 4108.9391,-225.5413"/>
-<polygon fill="#000000" stroke="#000000" points="4112.0705,-227.1901 4115.1661,-217.0576 4106.4274,-223.0481 4112.0705,-227.1901"/>
-<text text-anchor="middle" x="4135.706" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
-<text text-anchor="middle" x="4135.706" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="4135.706" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getCostProbe]</text>
-</g>
-<!-- Class: [TASStart]&#45;&gt;Class: [CompositeService] -->
-<g id="edge24" class="edge">
-<title>Class: [TASStart]&#45;&gt;Class: [CompositeService]</title>
-<path fill="none" stroke="#000000" d="M3160.5919,-331.2477C3409.9478,-327.465 4158.0294,-314.618 4175.6583,-296.4 4191.2351,-280.3027 4184.097,-266.7497 4175.6583,-246 4172.3741,-237.9247 4166.9705,-230.4754 4160.9999,-223.9947"/>
-<polygon fill="#000000" stroke="#000000" points="4163.3803,-221.4259 4153.8234,-216.8525 4158.4424,-226.3875 4163.3803,-221.4259"/>
-<text text-anchor="middle" x="4241.6366" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
-<text text-anchor="middle" x="4241.6366" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="4241.6366" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getWorkflowProbe]</text>
+<path fill="none" stroke="#000000" d="M3034.6759,-331.3963C3293.8795,-327.9568 4094.8732,-315.7777 4113.6583,-296.4 4129.2497,-280.3168 4122.097,-266.7497 4113.6583,-246 4110.3741,-237.9247 4104.9705,-230.4754 4098.9999,-223.9947"/>
+<polygon fill="#000000" stroke="#000000" points="4101.3803,-221.4259 4091.8234,-216.8525 4096.4424,-226.3875 4101.3803,-221.4259"/>
+<text text-anchor="middle" x="4179.6366" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
+<text text-anchor="middle" x="4179.6366" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4179.6366" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">getWorkflowProbe]</text>
 </g>
 <!-- Class: [CompositeServiceClient] -->
-<g id="node33" class="node">
+<g id="node31" class="node">
 <title>Class: [CompositeServiceClient]</title>
-<ellipse fill="none" stroke="#000000" cx="4399.6583" cy="-198.8" rx="137.79" ry="18"/>
-<text text-anchor="middle" x="4399.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [CompositeServiceClient]</text>
+<ellipse fill="none" stroke="#000000" cx="4337.6583" cy="-198.8" rx="137.79" ry="18"/>
+<text text-anchor="middle" x="4337.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [CompositeServiceClient]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [CompositeServiceClient] -->
 <g id="edge13" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [CompositeServiceClient]</title>
-<path fill="none" stroke="#000000" d="M3160.5541,-331.6593C3423.6723,-329.0091 4249.3066,-318.9308 4301.6583,-296.4 4336.0351,-281.6051 4364.8785,-248.648 4382.1838,-225.1279"/>
-<polygon fill="#000000" stroke="#000000" points="4385.0665,-227.1137 4388.0263,-216.9407 4379.3685,-223.0475 4385.0665,-227.1137"/>
-<text text-anchor="middle" x="4438.3638" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
-<text text-anchor="middle" x="4438.3638" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="4438.3638" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">invokeCompositeService]</text>
+<path fill="none" stroke="#000000" d="M3034.9155,-331.7797C3307.5465,-329.4603 4184.2912,-320.1805 4239.6583,-296.4 4274.0459,-281.6303 4302.8869,-248.6677 4320.1888,-225.1394"/>
+<polygon fill="#000000" stroke="#000000" points="4323.073,-227.123 4326.0299,-216.9492 4317.3739,-223.0585 4323.073,-227.123"/>
+<text text-anchor="middle" x="4376.3638" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
+<text text-anchor="middle" x="4376.3638" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4376.3638" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">invokeCompositeService]</text>
 </g>
 <!-- Class: [LoggerInfo] -->
-<g id="node34" class="node">
+<g id="node32" class="node">
 <title>Class: [LoggerInfo]</title>
-<ellipse fill="none" stroke="#000000" cx="4642.6583" cy="-198.8" rx="87.4174" ry="18"/>
-<text text-anchor="middle" x="4642.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [LoggerInfo]</text>
+<ellipse fill="none" stroke="#000000" cx="4580.6583" cy="-198.8" rx="87.4174" ry="18"/>
+<text text-anchor="middle" x="4580.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [LoggerInfo]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [LoggerInfo] -->
 <g id="edge14" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [LoggerInfo]</title>
-<path fill="none" stroke="#000000" d="M3160.5758,-331.7554C3452.9216,-329.221 4450.5499,-318.9532 4514.6583,-296.4 4556.5238,-281.6718 4595.7064,-247.656 4619.423,-223.9513"/>
-<polygon fill="#000000" stroke="#000000" points="4622.0707,-226.2499 4626.5635,-216.6548 4617.0677,-221.3539 4622.0707,-226.2499"/>
-<text text-anchor="middle" x="4648.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
-<text text-anchor="middle" x="4648.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="4648.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">log]</text>
+<path fill="none" stroke="#000000" d="M3034.7628,-331.844C3335.762,-329.5778 4385.4286,-320.0108 4452.6583,-296.4 4494.5317,-281.6942 4533.7124,-247.673 4557.4264,-223.961"/>
+<polygon fill="#000000" stroke="#000000" points="4560.0754,-226.2582 4564.5661,-216.6621 4555.0714,-221.3633 4560.0754,-226.2582"/>
+<text text-anchor="middle" x="4586.1296" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[executeWorkflow</text>
+<text text-anchor="middle" x="4586.1296" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4586.1296" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">log]</text>
 </g>
 <!-- Class: [AbstractProbe] -->
-<g id="node35" class="node">
+<g id="node33" class="node">
 <title>Class: [AbstractProbe]</title>
-<ellipse fill="none" stroke="#000000" cx="4846.6583" cy="-198.8" rx="98.9475" ry="18"/>
-<text text-anchor="middle" x="4846.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [AbstractProbe]</text>
+<ellipse fill="none" stroke="#000000" cx="4784.6583" cy="-198.8" rx="98.9475" ry="18"/>
+<text text-anchor="middle" x="4784.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [AbstractProbe]</text>
 </g>
 <!-- Class: [TASStart]&#45;&gt;Class: [AbstractProbe] -->
 <g id="edge15" class="edge">
 <title>Class: [TASStart]&#45;&gt;Class: [AbstractProbe]</title>
-<path fill="none" stroke="#000000" d="M3160.6084,-331.8979C3477.3603,-329.7449 4630.622,-320.2928 4704.6583,-296.4 4750.0659,-281.7462 4794.014,-247.4653 4820.6946,-223.703"/>
-<polygon fill="#000000" stroke="#000000" points="4823.3551,-226.0146 4828.4029,-216.6995 4818.6479,-220.8336 4823.3551,-226.0146"/>
-<text text-anchor="middle" x="4833.7032" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
-<text text-anchor="middle" x="4833.7032" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="4833.7032" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">register]</text>
-</g>
-<!-- Class: [AtomicService] -->
-<g id="node36" class="node">
-<title>Class: [AtomicService]</title>
-<ellipse fill="none" stroke="#000000" cx="5910.6583" cy="-198.8" rx="101.3144" ry="18"/>
-<text text-anchor="middle" x="5910.6583" y="-194.6" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [AtomicService]</text>
-</g>
-<!-- Class: [TASStart]&#45;&gt;Class: [AtomicService] -->
-<g id="edge16" class="edge">
-<title>Class: [TASStart]&#45;&gt;Class: [AtomicService]</title>
-<path fill="none" stroke="#000000" d="M3160.7846,-331.5864C3463.3458,-328.3911 4536.4324,-315.9109 4877.6583,-296.4 5224.497,-276.5682 5635.0066,-231.2269 5816.4198,-210.0655"/>
-<polygon fill="#000000" stroke="#000000" points="5816.9354,-213.5291 5826.4613,-208.8915 5816.1225,-206.5765 5816.9354,-213.5291"/>
-<text text-anchor="middle" x="5519.1345" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
-<text text-anchor="middle" x="5519.1345" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
-<text text-anchor="middle" x="5519.1345" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">addServiceProfile]</text>
+<path fill="none" stroke="#000000" d="M3034.7071,-331.9678C3359.5119,-330.0502 4565.4555,-321.2789 4642.6583,-296.4 4688.072,-281.7653 4732.0186,-247.4797 4758.6972,-223.7111"/>
+<polygon fill="#000000" stroke="#000000" points="4761.3588,-226.0217 4766.4049,-216.7057 4756.6506,-220.8415 4761.3588,-226.0217"/>
+<text text-anchor="middle" x="4770.7032" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">[initializeTAS</text>
+<text text-anchor="middle" x="4770.7032" y="-267" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
+<text text-anchor="middle" x="4770.7032" y="-250.2" font-family="Times,serif" font-size="14.00" fill="#000000">register]</text>
 </g>
 <!-- Class: [AbstractService]&#45;&gt;DEBUG\nreply\nresponseTime ==  -->
-<g id="edge27" class="edge">
+<g id="edge26" class="edge">
 <title>Class: [AbstractService]&#45;&gt;DEBUG\nreply\nresponseTime == </title>
-<path fill="none" stroke="#ff0000" d="M1316.5138,-183.0281C1297.0349,-177.7303 1274.5083,-172.4473 1253.6583,-169.6 1062.1146,-143.4427 576.6419,-166.5331 383.8981,-151.6 268.4334,-142.6542 233.7235,-158.4416 125.6583,-116.8 118.1599,-113.9106 110.6818,-110.0301 103.586,-105.7424"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="105.1391,-102.581 94.8298,-100.1377 101.3653,-108.4766 105.1391,-102.581"/>
-<text text-anchor="middle" x="420.0384" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">sendRequest</text>
+<path fill="none" stroke="#ff0000" d="M1259.5119,-183.0425C1240.0327,-177.7464 1217.5065,-172.4607 1196.6583,-169.6 1016.3571,-144.8597 559.3134,-166.0602 377.8981,-151.6 265.0874,-142.6081 231.1939,-157.6576 125.6583,-116.8 118.1645,-113.8988 110.6888,-110.0117 103.5943,-105.7211"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="105.1476,-102.5597 94.8389,-100.1142 101.3726,-108.4545 105.1476,-102.5597"/>
+<text text-anchor="middle" x="414.0384" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">sendRequest</text>
 </g>
 <!-- Class: [AbstractService]&#45;&gt;DEBUG\n!(result instanceof OperationAborted)\nthread instanceof ExecutionThread\nDEBUG\nresponse.getReturnType() != null\n -->
-<g id="edge28" class="edge">
+<g id="edge27" class="edge">
 <title>Class: [AbstractService]&#45;&gt;DEBUG\n!(result instanceof OperationAborted)\nthread instanceof ExecutionThread\nDEBUG\nresponse.getReturnType() != null\n</title>
-<path fill="none" stroke="#ff0000" d="M1316.2165,-183.0479C1296.8013,-177.7868 1274.3946,-172.5233 1253.6583,-169.6 983.775,-131.553 912.3876,-173.0451 640.6807,-151.6 523.2339,-142.3302 489.8143,-145.8745 372.4217,-117.123"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="373.2443,-113.721 362.6962,-114.7152 371.562,-120.5159 373.2443,-113.721"/>
-<text text-anchor="middle" x="673.1471" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">onMessage</text>
+<path fill="none" stroke="#ff0000" d="M1259.2125,-183.0764C1239.7968,-177.8185 1217.3909,-172.5497 1196.6583,-169.6 835.7554,-118.2522 729.3358,-204.9007 372.5202,-117.1448"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="373.249,-113.7195 362.6997,-114.7013 371.5587,-120.5124 373.249,-113.7195"/>
+<text text-anchor="middle" x="574.1471" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">onMessage</text>
 </g>
 <!-- Class: [AbstractService]&#45;&gt;!(result instanceof OperationAborted)\n -->
-<g id="edge29" class="edge">
+<g id="edge28" class="edge">
 <title>Class: [AbstractService]&#45;&gt;!(result instanceof OperationAborted)\n</title>
-<path fill="none" stroke="#ff0000" d="M1315.6193,-183.087C1296.3333,-177.8976 1274.1666,-172.6715 1253.6583,-169.6 972.2716,-127.4578 891.4116,-186.904 615.6583,-116.8 591.5793,-110.6785 565.7217,-101.3504 544.0368,-92.6905"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="545.2855,-89.4201 534.7033,-88.9025 542.653,-95.9062 545.2855,-89.4201"/>
-<text text-anchor="middle" x="832.7635" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">call</text>
+<path fill="none" stroke="#ff0000" d="M1258.3213,-183.095C1239.1008,-177.9395 1217.0539,-172.7334 1196.6583,-169.6 940.3788,-130.2274 866.8987,-180.8909 615.6583,-116.8 591.5844,-110.6588 565.7275,-101.3279 544.0417,-92.6713"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="545.29,-89.4007 534.7077,-88.885 542.6587,-95.8873 545.29,-89.4007"/>
+<text text-anchor="middle" x="855.7635" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">call</text>
 </g>
 <!-- Class: [AbstractService]&#45;&gt;description.getRegisterID() &gt; 0\n -->
-<g id="edge30" class="edge">
+<g id="edge29" class="edge">
 <title>Class: [AbstractService]&#45;&gt;description.getRegisterID() &gt; 0\n</title>
-<path fill="none" stroke="#ff0000" d="M1315.006,-183.2062C1295.85,-178.094 1273.9262,-172.8875 1253.6583,-169.6 1142.1169,-151.5076 1112.0356,-166.6866 1000.0481,-151.6 921.721,-141.048 901.0468,-140.5289 825.6583,-116.8 805.6128,-110.4906 784.2396,-101.5599 766.0444,-93.2437"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="767.3867,-90.0081 756.843,-88.9681 764.4368,-96.3562 767.3867,-90.0081"/>
-<text text-anchor="middle" x="1072.9634" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">updateServiceDescription</text>
+<path fill="none" stroke="#ff0000" d="M1257.4123,-183.1806C1238.391,-178.1291 1216.7058,-172.9681 1196.6583,-169.6 1100.5168,-153.4477 1074.3932,-166.4897 978.0481,-151.6 909.3908,-140.9893 891.632,-138.5687 825.6583,-116.8 805.8625,-110.2682 784.6883,-101.3808 766.5774,-93.1589"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="767.9565,-89.9407 757.4094,-88.936 765.0279,-96.2987 767.9565,-89.9407"/>
+<text text-anchor="middle" x="1050.9634" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">updateServiceDescription</text>
 </g>
 <!-- Class: [AbstractService]&#45;&gt;operation.getAnnotation(ServiceOperation.class) != null\n -->
-<g id="edge31" class="edge">
+<g id="edge30" class="edge">
 <title>Class: [AbstractService]&#45;&gt;operation.getAnnotation(ServiceOperation.class) != null\n</title>
-<path fill="none" stroke="#ff0000" d="M1309.5148,-183.7028C1262.5226,-171.4285 1202.3683,-155.5245 1190.9583,-151.6 1141.2077,-134.4883 1086.0411,-110.4826 1047.9708,-93.0875"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="1049.2219,-89.8106 1038.6739,-88.8156 1046.2992,-96.1713 1049.2219,-89.8106"/>
-<text text-anchor="middle" x="1262.0083" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">createServiceDescription</text>
+<path fill="none" stroke="#ff0000" d="M1255.195,-183.4523C1226.9141,-175.0613 1192.1962,-163.8839 1161.9583,-151.6 1120.0978,-134.5945 1074.1947,-111.0968 1042.0978,-93.8238"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1043.4734,-90.5885 1033.0135,-88.9028 1040.1392,-96.7434 1043.4734,-90.5885"/>
+<text text-anchor="middle" x="1233.0083" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">createServiceDescription</text>
 </g>
 <!-- Class: [AbstractService]&#45;&gt;configuration.multipleThreads == false\n -->
-<g id="edge32" class="edge">
+<g id="edge31" class="edge">
 <title>Class: [AbstractService]&#45;&gt;configuration.multipleThreads == false\n</title>
-<path fill="none" stroke="#ff0000" d="M1358.4832,-180.7322C1347.5605,-159.2228 1329.2087,-123.0838 1316.5448,-98.1458"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="1319.6457,-96.5219 1311.9972,-89.1904 1313.4043,-99.6913 1319.6457,-96.5219"/>
-<text text-anchor="middle" x="1398.483" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">applyConfiguration</text>
+<path fill="none" stroke="#ff0000" d="M1309.5291,-180.7322C1308.2084,-159.6019 1306.0054,-124.3529 1304.4505,-99.4744"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1307.9248,-98.9525 1303.8077,-89.1904 1300.9384,-99.3892 1307.9248,-98.9525"/>
+<text text-anchor="middle" x="1362.483" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">applyConfiguration</text>
 </g>
 <!-- Class: [ServiceDescription]&#45;&gt;opList.get(i).getOpName().equals(opName)\n -->
-<g id="edge33" class="edge">
+<g id="edge32" class="edge">
 <title>Class: [ServiceDescription]&#45;&gt;opList.get(i).getOpName().equals(opName)\n</title>
-<path fill="none" stroke="#ff0000" d="M2195.4747,-191.3139C2075.6149,-181.2565 1876.4194,-159.4786 1709.6583,-116.8 1682.7451,-109.9122 1653.4751,-100.5914 1628.6896,-92.1409"/>
+<path fill="none" stroke="#ff0000" d="M2193.8401,-191.2611C2074.3881,-181.1567 1875.8675,-159.3373 1709.6583,-116.8 1682.7451,-109.9122 1653.4751,-100.5914 1628.6896,-92.1409"/>
 <polygon fill="#ff0000" stroke="#ff0000" points="1629.667,-88.7758 1619.0723,-88.8293 1627.388,-95.3944 1629.667,-88.7758"/>
 <text text-anchor="middle" x="1921.9746" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">containsOperation</text>
 </g>
 <!-- Class: [ServiceDescription]&#45;&gt;op.getOpName().equals(opName)\n -->
-<g id="edge34" class="edge">
+<g id="edge33" class="edge">
 <title>Class: [ServiceDescription]&#45;&gt;op.getOpName().equals(opName)\n</title>
-<path fill="none" stroke="#ff0000" d="M2223.89,-185.3406C2148.4744,-171.5096 2031.9598,-147.66 1933.6583,-116.8 1912.459,-110.1449 1889.6714,-101.1431 1870.2215,-92.8672"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="1871.5317,-89.6207 1860.963,-88.8762 1868.7607,-96.0489 1871.5317,-89.6207"/>
-<text text-anchor="middle" x="2091.1997" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">getOperation</text>
+<path fill="none" stroke="#ff0000" d="M2222.3203,-185.2944C2147.3158,-171.4299 2031.4344,-147.557 1933.6583,-116.8 1912.4628,-110.1326 1889.676,-101.1287 1870.2255,-92.8545"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1871.5354,-89.6079 1860.9666,-88.8647 1868.7652,-96.0365 1871.5354,-89.6079"/>
+<text text-anchor="middle" x="2090.1997" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">getOperation</text>
 </g>
 <!-- Class: [ServiceDescription]&#45;&gt;customProperties.containsKey(RESPONSE_TIME)\n -->
-<g id="edge35" class="edge">
+<g id="edge34" class="edge">
 <title>Class: [ServiceDescription]&#45;&gt;customProperties.containsKey(RESPONSE_TIME)\n</title>
-<path fill="none" stroke="#ff0000" d="M2259.3227,-182.0274C2240.0894,-173.8731 2217.5195,-163.305 2198.3497,-151.6 2171.6243,-135.2816 2143.9704,-112.8915 2124.2593,-95.8185"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="2126.4148,-93.0537 2116.5876,-89.0943 2121.8008,-98.3178 2126.4148,-93.0537"/>
-<text text-anchor="middle" x="2248.8126" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">getResponseTime</text>
+<path fill="none" stroke="#ff0000" d="M2257.7215,-182.0154C2238.6693,-173.8588 2216.3179,-163.2922 2197.3497,-151.6 2170.8539,-135.2677 2143.4747,-112.8787 2123.967,-95.8098"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2126.1821,-93.0963 2116.375,-89.0874 2121.5416,-98.3371 2126.1821,-93.0963"/>
+<text text-anchor="middle" x="2247.8126" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">getResponseTime</text>
 </g>
 <!-- Class: [ServiceDescription]&#45;&gt;os != null\nis != null\n -->
-<g id="edge36" class="edge">
+<g id="edge35" class="edge">
 <title>Class: [ServiceDescription]&#45;&gt;os != null\nis != null\n</title>
-<path fill="none" stroke="#ff0000" d="M2302.6583,-180.7322C2302.6583,-160.3222 2302.6583,-126.7398 2302.6583,-102.054"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="2306.1584,-101.7507 2302.6583,-91.7508 2299.1584,-101.7508 2306.1584,-101.7507"/>
-<text text-anchor="middle" x="2317.8182" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">clone</text>
+<path fill="none" stroke="#ff0000" d="M2300.9406,-180.7322C2301.2595,-160.3222 2301.7842,-126.7398 2302.17,-102.054"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2305.6742,-101.8043 2302.3309,-91.7508 2298.675,-101.6948 2305.6742,-101.8043"/>
+<text text-anchor="middle" x="2316.8182" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">clone</text>
 </g>
 <!-- Class: [ServiceDescription]&#45;&gt;obj instanceof ServiceDescription\nregisterID == service.getRegisterID() &amp;&amp; endpoint.equals(service.getServiceEndpoint()) &amp;&amp; type.equals(service.getServiceType())\n!opList.get(i).equals(service.getOperationList().get(i))\n!service.getCustomProperties().containsKey(key)\n!service.getCustomProperties().get(key).equals(value)\n -->
-<g id="edge37" class="edge">
+<g id="edge36" class="edge">
 <title>Class: [ServiceDescription]&#45;&gt;obj instanceof ServiceDescription\nregisterID == service.getRegisterID() &amp;&amp; endpoint.equals(service.getServiceEndpoint()) &amp;&amp; type.equals(service.getServiceType())\n!opList.get(i).equals(service.getOperationList().get(i))\n!service.getCustomProperties().containsKey(key)\n!service.getCustomProperties().get(key).equals(value)\n</title>
-<path fill="none" stroke="#ff0000" d="M2356.934,-182.7183C2410.2858,-166.9104 2494.4384,-141.9763 2569.7852,-119.6513"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="2570.8078,-122.9988 2579.4014,-116.802 2568.8191,-116.2872 2570.8078,-122.9988"/>
-<text text-anchor="middle" x="2536.5405" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">equals</text>
+<path fill="none" stroke="#ff0000" d="M2355.1853,-182.7183C2408.7841,-166.9104 2493.3263,-141.9763 2569.0219,-119.6513"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="2570.0812,-122.988 2578.6827,-116.802 2568.101,-116.2739 2570.0812,-122.988"/>
+<text text-anchor="middle" x="2535.5405" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">equals</text>
 </g>
 <!-- Class: [InputProfile]&#45;&gt;req.getName().equals(reqName)\n -->
-<g id="edge38" class="edge">
+<g id="edge37" class="edge">
 <title>Class: [InputProfile]&#45;&gt;req.getName().equals(reqName)\n</title>
-<path fill="none" stroke="#ff0000" d="M2963.3763,-182.6405C3003.5963,-166.2283 3067.5548,-139.9961 3122.6583,-116.8 3140.8987,-109.1216 3160.8319,-100.5906 3178.4974,-92.9813"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="3180.2569,-96.0342 3188.0531,-88.86 3177.4846,-89.6065 3180.2569,-96.0342"/>
-<text text-anchor="middle" x="3124.3673" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">getRequirement</text>
+<path fill="none" stroke="#ff0000" d="M2911.5341,-183.7915C2975.7278,-164.3596 3083.6379,-131.2746 3122.6583,-116.8 3142.031,-109.6137 3162.9867,-100.835 3181.1749,-92.8803"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="3182.6726,-96.0451 3190.4108,-88.8084 3179.8486,-89.64 3182.6726,-96.0451"/>
+<text text-anchor="middle" x="3112.3673" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">getRequirement</text>
 </g>
 <!-- Class: [InputProfile]&#45;&gt;requirements == null\n -->
-<g id="edge39" class="edge">
+<g id="edge38" class="edge">
 <title>Class: [InputProfile]&#45;&gt;requirements == null\n</title>
-<path fill="none" stroke="#ff0000" d="M2970.0871,-183.3612C2986.5404,-178.3564 3005.2827,-173.1787 3022.6583,-169.6 3161.693,-140.9639 3205.7796,-169.3233 3337.6583,-116.8 3352.1861,-111.014 3367.0886,-102.4993 3379.7429,-94.3636"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="3381.7009,-97.2648 3388.1121,-88.8299 3377.8402,-91.4258 3381.7009,-97.2648"/>
-<text text-anchor="middle" x="3344.8028" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">getRequirementNames</text>
+<path fill="none" stroke="#ff0000" d="M2907.5316,-183.2223C2924.0987,-178.1434 2943.0555,-172.9541 2960.6583,-169.6 3126.8589,-137.9314 3180.0489,-178.321 3337.6583,-116.8 3352.2255,-111.1139 3367.1359,-102.6191 3379.7854,-94.4715"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="3381.7498,-97.3685 3388.1496,-88.925 3377.8811,-91.5346 3381.7498,-97.3685"/>
+<text text-anchor="middle" x="3349.8028" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">getRequirementNames</text>
 </g>
 <!-- Class: [InputProfile]&#45;&gt;variable.getName().equals(variableName)\n -->
-<g id="edge40" class="edge">
+<g id="edge39" class="edge">
 <title>Class: [InputProfile]&#45;&gt;variable.getName().equals(variableName)\n</title>
-<path fill="none" stroke="#ff0000" d="M2968.4641,-183.1008C2985.2552,-177.8794 3004.6331,-172.6287 3022.6583,-169.6 3193.7774,-140.8479 3242.8062,-187.0782 3412.6583,-151.6 3471.9161,-139.2224 3536.4093,-112.4039 3578.2902,-93.054"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="3579.814,-96.2053 3587.3924,-88.8013 3576.851,-89.8633 3579.814,-96.2053"/>
-<text text-anchor="middle" x="3505.307" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">getVariable</text>
+<path fill="none" stroke="#ff0000" d="M2906.4531,-183.0347C2923.243,-177.8062 2942.6229,-172.5678 2960.6583,-169.6 3161.2295,-136.5953 3218.7116,-193.2932 3417.6583,-151.6 3475.5634,-139.4648 3538.3502,-112.689 3579.1896,-93.2791"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="3580.8258,-96.376 3588.321,-88.8878 3577.792,-90.0676 3580.8258,-96.376"/>
+<text text-anchor="middle" x="3509.307" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">getVariable</text>
 </g>
 <!-- Class: [CompositeService]&#45;&gt;annotation != null &amp;&amp; annotation instanceof CompositeServiceConfiguration\n -->
-<g id="edge41" class="edge">
+<g id="edge40" class="edge">
 <title>Class: [CompositeService]&#45;&gt;annotation != null &amp;&amp; annotation instanceof CompositeServiceConfiguration\n</title>
-<path fill="none" stroke="#ff0000" d="M4110.609,-181.0021C4086.9202,-158.8695 4046.3367,-120.9521 4019.5026,-95.8808"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="4021.6839,-93.1289 4011.9874,-88.8593 4016.905,-98.2438 4021.6839,-93.1289"/>
-<text text-anchor="middle" x="4128.9753" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">readConfiguration</text>
+<path fill="none" stroke="#ff0000" d="M4057.0717,-180.7322C4044.4686,-159.2228 4023.2933,-123.0838 4008.6812,-98.1458"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="4011.5092,-96.0489 4003.4339,-89.1904 4005.4696,-99.5878 4011.5092,-96.0489"/>
+<text text-anchor="middle" x="4090.9753" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">readConfiguration</text>
 </g>
 <!-- Class: [CompositeService]&#45;&gt;operation.getAnnotation(ServiceOperation.class) != null\noperation.getName().equals(opName)\nsize == params.length\n -->
-<g id="edge42" class="edge">
+<g id="edge41" class="edge">
 <title>Class: [CompositeService]&#45;&gt;operation.getAnnotation(ServiceOperation.class) != null\noperation.getName().equals(opName)\nsize == params.length\n</title>
-<path fill="none" stroke="#ff0000" d="M4166.0592,-181.6702C4207.847,-162.0053 4277.4057,-129.2718 4330.1373,-104.457"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="4331.886,-107.5023 4339.4439,-100.0774 4328.9054,-101.1685 4331.886,-107.5023"/>
-<text text-anchor="middle" x="4312.6997" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">invokeOperation</text>
+<path fill="none" stroke="#ff0000" d="M4111.323,-182.0662C4163.0638,-162.2374 4250.4925,-128.7318 4315.9184,-103.6584"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="4317.3196,-106.8697 4325.4049,-100.0229 4314.8146,-100.3333 4317.3196,-106.8697"/>
+<text text-anchor="middle" x="4281.6997" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">invokeOperation</text>
 </g>
 <!-- Class: [CompositeService]&#45;&gt;serviceDescriptions == null || serviceDescriptions.size() == 0\nserviceDescriptions == null || serviceDescriptions.size() == 0\n -->
-<g id="edge43" class="edge">
+<g id="edge42" class="edge">
 <title>Class: [CompositeService]&#45;&gt;serviceDescriptions == null || serviceDescriptions.size() == 0\nserviceDescriptions == null || serviceDescriptions.size() == 0\n</title>
-<path fill="none" stroke="#ff0000" d="M4190.1524,-183.5195C4210.001,-178.7523 4232.211,-173.6794 4252.6583,-169.6 4301.6702,-159.8217 4314.3297,-159.6293 4363.6583,-151.6 4458.3341,-136.1895 4482.6668,-135.9468 4576.6583,-116.8 4609.3394,-110.1426 4644.9402,-101.7325 4676.2836,-93.9296"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="4677.4514,-97.2453 4686.3013,-91.4205 4675.7506,-90.455 4677.4514,-97.2453"/>
-<text text-anchor="middle" x="4515.0924" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">lookupService</text>
+<path fill="none" stroke="#ff0000" d="M4127.134,-183.325C4147.2136,-178.4633 4169.8194,-173.3831 4190.6583,-169.6 4253.2513,-158.2368 4269.6114,-160.0914 4332.6583,-151.6 4441.2199,-136.9785 4469.1047,-137.5758 4576.6583,-116.8 4609.9955,-110.3603 4646.3057,-101.8376 4678.0479,-93.8794"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="4678.9054,-97.2729 4687.744,-91.4307 4677.1913,-90.4859 4678.9054,-97.2729"/>
+<text text-anchor="middle" x="4508.0924" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">lookupService</text>
 </g>
 <!-- Class: [CompositeService]&#45;&gt;qosRequirement == null\n -->
-<g id="edge44" class="edge">
+<g id="edge43" class="edge">
 <title>Class: [CompositeService]&#45;&gt;qosRequirement == null\n</title>
-<path fill="none" stroke="#ff0000" d="M4186.5168,-183.115C4207.1899,-177.9939 4230.835,-172.8051 4252.6583,-169.6 4561.3418,-124.2647 4653.8864,-206.6676 4952.6583,-116.8 4969.8236,-111.6368 4987.4645,-102.7725 5002.1949,-94.1951"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="5004.1921,-97.0784 5010.9603,-88.9272 5000.5862,-91.0785 5004.1921,-97.0784"/>
-<text text-anchor="middle" x="4949.8119" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">applyQoSRequirement</text>
+<path fill="none" stroke="#ff0000" d="M4124.193,-183.0843C4144.9376,-177.9276 4168.7123,-172.7236 4190.6583,-169.6 4526.7497,-121.7631 4627.4924,-214.3341 4952.6583,-116.8 4969.8276,-111.65 4987.4691,-102.7879 5002.199,-94.2086"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="5004.197,-97.0912 5010.9639,-88.939 5000.5901,-91.092 5004.197,-97.0912"/>
+<text text-anchor="middle" x="4942.8119" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">applyQoSRequirement</text>
 </g>
 <!-- Class: [CompositeService]&#45;&gt;services == null || services.size() == 0\nresultVal instanceof TimeOutError\nstopRetrying.get() == true\n -->
-<g id="edge45" class="edge">
+<g id="edge44" class="edge">
 <title>Class: [CompositeService]&#45;&gt;services == null || services.size() == 0\nresultVal instanceof TimeOutError\nstopRetrying.get() == true\n</title>
-<path fill="none" stroke="#ff0000" d="M4185.2281,-182.9995C4206.1836,-177.733 4230.3469,-172.4785 4252.6583,-169.6 4421.3076,-147.842 4850.114,-180.6673 5017.6583,-151.6 5070.8557,-142.3708 5128.1259,-122.0325 5171.9607,-104.0711"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="5173.4904,-107.2258 5181.386,-100.161 5170.8081,-100.76 5173.4904,-107.2258"/>
-<text text-anchor="middle" x="5150.6885" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">invokeServiceOperation</text>
+<path fill="none" stroke="#ff0000" d="M4123.2257,-182.9805C4144.1808,-177.7119 4168.3446,-172.4609 4190.6583,-169.6 4371.4446,-146.4212 4830.767,-180.9266 5010.6583,-151.6 5065.8157,-142.608 5125.3224,-122.0282 5170.6545,-103.8897"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="5172.1516,-107.0596 5180.1061,-100.0612 5169.5235,-100.5716 5172.1516,-107.0596"/>
+<text text-anchor="middle" x="5144.6885" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">invokeServiceOperation</text>
 </g>
 <!-- Class: [CompositeService]&#45;&gt;operation.getAnnotation(LocalOperation.class) != null\noperation.getName().equals(opName)\n -->
-<g id="edge46" class="edge">
+<g id="edge45" class="edge">
 <title>Class: [CompositeService]&#45;&gt;operation.getAnnotation(LocalOperation.class) != null\noperation.getName().equals(opName)\n</title>
-<path fill="none" stroke="#ff0000" d="M4184.9141,-183.0169C4205.9393,-177.7177 4230.2309,-172.4368 4252.6583,-169.6 4466.5468,-142.5458 5008.7821,-178.7511 5222.6583,-151.6 5308.1078,-140.7524 5403.5781,-114.2686 5466.9919,-94.5601"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="5468.3921,-97.7892 5476.8877,-91.4586 5466.2986,-91.1096 5468.3921,-97.7892"/>
-<text text-anchor="middle" x="5374.6359" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">invokeLocalOperation</text>
-</g>
-<!-- Class: [AtomicService]&#45;&gt;operation.getAnnotation(ServiceOperation.class) != null\noperation.getName().equals(opName)\nsize == params.length\n!(flag = serviceProfiles.get(i).preInvokeOperation(opName, args))\nflag\n -->
-<g id="edge47" class="edge">
-<title>Class: [AtomicService]&#45;&gt;operation.getAnnotation(ServiceOperation.class) != null\noperation.getName().equals(opName)\nsize == params.length\n!(flag = serviceProfiles.get(i).preInvokeOperation(opName, args))\nflag\n</title>
-<path fill="none" stroke="#ff0000" d="M5910.6583,-180.7322C5910.6583,-166.6482 5910.6583,-146.2918 5910.6583,-126.9146"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="5914.1584,-126.9092 5910.6583,-116.9092 5907.1584,-126.9092 5914.1584,-126.9092"/>
-<text text-anchor="middle" x="5957.6997" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">invokeOperation</text>
-</g>
-<!-- Class: [AtomicService]&#45;&gt;annotation != null &amp;&amp; annotation instanceof AtomicServiceConfiguration\n -->
-<g id="edge48" class="edge">
-<title>Class: [AtomicService]&#45;&gt;annotation != null &amp;&amp; annotation instanceof AtomicServiceConfiguration\n</title>
-<path fill="none" stroke="#ff0000" d="M5962.59,-183.2327C6039.0987,-160.298 6182.2708,-117.3799 6267.8824,-91.7164"/>
-<polygon fill="#ff0000" stroke="#ff0000" points="6268.9432,-95.0524 6277.5171,-88.8283 6266.9332,-88.3472 6268.9432,-95.0524"/>
-<text text-anchor="middle" x="6175.9753" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">readConfiguration</text>
+<path fill="none" stroke="#ff0000" d="M4122.9125,-183.0047C4143.9375,-177.7042 4168.2295,-172.4254 4190.6583,-169.6 4416.9053,-141.099 4990.2989,-179.1941 5216.6583,-151.6 5304.0005,-140.9527 5401.6815,-114.27 5466.3097,-94.4634"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="5467.4745,-97.7668 5475.9955,-91.4706 5465.4079,-91.0788 5467.4745,-97.7668"/>
+<text text-anchor="middle" x="5368.6359" y="-139" font-family="Times,serif" font-size="14.00" fill="#ff0000">invokeLocalOperation</text>
 </g>
 </g>
 </svg>

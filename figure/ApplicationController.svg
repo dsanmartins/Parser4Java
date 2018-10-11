@@ -3270,60 +3270,60 @@
 <text text-anchor="middle" x="7545.9209" y="-18696.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
 <text text-anchor="middle" x="7545.9209" y="-18679.8" font-family="Times,serif" font-size="14.00" fill="#000000">readFromXml]</text>
 </g>
-<!-- Class: [AdaptationEngine] -->
+<!-- Interface: [AdaptationEngine] -->
 <g id="node130" class="node">
-<title>Class: [AdaptationEngine]</title>
-<ellipse fill="none" stroke="#000000" cx="7811.9349" cy="-18452" rx="113.5019" ry="18"/>
-<text text-anchor="middle" x="7811.9349" y="-18447.8" font-family="Times,serif" font-size="14.00" fill="#000000">Class: [AdaptationEngine]</text>
+<title>Interface: [AdaptationEngine]</title>
+<ellipse fill="none" stroke="#000000" cx="7811.9349" cy="-18452" rx="127.2647" ry="18"/>
+<text text-anchor="middle" x="7811.9349" y="-18447.8" font-family="Times,serif" font-size="14.00" fill="#000000">Interface: [AdaptationEngine]</text>
 </g>
-<!-- Class: [ApplicationController]&#45;&gt;Class: [AdaptationEngine] -->
+<!-- Class: [ApplicationController]&#45;&gt;Interface: [AdaptationEngine] -->
 <g id="edge13" class="edge">
-<title>Class: [ApplicationController]&#45;&gt;Class: [AdaptationEngine]</title>
+<title>Class: [ApplicationController]&#45;&gt;Interface: [AdaptationEngine]</title>
 <path fill="none" stroke="#000000" d="M6625.7853,-18761.368C6906.6887,-18759.5005 7552.3703,-18752.3513 7591.9349,-18726 7612.4317,-18712.3485 7601.5598,-18696.2619 7614.9601,-18675.6 7666.3969,-18596.2895 7744.7569,-18516.2819 7785.4014,-18476.9778"/>
 <polygon fill="#000000" stroke="#000000" points="7787.9858,-18479.3485 7792.7727,-18469.8967 7783.1364,-18474.3004 7787.9858,-18479.3485"/>
 <text text-anchor="middle" x="7647.4223" y="-18713.4" font-family="Times,serif" font-size="14.00" fill="#000000">[addProfile</text>
 <text text-anchor="middle" x="7647.4223" y="-18696.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
 <text text-anchor="middle" x="7647.4223" y="-18679.8" font-family="Times,serif" font-size="14.00" fill="#000000">start]</text>
 </g>
-<!-- Class: [ApplicationController]&#45;&gt;Class: [AdaptationEngine] -->
+<!-- Class: [ApplicationController]&#45;&gt;Interface: [AdaptationEngine] -->
 <g id="edge14" class="edge">
-<title>Class: [ApplicationController]&#45;&gt;Class: [AdaptationEngine]</title>
+<title>Class: [ApplicationController]&#45;&gt;Interface: [AdaptationEngine]</title>
 <path fill="none" stroke="#000000" d="M6625.0474,-18759.8616C6926.3465,-18754.5997 7656.2565,-18740.4011 7677.9349,-18726 7698.448,-18712.373 7690.3679,-18697.8326 7700.9601,-18675.6 7734.9405,-18604.2767 7776.8006,-18521.146 7798.0866,-18479.1922"/>
 <polygon fill="#000000" stroke="#000000" points="7801.2648,-18480.6637 7802.6728,-18470.1628 7795.0237,-18477.4936 7801.2648,-18480.6637"/>
 <text text-anchor="middle" x="7733.4223" y="-18713.4" font-family="Times,serif" font-size="14.00" fill="#000000">[addProfile</text>
 <text text-anchor="middle" x="7733.4223" y="-18696.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
 <text text-anchor="middle" x="7733.4223" y="-18679.8" font-family="Times,serif" font-size="14.00" fill="#000000">stop]</text>
 </g>
-<!-- Class: [ApplicationController]&#45;&gt;Class: [AdaptationEngine] -->
+<!-- Class: [ApplicationController]&#45;&gt;Interface: [AdaptationEngine] -->
 <g id="edge38" class="edge">
-<title>Class: [ApplicationController]&#45;&gt;Class: [AdaptationEngine]</title>
+<title>Class: [ApplicationController]&#45;&gt;Interface: [AdaptationEngine]</title>
 <path fill="none" stroke="#000000" d="M6625.5054,-18760.4748C6943.4599,-18756.4248 7742.613,-18744.4342 7763.9349,-18726 7782.4494,-18709.993 7801.7399,-18547.5291 7808.9683,-18480.5904"/>
 <polygon fill="#000000" stroke="#000000" points="7812.4811,-18480.6556 7810.0611,-18470.3409 7805.5205,-18479.9134 7812.4811,-18480.6556"/>
 <text text-anchor="middle" x="7795.3157" y="-18713.4" font-family="Times,serif" font-size="14.00" fill="#000000">[call</text>
 <text text-anchor="middle" x="7795.3157" y="-18696.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
 <text text-anchor="middle" x="7795.3157" y="-18679.8" font-family="Times,serif" font-size="14.00" fill="#000000">start]</text>
 </g>
-<!-- Class: [ApplicationController]&#45;&gt;Class: [AdaptationEngine] -->
+<!-- Class: [ApplicationController]&#45;&gt;Interface: [AdaptationEngine] -->
 <g id="edge39" class="edge">
-<title>Class: [ApplicationController]&#45;&gt;Class: [AdaptationEngine]</title>
+<title>Class: [ApplicationController]&#45;&gt;Interface: [AdaptationEngine]</title>
 <path fill="none" stroke="#000000" d="M6625.6785,-18760.832C6953.1261,-18757.5554 7793.3977,-18747.1063 7813.9349,-18726 7847.1771,-18691.8367 7827.1472,-18543.2456 7816.88,-18480.3197"/>
 <polygon fill="#000000" stroke="#000000" points="7820.3059,-18479.5854 7815.2083,-18470.2975 7813.4013,-18480.7371 7820.3059,-18479.5854"/>
 <text text-anchor="middle" x="7844.9328" y="-18713.4" font-family="Times,serif" font-size="14.00" fill="#000000">[call</text>
 <text text-anchor="middle" x="7844.9328" y="-18696.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
 <text text-anchor="middle" x="7844.9328" y="-18679.8" font-family="Times,serif" font-size="14.00" fill="#000000">stop]</text>
 </g>
-<!-- Class: [ApplicationController]&#45;&gt;Class: [AdaptationEngine] -->
+<!-- Class: [ApplicationController]&#45;&gt;Interface: [AdaptationEngine] -->
 <g id="edge60" class="edge">
-<title>Class: [ApplicationController]&#45;&gt;Class: [AdaptationEngine]</title>
+<title>Class: [ApplicationController]&#45;&gt;Interface: [AdaptationEngine]</title>
 <path fill="none" stroke="#000000" d="M6625.559,-18760.9647C6961.6136,-18757.9545 7841.52,-18747.9868 7862.9349,-18726 7929.1573,-18658.0094 7863.9561,-18533.3468 7829.8513,-18478.7754"/>
 <polygon fill="#000000" stroke="#000000" points="7832.6039,-18476.5823 7824.276,-18470.0327 7826.7019,-18480.3461 7832.6039,-18476.5823"/>
 <text text-anchor="middle" x="7909.9251" y="-18713.4" font-family="Times,serif" font-size="14.00" fill="#000000">[handle</text>
 <text text-anchor="middle" x="7909.9251" y="-18696.6" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;&#45;&gt;</text>
 <text text-anchor="middle" x="7909.9251" y="-18679.8" font-family="Times,serif" font-size="14.00" fill="#000000">start]</text>
 </g>
-<!-- Class: [ApplicationController]&#45;&gt;Class: [AdaptationEngine] -->
+<!-- Class: [ApplicationController]&#45;&gt;Interface: [AdaptationEngine] -->
 <g id="edge61" class="edge">
-<title>Class: [ApplicationController]&#45;&gt;Class: [AdaptationEngine]</title>
+<title>Class: [ApplicationController]&#45;&gt;Interface: [AdaptationEngine]</title>
 <path fill="none" stroke="#000000" d="M6625.722,-18761.1335C6973.8839,-18758.4856 7909.2884,-18749.2217 7931.9349,-18726 7968.5665,-18688.4379 7872.6104,-18539.4685 7830.5496,-18478.3622"/>
 <polygon fill="#000000" stroke="#000000" points="7833.3313,-18476.2315 7824.7572,-18470.0077 7827.5787,-18480.22 7833.3313,-18476.2315"/>
 <text text-anchor="middle" x="7961.9251" y="-18713.4" font-family="Times,serif" font-size="14.00" fill="#000000">[handle</text>
@@ -3951,7 +3951,7 @@
 <!-- Class: [InputProfileController]&#45;&gt;empty\nisEditing()\ntextField != null\n -->
 <g id="edge136" class="edge">
 <title>Class: [InputProfileController]&#45;&gt;empty\nisEditing()\ntextField != null\n</title>
-<path fill="none" stroke="#ff0000" d="M4852.2075,-18433.9442C4837.7718,-18391.8855 4795.4807,-18287.822 4718.9349,-18246.4 4662.9841,-18216.1228 3632.9175,-18252.2971 3573.9587,-18228.4 3553.0296,-18219.9171 3545.9706,-18214.2964 3536.9349,-18193.6 3343.0414,-17749.4863 3463.4056,-9783.219 3473.3037,-9149.191"/>
+<path fill="none" stroke="#ff0000" d="M4852.2075,-18433.9442C4837.7718,-18391.8855 4795.4807,-18287.822 4718.9349,-18246.4 4662.9841,-18216.1228 3632.9175,-18252.2971 3573.9587,-18228.4 3563.4942,-18224.1585 3541.4528,-18203.9482 3536.9349,-18193.6 3343.0414,-17749.4863 3463.4056,-9783.219 3473.3037,-9149.191"/>
 <polygon fill="#ff0000" stroke="#ff0000" points="3476.8101,-9148.801 3473.4671,-9138.7474 3469.811,-9148.6914 3476.8101,-9148.801"/>
 <text text-anchor="middle" x="3606.423" y="-18215.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">updateItem</text>
 </g>
@@ -4042,9 +4042,9 @@
 <!-- Class: [ServiceProfileController]&#45;&gt;!isEmpty()\n -->
 <g id="edge160" class="edge">
 <title>Class: [ServiceProfileController]&#45;&gt;!isEmpty()\n</title>
-<path fill="none" stroke="#ff0000" d="M5137.561,-18433.8896C5121.6098,-18391.7127 5075.5124,-18287.4123 4996.9349,-18246.4 4923.032,-18207.8275 3575.1769,-18255.9577 3496.5001,-18228.4 3485.0335,-18224.3837 3485.7782,-18217.0807 3474.9349,-18211.6 3448.564,-18198.2709 3428.8382,-18217.1066 3410.9349,-18193.6 3263.0856,-17999.4771 3357.223,-9686.4585 3363.6016,-9137.6305"/>
+<path fill="none" stroke="#ff0000" d="M5137.5609,-18433.8897C5121.6096,-18391.7132 5075.5117,-18287.4136 4996.9349,-18246.4 4923.2296,-18207.9291 3580.0085,-18252.708 3500.5001,-18228.4 3487.4981,-18224.4249 3487.3059,-18217.2403 3474.9349,-18211.6 3448.0494,-18199.3421 3428.8382,-18217.1066 3410.9349,-18193.6 3263.0856,-17999.4771 3357.223,-9686.4585 3363.6016,-9137.6305"/>
 <polygon fill="#ff0000" stroke="#ff0000" points="3367.1039,-9137.4466 3363.7207,-9127.4065 3360.1043,-9137.365 3367.1039,-9137.4466"/>
-<text text-anchor="middle" x="3520.6523" y="-18215.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">startEdit</text>
+<text text-anchor="middle" x="3524.6523" y="-18215.8" font-family="Times,serif" font-size="14.00" fill="#ff0000">startEdit</text>
 </g>
 <!-- Class: [ServiceProfileController]&#45;&gt;empty\nisEditing()\ntextField != null\n -->
 <g id="edge161" class="edge">
