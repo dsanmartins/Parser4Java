@@ -2,4 +2,6 @@
 *.iml
 output
 target
-/figure/
+figure
+/.gitignore~
+/..gitignore.un~
