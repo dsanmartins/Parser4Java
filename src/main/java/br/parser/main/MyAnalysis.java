@@ -19,6 +19,7 @@ import br.parser.database.QueryClass;
 import br.parser.graph.CreateGraph;
 import br.parser.logic.Parser;
 import br.parser.utils.LoadLibrary;
+import br.parser.xquery.ExecuteXquery;
 
 /**
  * Some code that uses JavaSymbolSolver.
@@ -71,6 +72,10 @@ public class MyAnalysis {
 		//Create graph with calls among packages
 		createGraph.createGraphWithPackageCall(ct.getPackageCall());
 
+		//Create runtime csv file from VisualVM xml
+		ExecuteXquery executor = new ExecuteXquery();
+		executor.executor(p.getProperty("visualvmfolder"), p.getProperty("visualvmfile"), "call");
+		
 		//Create execution trace from file. (This file is created manually)
 		String pathFileGraph = p.getProperty("pathfilegraph");
 		createGraph.createGraphFromFile(pathFileGraph);

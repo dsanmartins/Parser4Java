@@ -232,7 +232,7 @@ public class CreateGraph {
 
 
 		//Build reader instance
-		CSVReader reader = new CSVReader(new FileReader(csvFile), ',', '"', 1);
+		CSVReader reader = new CSVReader(new FileReader(csvFile), ';', '"', 1);
 
 		//Read all rows at once
 		List<String[]> allRows = reader.readAll();
@@ -240,9 +240,9 @@ public class CreateGraph {
 		//Read CSV line by line and use the string array as you want
 		for(String[] row : allRows){
 
-			nCaller = mutNode(row[0].split(",")[0]);
-			nCalled = mutNode(row[1].split(",")[0]);
-			method = row[2].split(",")[0];
+			nCaller = mutNode(row[0].split(";")[0]);
+			nCalled = mutNode(row[1].split(";")[0]);
+			method = row[2].split(";")[0];
 
 			if (nUtil.getNodeByName(g, nCaller.name().toString()) != null)
 				nCaller = nUtil.getNodeByName(g, nCaller.name().toString());
@@ -269,9 +269,9 @@ public class CreateGraph {
 				i++;
 			}
 
-			if (!row[3].split(",")[0].equals(""))
+			if (!row[3].split(";")[0].equals(""))
 			{	
-				rtnNode = nUtil.getNodeByName(g, row[3].split(",")[0]);
+				rtnNode = nUtil.getNodeByName(g, row[3].split(";")[0]);
 				Link link = Link.between(nCalled,rtnNode).with(Style.DOTTED);
 				List<Link> lstLnk = new ArrayList<Link>(nCalled.links());
 
