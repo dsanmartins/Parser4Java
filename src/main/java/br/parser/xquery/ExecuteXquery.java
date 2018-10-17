@@ -34,7 +34,7 @@ public class ExecuteXquery {
 		{
 			baseXManager = new Manager(path, file, dbName);
 			baseXManager.openDB();
-			this.depthFirstSearch();
+			this.breathFirstSearch();
 			baseXManager.closeDB();
 
 
@@ -101,7 +101,7 @@ public class ExecuteXquery {
 		writer.close();
 	}
 
-	private void depthFirstSearch() throws SQLException, QueryException, BaseXException, FileNotFoundException, UnsupportedEncodingException
+	private void breathFirstSearch() throws SQLException, QueryException, BaseXException, FileNotFoundException, UnsupportedEncodingException
 	{
 		List<String> arrMethods = new ArrayList<String>();
 		List<String> children = new ArrayList<String>();
