@@ -53,18 +53,21 @@ public class ExecuteXquery {
 
 
 		if (parent.split("\\.").length > 1) {
-			String statement[] = parent.split("\\.");
+			
+			String tmp[] = parent.split("\\(");
+			String statement[] = tmp[0].split("\\.");
 			for (int i=0; i< statement.length-1 ; i++)
 				caller = caller + "." + statement[i];
 
 			caller = caller.substring(1,caller.length());
-			method = statement[statement.length-1];
+			method = statement[statement.length-1] + "(" + tmp[1];
 		}
 
 		for (String child : children)
-		{
+		{	
 			if (child.split("\\.").length > 1) {
-				String statement[] = child.split("\\.");
+				String tmp[] = child.split("\\(");
+				String statement[] = tmp[0].split("\\.");
 				for (int i=0; i< statement.length-1 ; i++)
 					called =  called + "." + statement[i];
 
@@ -116,6 +119,8 @@ public class ExecuteXquery {
 		proc.close();
 
 		String rtn = " return ";
+		arrMethods.clear();
+		arrMethods.add("Thread-19");
 
 		for (String thread: arrMethods) {
 

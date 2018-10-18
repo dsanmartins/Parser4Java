@@ -62,15 +62,15 @@ public class MyAnalysis {
 		CreateGraph createGraph = new CreateGraph(); 
 		String sourcePath = p.getProperty("directories");
 		String operation = p.getProperty("operation");
-		List<String> values = parserClass.getMethodCalls(parser, sourcePath);
-		ct.insertCallsAndCallers(values);
+		//List<String> values = parserClass.getMethodCalls(parser, sourcePath);
+		//ct.insertCallsAndCallers(values);
 
 		//0: Deactivate calls from the same node
 		//1: Activate calls from the same node
-		createGraph.createGraphWithMethodCall(parser, sourcePath,ct.getMethodCall(),0, operation);
+		//createGraph.createGraphWithMethodCall(parser, sourcePath,ct.getMethodCall(),0, operation);
 
 		//Create graph with calls among packages
-		createGraph.createGraphWithPackageCall(ct.getPackageCall());
+		//createGraph.createGraphWithPackageCall(ct.getPackageCall());
 
 		//Create runtime csv file from VisualVM xml
 		ExecuteXquery executor = new ExecuteXquery();
