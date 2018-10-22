@@ -4,15 +4,18 @@ import static guru.nidi.graphviz.model.Factory.mutGraph;
 import static guru.nidi.graphviz.model.Factory.mutNode;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.github.javaparser.JavaParser;
+import com.google.common.base.Strings;
 import com.opencsv.CSVReader;
 
 import br.parser.logic.Parser;
+import br.parser.utils.DirExplorer;
 import br.parser.utils.NodeUtil;
 import guru.nidi.graphviz.attribute.Color;
 import guru.nidi.graphviz.attribute.Label;
@@ -32,7 +35,7 @@ public class CreateGraph {
 	Parser parserClass = null;
 
 
-	public void createGraphWithMethodCall(JavaParser parser, String sourcePath, List<String> values, int signal, String operation) throws IOException {
+	public void createGraphWithMethodCall(JavaParser parser, String systemSourcePath, String path, List<String> values, int signal, String operation) throws IOException {
 
 		nUtil = new NodeUtil();
 		parserClass = new Parser();
@@ -69,7 +72,7 @@ public class CreateGraph {
 					String type = node.name().toString().substring(0, node.name().toString().indexOf("[")+1); 
 					String newNodoname = nodename.split("\\.")[nodename.split("\\.").length-1];
 					nodename = nodename.replaceAll("\\.", "\\/") + ".java";
-					List<String> lStr = parserClass.operation(operation, parser, sourcePath, nodename);
+					List<String> lStr = parserClass.operation(operation, parser, systemSourcePath, nodename);
 					node.setName(type + newNodoname + "]");
 					for (String ifStr : lStr) {
 
@@ -86,7 +89,7 @@ public class CreateGraph {
 				try
 				{
 					g.graphAttrs().add(Label.of("Method Calls for :" + newPackageCaller + "." + newClassCaller ));
-					Graphviz.fromGraph(g).height(800).width(1280).render(Format.SVG).toFile(new File("figure/"+newClassCaller+".svg"));
+					Graphviz.fromGraph(g).height(800).width(1280).render(Format.SVG).toFile(new File(path + "/Static/MethodCall/"+newClassCaller+".svg"));
 					newClassCaller = classCaller;
 					newPackageCaller = packageCaller;
 					g.graphs().clear();
@@ -102,7 +105,7 @@ public class CreateGraph {
 			}
 
 			//Check if the module is a class, interface or annotation
-			String rtn = nUtil.checkModuleType(sourcePath, url1, classCaller, url2, classCalled);
+			String rtn = nUtil.checkModuleType(systemSourcePath, url1, classCaller, url2, classCalled);
 			String nodeNameCaller = rtn.split("\\|")[0] + ": [" + packageCaller + "."+ classCaller + "]" ;
 			String nodeNameCalled = rtn.split("\\|")[1] +": [" + packageCalled + "." +classCalled + "]";
 			String label = "[" + methodCaller + System.getProperty("line.separator") + "-->" + System.getProperty("line.separator") + methodCalled + "]";
@@ -143,7 +146,7 @@ public class CreateGraph {
 					String type = node.name().toString().substring(0, node.name().toString().indexOf("[")+1); 
 					String newNodoname = nodename.split("\\.")[nodename.split("\\.").length-1];
 					nodename = nodename.replaceAll("\\.", "\\/") + ".java";
-					List<String> lStr = parserClass.operation(operation, parser, sourcePath, nodename);
+					List<String> lStr = parserClass.operation(operation, parser, systemSourcePath, nodename);
 					node.setName(type + newNodoname + "]");
 					for (String ifStr : lStr) {
 
@@ -160,7 +163,7 @@ public class CreateGraph {
 				try
 				{
 					g.graphAttrs().add(Label.of("Method Calls for :" + newPackageCaller + "." + newClassCaller ));
-					Graphviz.fromGraph(g).height(800).width(1280).render(Format.SVG).toFile(new File("figure/"+newClassCaller+".svg"));
+					Graphviz.fromGraph(g).height(800).width(1280).render(Format.SVG).toFile(new File(path + "/Static/MethodCall/"+newClassCaller+".svg"));
 					g.graphs().clear();
 					Graphviz.releaseEngine();
 
@@ -176,7 +179,7 @@ public class CreateGraph {
 		}
 	}
 
-	public void createGraphWithPackageCall(List<String> values) throws IOException {
+	public void createGraphWithPackageCall(List<String> values, String path) throws IOException {
 
 		Graphviz.useEngine(new GraphvizJdkEngine());
 		MutableGraph g = mutGraph("project").setDirected(true);
@@ -212,95 +215,125 @@ public class CreateGraph {
 		}
 
 		g.graphAttrs().add(Label.of("Package Calls of the project"));
-		Graphviz.fromGraph(g).totalMemory(100777216).height(800).width(1280).render(Format.SVG).toFile(new File("figure/"+"PackageCalls"+".svg"));
+		Graphviz.fromGraph(g).totalMemory(100777216).height(800).width(1280).render(Format.SVG).toFile(new File(path+ "/Static/PackageCall/"+"PackageCalls"+".svg"));
 		g.graphs().clear();
 		Graphviz.releaseEngine();
 	}
 
-	public void createGraphFromFile(String path) throws IOException {
+	public void createGraphFromFile(File projectDir, String imagePath) throws IOException {
 
-		String csvFile = path;
-		Graphviz.useEngine(new GraphvizJdkEngine());
-		MutableGraph g = mutGraph("project").setDirected(true);
-		MutableNode nCaller = null;
-		MutableNode nCalled = null;
-		MutableNode firstNode = null;
-		MutableNode rtnNode = null;
-		int i = 0;
-		String method = "";
-		NodeUtil nUtil = new NodeUtil(); 
+		new DirExplorer((level, path, file) -> path.endsWith(".csv"), (level, path, file) -> {
+
+			System.out.println(path);
+			System.out.println(Strings.repeat("=", path.length()));
+		
+			String csvFile = file.getAbsolutePath();
+			Graphviz.useEngine(new GraphvizJdkEngine());
+			MutableGraph g = mutGraph("project").setDirected(true);
+			MutableNode nCaller = null;
+			MutableNode nCalled = null;
+			MutableNode firstNode = null;
+			MutableNode rtnNode = null;
+			int i = 0;
+			String method = "";
+			NodeUtil nUtil = new NodeUtil(); 
 
 
-		//Build reader instance
-		CSVReader reader = new CSVReader(new FileReader(csvFile), ';', '"', 1);
-
-		//Read all rows at once
-		List<String[]> allRows = reader.readAll();
-
-		//Read CSV line by line and use the string array as you want
-		for(String[] row : allRows){
-
-			nCaller = mutNode(row[0].split(";")[0]);
-			nCalled = mutNode(row[1].split(";")[0]);
-			method = row[2].split(";")[0];
-
-			if (nUtil.getNodeByName(g, nCaller.name().toString()) != null)
-				nCaller = nUtil.getNodeByName(g, nCaller.name().toString());
-
-			if (nUtil.getNodeByName(g, nCalled.name().toString()) != null)
-				nCalled = nUtil.getNodeByName(g, nCalled.name().toString());
-
-			if (nCaller.name().toString().equals(nCalled.name().toString()))
-			{
-				Link link = Link.between(nCaller, nCaller).with(Label.of(method));
-				nCaller.addLink(link);
-				g.add(nCaller,nCaller);
-			}
-			else
-			{
-				Link link = Link.between(nCaller, nCalled).with(Label.of(method));
-				nCaller.addLink(link);
-				g.add(nCaller,nCalled);
+			//Build reader instance
+			CSVReader reader= null;
+			try {
+				reader = new CSVReader(new FileReader(csvFile), ';', '"', 1);
+			} catch (FileNotFoundException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
 			}
 
-			if (i==0)
-			{
-				firstNode = nCaller;
-				i++;
+			//Read all rows at once
+			List<String[]> allRows = null;
+			try {
+				allRows = reader.readAll();
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
 			}
 
-			if (!row[3].split(";")[0].equals(""))
-			{	
-				rtnNode = nUtil.getNodeByName(g, row[3].split(";")[0]);
-				Link link = Link.between(nCalled,rtnNode).with(Style.DOTTED);
-				List<Link> lstLnk = new ArrayList<Link>(nCalled.links());
+			//Read CSV line by line and use the string array as you want
+			for(String[] row : allRows){
 
-				if (nCalled.links().isEmpty())
-					nCalled.addLink(link);
+				nCaller = mutNode(row[0].split(";")[0]);
+				nCalled = mutNode(row[1].split(";")[0]);
+				method = row[2].split(";")[0];
+
+				if (nUtil.getNodeByName(g, nCaller.name().toString()) != null)
+					nCaller = nUtil.getNodeByName(g, nCaller.name().toString());
+
+				if (nUtil.getNodeByName(g, nCalled.name().toString()) != null)
+					nCalled = nUtil.getNodeByName(g, nCalled.name().toString());
+
+				if (nCaller.name().toString().equals(nCalled.name().toString()))
+				{
+					Link link = Link.between(nCaller, nCaller).with(Label.of(method));
+					nCaller.addLink(link);
+					g.add(nCaller,nCaller);
+				}
 				else
 				{
-					for (Link lnk : lstLnk)
+					Link link = Link.between(nCaller, nCalled).with(Label.of(method));
+					nCaller.addLink(link);
+					g.add(nCaller,nCalled);
+				}
+
+				if (i==0)
+				{
+					firstNode = nCaller;
+					i++;
+				}
+
+				if (!row[3].split(";")[0].equals(""))
+				{	
+					rtnNode = nUtil.getNodeByName(g, row[3].split(";")[0]);
+					Link link = Link.between(nCalled,rtnNode).with(Style.DOTTED);
+					List<Link> lstLnk = new ArrayList<Link>(nCalled.links());
+
+					if (nCalled.links().isEmpty())
+						nCalled.addLink(link);
+					else
 					{
-						MutableNode tmp = (MutableNode) lnk.to();
-						String nodeName = tmp.name().toString();
-						if (!nodeName.equals(rtnNode.name().toString()))
-							nCalled.addLink(link);
+						for (Link lnk : lstLnk)
+						{
+							MutableNode tmp = (MutableNode) lnk.to();
+							String nodeName = tmp.name().toString();
+							if (!nodeName.equals(rtnNode.name().toString()))
+								nCalled.addLink(link);
+						}
 					}
 				}
 			}
-		}
 
-		MutableNode start = mutNode("[START]").add(Label.html("<b>[START]</b>"));
-		Link link = Link.between(start, firstNode);
-		start.addLink(link);
-		g.add(start);
+			MutableNode start = mutNode("[START]").add(Label.html("<b>[START]</b>"));
+			Link link = Link.between(start, firstNode);
+			start.addLink(link);
+			g.add(start);
 
-		g.graphAttrs().add(Label.of("Execution Trace"));
-		Graphviz.fromGraph(g).totalMemory(100777216).height(800).width(1280).render(Format.SVG).toFile(new File("figure/"+"CustomGraph"+".svg"));
-		g.graphs().clear();
-		Graphviz.releaseEngine();
+			g.graphAttrs().add(Label.of("Execution Trace"));
+			try {
+				Graphviz.fromGraph(g).totalMemory(100777216).height(800).width(1280).render(Format.SVG).toFile(new File(imagePath + "/Dynamic/Images"+path.split("\\.")[0]+".svg"));
+			
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			g.graphs().clear();
+			Graphviz.releaseEngine();
 
-		reader.close();
+			try {
+				reader.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+		}).explore(projectDir);
 	}
 
 }

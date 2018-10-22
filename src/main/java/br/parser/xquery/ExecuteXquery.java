@@ -1,8 +1,12 @@
 package br.parser.xquery;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -28,13 +32,13 @@ public class ExecuteXquery {
 
 	}
 
-	public void executor(String path, String file, String dbName) throws SQLException, QueryException, FileNotFoundException, UnsupportedEncodingException
+	public void executor(String path, String file, String dbName, String systemSourcePath) throws SQLException, QueryException, FileNotFoundException, UnsupportedEncodingException
 	{
 		try 
 		{
 			baseXManager = new Manager(path, file, dbName);
 			baseXManager.openDB();
-			this.breathFirstSearch();
+			this.breathFirstSearch(systemSourcePath);
 			baseXManager.closeDB();
 
 
@@ -53,7 +57,7 @@ public class ExecuteXquery {
 
 
 		if (parent.split("\\.").length > 1) {
-			
+
 			String tmp[] = parent.split("\\(");
 			String statement[] = tmp[0].split("\\.");
 			for (int i=0; i< statement.length-1 ; i++)
@@ -83,13 +87,59 @@ public class ExecuteXquery {
 		return line;
 	}
 
-	private void createFile(List<String> content, String filename) throws FileNotFoundException, UnsupportedEncodingException {
+	private void createFile(List<String> content, String filename, String systemSourcePath) throws FileNotFoundException, UnsupportedEncodingException {
 
-		String file = "fileGraph/"+ filename + ".csv";
-		PrintWriter writer = new PrintWriter(file, "UTF-8");
+		String file1 = systemSourcePath + "/Dynamic/CSV/";
+		String file2 = systemSourcePath + "/Dynamic/CSV/"+ filename + ".csv";
+		String file3 = systemSourcePath + "/Dynamic/Images/";
+		Path dirPathObj1 = Paths.get(file1);
+		Path dirPathObj2 = Paths.get(file2);
+		Path dirPathObj3 = Paths.get(file3);
+
+		boolean dirExists = Files.exists(dirPathObj1);
+		if(!dirExists) {
+
+			try 
+			{	
+				// Creating The New Directory Structure
+				Files.createDirectories(dirPathObj1);
+			} catch (IOException ioExceptionObj) 
+			{
+				System.out.println("Problem Occured While Creating The Directory Structure= " + ioExceptionObj.getMessage());
+			}
+		}
+		
+		dirExists = Files.exists(dirPathObj3);
+		if(!dirExists) {
+
+			try 
+			{	
+				// Creating The New Directory Structure
+				Files.createDirectories(dirPathObj3);
+			} catch (IOException ioExceptionObj) 
+			{
+				System.out.println("Problem Occured While Creating The Directory Structure= " + ioExceptionObj.getMessage());
+			}
+		}
+		
+		dirExists = Files.exists(dirPathObj2);
+		if(!dirExists) {
+
+			try 
+			{	
+				// Creating The New Directory Structure
+				Files.createFile(dirPathObj2);
+			} catch (IOException ioExceptionObj) 
+			{
+				System.out.println("Problem Occured While Creating The Directory Structure= " + ioExceptionObj.getMessage());
+				ioExceptionObj.printStackTrace();
+			}
+		}
+
+		PrintWriter writer = new PrintWriter(file2, "UTF-8");
 		int counter = 1;
-		
-		
+
+
 		for (String line : content)
 		{
 			if (line.split("\\;").length == 2)
@@ -104,7 +154,7 @@ public class ExecuteXquery {
 		writer.close();
 	}
 
-	private void breathFirstSearch() throws SQLException, QueryException, BaseXException, FileNotFoundException, UnsupportedEncodingException
+	private void breathFirstSearch(String systemSourcePath) throws SQLException, QueryException, BaseXException, FileNotFoundException, UnsupportedEncodingException
 	{
 		List<String> arrMethods = new ArrayList<String>();
 		List<String> children = new ArrayList<String>();
@@ -119,8 +169,6 @@ public class ExecuteXquery {
 		proc.close();
 
 		String rtn = " return ";
-		arrMethods.clear();
-		arrMethods.add("Thread-19");
 
 		for (String thread: arrMethods) {
 
@@ -197,7 +245,7 @@ public class ExecuteXquery {
 						children.clear();
 					}
 				}
-				this.createFile(fileContent, thread);
+				this.createFile(fileContent, thread, systemSourcePath);
 			}
 		}
 	}
