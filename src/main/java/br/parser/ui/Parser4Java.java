@@ -22,10 +22,12 @@ public class Parser4Java extends Application {
 		analysis.closableProperty().set(false);
 		Configuration configuration = new Configuration("Configuration",null);
 		configuration.closableProperty().set(false);
+		Help help = new Help("Help", null);
+		About about = new About("About", null);
 		
 		
 		TabPane tabPane = new TabPane();
-		tabPane.getTabs().addAll(analysis, configuration);
+		tabPane.getTabs().addAll(analysis, configuration, help, about);
 
 		BorderPane root = new BorderPane();
 		
