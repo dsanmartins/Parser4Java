@@ -5,3 +5,4 @@ target
 figure
 /.gitignore~
 /..gitignore.un~
+/parser.db
