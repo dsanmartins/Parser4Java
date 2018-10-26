@@ -31,7 +31,7 @@ mv clean install
 Package:
 --------
 
-javafxpackager -createjar -appclass br.parser.ui.Parser4Java -srcdir . -outdir out -outfile  Parser4Java.jar -v
+javapackager -createjar -appclass br.parser.ui.Parser4Java -srcdir src/ -outdir out -outfile Parser4Java.jar -v
 
 -createjar creates a JavaFX JAR executable application.
 
