@@ -14,7 +14,6 @@ public class Parser4Java extends Application {
 		Application.launch(args);
 	}
 	
-	
 	@Override
 	public void start(Stage stage) {
 		
@@ -23,8 +22,7 @@ public class Parser4Java extends Application {
 		Configuration configuration = new Configuration("Configuration",null);
 		configuration.closableProperty().set(false);
 		Help help = new Help("Help", null);
-		About about = new About("About", null);
-		
+		About about = new About("About", null);		
 		
 		TabPane tabPane = new TabPane();
 		tabPane.getTabs().addAll(analysis, configuration, help, about);
@@ -41,6 +39,7 @@ public class Parser4Java extends Application {
 				"-fx-border-color: black;");
 
 		stage.setScene(scene);
+		stage.setResizable(false);
 		stage.setTitle("Parser4Java");
 		stage.show();
 	}

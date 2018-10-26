@@ -3,23 +3,16 @@ package br.parser.utils;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
 import java.util.Scanner;
 
-import br.parser.logic.Parser;
 import guru.nidi.graphviz.model.MutableGraph;
 import guru.nidi.graphviz.model.MutableNode;
 
 public class NodeUtil {
 
 	public String checkModuleType(String sourcePath, String url1, String classCall, String url2, String classCaller) throws IOException {
-
-		Properties p = new Properties();
-		InputStream in = Parser.class.getClassLoader().getResourceAsStream("configuration.properties");
-		p.load(in);
 
 		String urlPath[] = sourcePath.split("\\,");
 

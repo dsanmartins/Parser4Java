@@ -50,7 +50,7 @@ abstract class Db {
 
 	public  void setConnection() throws Exception {
 		Class.forName(sDriver);
-		conn = DriverManager.getConnection(sUrl);
+		conn = DriverManager.getConnection("jdbc:sqlite:" + sUrl);
 	}
 
 

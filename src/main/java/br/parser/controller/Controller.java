@@ -196,9 +196,14 @@ public class Controller {
 		
 	}
 	
+	public void initializeDB() throws Exception {
+		
+		ct.createTables();
+	}
+	
 	public String loadConfigurations(String systemName) throws Exception {
 
-		ct.createTables();
+	
 		List<String> lst = ct.loadConfigurations(systemName);
 
 		CombinedTypeSolver combinedTypeSolver = new CombinedTypeSolver();

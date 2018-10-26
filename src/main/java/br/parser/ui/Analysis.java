@@ -1,10 +1,9 @@
 package br.parser.ui;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
+import java.sql.SQLException;
 
 import br.parser.controller.Controller;
+import br.parser.utils.Property;
 import javafx.concurrent.Task;
 import javafx.concurrent.WorkerStateEvent;
 import javafx.event.EventHandler;
@@ -26,37 +25,41 @@ public class Analysis extends Tab{
 	Button btnRunStaticAnalysis = new Button("Run");
 	Button btnRunDynamicAnalysis = new Button("Run");
 	ComboBox<String> system= new ComboBox<String>();
+	ComboBox<String> systemDynamic = new ComboBox<String>();
 	ComboBox<String> options = new ComboBox<String>();
 	ComboBox<String> call = new ComboBox<String>();
 	ComboBox<String> selfNodeCall = new ComboBox<String>();
 	ProgressBar indeterminateInd = new ProgressBar(0);
 	String systemPath= "";
 	Label progress = new Label("");
-	Tab tab = null;
+	Tab tab1 = null;
+	Tab tab2 = null;
+	Tab tab3 = null;
 
 	Controller controller = new Controller();
-	Properties p = new Properties();
-	InputStream in = Analysis.class.getClassLoader().getResourceAsStream("configuration.properties");
 
 	public Analysis(String text, Node graphic) {
 
+		this.setText(text);
+		this.setGraphic(graphic);
 		try {
-			p.load(in);
-		} catch (IOException e) {
+			controller.initializeDB();
+		} catch (Exception e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		try {
+			init();
+		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
-		this.setText(text);
-		this.setGraphic(graphic);
-		init();
 	}
 
-	public void init() {
+	public void init() throws SQLException {
 
 		this.setOnSelectionChanged(e -> onTabSelected());
 		system.setOnAction(e->loadConfigurations());
-
 		try {
 			this.loadSystems();
 		} catch (Exception e2) {
@@ -64,7 +67,7 @@ public class Analysis extends Tab{
 			e2.printStackTrace();
 		}
 		call.setOnAction(e -> handleValueChangeRepresentation());
-		String operations[] = p.getProperty("typeofoperation").split("\\,");
+		String operations[] = (Property.getProperty("typeofoperation")).split("\\,");
 		options.getItems().addAll(operations);
 		call.getItems().addAll("Method Call", "Package Call");
 		selfNodeCall.getItems().addAll("Yes", "No");
@@ -81,13 +84,15 @@ public class Analysis extends Tab{
 		btnRunDynamicAnalysis.setOnAction(e -> runDynamicAnalysis());
 
 		GridPane grid1 = new GridPane();
-		grid1.addRow(0, new Label("Type of Representation: "), call);
-		grid1.addRow(1, new Label("Type of Operation: "), options);
-		grid1.addRow(2, new Label("Self Node Call: "), selfNodeCall);
-		grid1.addRow(3, new Label(""), btnRunStaticAnalysis);
+		grid1.addRow(0, new Label("System Name: "), system);
+		grid1.addRow(1, new Label("Type of Representation: "), call);
+		grid1.addRow(2, new Label("Type of Operation: "), options);
+		grid1.addRow(3, new Label("Self Node Call: "), selfNodeCall);
+		grid1.addRow(4, new Label(""), btnRunStaticAnalysis);
 
 		GridPane grid2 = new GridPane();
-		grid2.addRow(0, new Label(""), btnRunDynamicAnalysis);
+		grid2.addRow(0, new Label("System Name: "), systemDynamic);
+		grid2.addRow(1, new Label(""), btnRunDynamicAnalysis);
 
 		TitledPane staticAnalysis = new TitledPane();
 		staticAnalysis.setText("Static Analysis");
@@ -98,13 +103,10 @@ public class Analysis extends Tab{
 		dynamicAnalysis.setContent(grid2);
 
 		HBox hbox = new HBox();
-		hbox.getChildren().addAll(new Label("System Name: "), system, indeterminateInd);
+		hbox.getChildren().addAll(new Label ("Progress: "),indeterminateInd,progress);
 		
-		HBox hbox2 = new HBox();
-		hbox2.getChildren().addAll(new Label("                           "), new Label("               "),progress);
-
 		VBox vbox = new VBox();
-		vbox.getChildren().addAll(new Label (""),hbox,hbox2, staticAnalysis,dynamicAnalysis);
+		vbox.getChildren().addAll(new Label (""),hbox, staticAnalysis,dynamicAnalysis);
 
 		this.setContent(vbox);
 
@@ -156,8 +158,12 @@ public class Analysis extends Tab{
 					options.setDisable(true);
 					btnRunDynamicAnalysis.setDisable(true);
 					btnRunStaticAnalysis.setDisable(true);
-					tab = this.getTabPane().getTabs().get(1);
-					tab.setDisable(true);
+					tab1 = this.getTabPane().getTabs().get(1);
+					tab1.setDisable(true);
+					tab2 = this.getTabPane().getTabs().get(2);
+					tab2.setDisable(true);
+					tab3 = this.getTabPane().getTabs().get(3);
+					tab3.setDisable(true);
 					system.setDisable(true);
 					selfNodeCall.setDisable(true);
 					new Thread(task).start();
@@ -171,7 +177,7 @@ public class Analysis extends Tab{
 							options.setDisable(false);
 							btnRunDynamicAnalysis.setDisable(false);
 							btnRunStaticAnalysis.setDisable(false); 
-							tab.setDisable(false);
+							tab1.setDisable(false);
 							selfNodeCall.setDisable(false);
 							system.setDisable(false);
 						}
@@ -206,8 +212,12 @@ public class Analysis extends Tab{
 							options.setDisable(true);
 							btnRunDynamicAnalysis.setDisable(true);
 							btnRunStaticAnalysis.setDisable(true);
-							tab = this.getTabPane().getTabs().get(1);
-							tab.setDisable(true);
+							tab1 = this.getTabPane().getTabs().get(1);
+							tab1.setDisable(true);
+							tab2 = this.getTabPane().getTabs().get(2);
+							tab2.setDisable(true);
+							tab3 = this.getTabPane().getTabs().get(3);
+							tab3.setDisable(true);
 							system.setDisable(true);
 							selfNodeCall.setDisable(true);
 							new Thread(task).start();
@@ -221,7 +231,9 @@ public class Analysis extends Tab{
 									options.setDisable(false);
 									btnRunDynamicAnalysis.setDisable(false);
 									btnRunStaticAnalysis.setDisable(false); 
-									tab.setDisable(false);
+									tab1.setDisable(false);
+									tab2.setDisable(false);
+									tab3.setDisable(false);
 									selfNodeCall.setDisable(false);
 									system.setDisable(false);
 								}
@@ -267,10 +279,10 @@ public class Analysis extends Tab{
 
 	private void runDynamicAnalysis() {
 
-		if (system.getSelectionModel().isEmpty() == false)
+		if (systemDynamic.getSelectionModel().isEmpty() == false)
 		{
 			try {
-				String path = controller.getXML(system.getValue());
+				String path = controller.getXML(systemDynamic.getValue());
 				if (path.length() >0)
 				{
 
@@ -280,8 +292,8 @@ public class Analysis extends Tab{
 						public Void call() {
 
 							try {
-								if (!system.getSelectionModel().isEmpty())
-									controller.runDynamicAnalysis(system.getValue());
+								if (!systemDynamic.getSelectionModel().isEmpty())
+									controller.runDynamicAnalysis(systemDynamic.getValue());
 							} catch (Exception e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
@@ -298,10 +310,15 @@ public class Analysis extends Tab{
 					options.setDisable(true);
 					btnRunDynamicAnalysis.setDisable(true);
 					btnRunStaticAnalysis.setDisable(true);
-					tab = this.getTabPane().getTabs().get(1);
-					tab.setDisable(true);
+					tab1 = this.getTabPane().getTabs().get(1);
+					tab1.setDisable(true);
+					tab2 = this.getTabPane().getTabs().get(2);
+					tab2.setDisable(true);
+					tab3 = this.getTabPane().getTabs().get(3);
+					tab3.setDisable(true);
 					system.setDisable(true);
 					selfNodeCall.setDisable(true);
+					systemDynamic.setDisable(true);
 					new Thread(task).start();
 
 					task.setOnSucceeded(new EventHandler<WorkerStateEvent>() {
@@ -313,9 +330,12 @@ public class Analysis extends Tab{
 							options.setDisable(false);
 							btnRunDynamicAnalysis.setDisable(false);
 							btnRunStaticAnalysis.setDisable(false); 
-							tab.setDisable(false);
+							tab1.setDisable(false);
+							tab2.setDisable(false);
+							tab3.setDisable(false);
 							selfNodeCall.setDisable(false);
 							system.setDisable(false);
+							systemDynamic.setDisable(false);
 						}
 					});
 
@@ -351,6 +371,9 @@ public class Analysis extends Tab{
 
 		system.getItems().clear();
 		system.getItems().addAll(controller.loadSystems());
+		
+		systemDynamic.getItems().clear();
+		systemDynamic.getItems().addAll(controller.loadSystems());
 	}
 
 	private void onTabSelected() {
@@ -390,9 +413,14 @@ public class Analysis extends Tab{
 		options.setDisable(true);
 		btnRunDynamicAnalysis.setDisable(true);
 		btnRunStaticAnalysis.setDisable(true);
-		tab = this.getTabPane().getTabs().get(1);
-		tab.setDisable(true);
+		tab1 = this.getTabPane().getTabs().get(1);
+		tab1.setDisable(true);
+		tab2 = this.getTabPane().getTabs().get(2);
+		tab2.setDisable(true);
+		tab3 = this.getTabPane().getTabs().get(3);
+		tab3.setDisable(true);
 		selfNodeCall.setDisable(true);
+		systemDynamic.setDisable(true);
 		system.setDisable(true);
 		new Thread(task).start();
 
@@ -405,9 +433,12 @@ public class Analysis extends Tab{
 				options.setDisable(false);
 				btnRunDynamicAnalysis.setDisable(false);
 				btnRunStaticAnalysis.setDisable(false); 
-				tab.setDisable(false);
+				tab1.setDisable(false);
+				tab2.setDisable(false);
+				tab3.setDisable(false);
 				system.setDisable(false);
 				selfNodeCall.setDisable(false);
+				systemDynamic.setDisable(false);
 			}
 		});
 

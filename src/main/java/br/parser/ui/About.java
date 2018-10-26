@@ -1,6 +1,7 @@
 package br.parser.ui;
 
 import javafx.scene.Node;
+import javafx.scene.control.Label;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.VBox;
@@ -37,10 +38,11 @@ public class About extends Tab{
 		right.setPrefRowCount(14);
 		right.setMaxWidth(460);
 		right.setEditable(false);
+		Label version= new Label("Version: 1.0");
 		this.setClosable(false);
 		
 		
-		VBox vbox = new VBox(right);
+		VBox vbox = new VBox(right,version);
 		this.setContent(vbox);
 	}
 }

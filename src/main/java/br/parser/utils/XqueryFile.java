@@ -7,14 +7,15 @@ import java.util.Properties;
 
 public class XqueryFile {
 
-	private static final String propFileName = "xquery.properties";
+	private static final String propFileName = "/xquery.properties";
 	private static Properties props;
 
 	public static Properties getQueries() throws SQLException {
 		
-		InputStream is = Property.class.getClassLoader().getResourceAsStream(propFileName);
+		InputStream is = XqueryFile.class.getClass().getResourceAsStream(propFileName);
 		if (is == null){
-			throw new SQLException("Unable to load property file: " + propFileName);
+			
+			is = Property.class.getClass().getResourceAsStream("/resources"+ propFileName);
 		}
 		//singleton
 		if(props == null)
