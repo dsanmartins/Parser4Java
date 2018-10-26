@@ -34,8 +34,13 @@ Package:
 javafxpackager -createjar -appclass br.parser.ui.Parser4Java -srcdir . -outdir out -outfile  Parser4Java.jar -v
 
 -createjar creates a JavaFX JAR executable application.
+
 -appclass br.parser.ui.Parser4Java specifies the fully qualified name of the class containing the main() method.
+
 -srcdir . sets the top-level location of the parent directory holding the compiled classes (current directory).
+
 -outdir out sets the destination where the packaged jar file will be created.
+
 -outfile Parser4Java.jar specifies the name of the executable jar file.
+
 -v allows verbose displays logging information when executing javafxpackager.
