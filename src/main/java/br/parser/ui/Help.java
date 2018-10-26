@@ -46,6 +46,7 @@ public class Help extends Tab{
 		
 		right.setPrefRowCount(14);
 		right.setMaxWidth(460);
+		right.setPrefHeight(330);
 		right.setEditable(false);
 		this.setClosable(false);
 		

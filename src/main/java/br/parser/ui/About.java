@@ -37,6 +37,7 @@ public class About extends Tab{
 		
 		right.setPrefRowCount(14);
 		right.setMaxWidth(460);
+		right.setMaxHeight(500);
 		right.setEditable(false);
 		Label version= new Label("Version: 1.0");
 		this.setClosable(false);
