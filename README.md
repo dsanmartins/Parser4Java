@@ -1,5 +1,5 @@
-Parser4Java
-===========
+Parser4Java (Currently working only on Linux Systems)
+=====================================================
 
 Configuration Tab: 
 ------------------
