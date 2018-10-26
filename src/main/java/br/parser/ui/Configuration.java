@@ -98,13 +98,14 @@ public class Configuration extends Tab {
 		grid.addRow(3, btnJarPath, txtJarPath, new Label("*"));
 		grid.addRow(4, btnXmlFile, txtXmlFile);
 		grid.addRow(6, new Label(""), buttonsPlace);
-
+		VBox vbox = new VBox();
+		vbox.getChildren().addAll(grid, new Label (""), new Label("(*) Required for the static analysis."));
+		
 		TitledPane path = new TitledPane();
 		path.setText("Path Configurator");
-		path.setContent(grid);
+		path.setContent(vbox);
 
-		VBox vbox = new VBox();
-		vbox.getChildren().addAll(grid);
+		
 
 		this.setContent(path);
 	}
