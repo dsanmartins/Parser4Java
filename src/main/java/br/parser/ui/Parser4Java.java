@@ -38,10 +38,13 @@ public class Parser4Java extends Application {
 				"-fx-border-radius: 5;" +
 				"-fx-border-color: black;");
 
+		stage.setOnHiding( event -> {System.exit(1);} );
 		stage.setScene(scene);
 		stage.setResizable(false);
 		stage.setTitle("Parser4Java");
 		stage.show();
+		
+		
 	}
 }
 
